@@ -1,0 +1,1604 @@
+AWSTATS DATA FILE 7.0 (build 1.971)
+# If you remove this file, all statistics for date 201804 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.deltatest.ru.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1992                
+POS_TIME 2671                
+POS_VISITOR 43220               
+POS_DAY 73526               
+POS_DOMAIN 3655                
+POS_LOGIN 3891                
+POS_ROBOT 4046                
+POS_WORMS 4666                
+POS_EMAILSENDER 4797                
+POS_EMAILRECEIVER 4940                
+POS_SESSION 74420               
+POS_SIDER 74632               
+POS_FILETYPES 5075                
+POS_DOWNLOADS 5362                
+POS_OS 5410                
+POS_BROWSER 5576                
+POS_SCREENSIZE 7694                
+POS_UNKNOWNREFERER 7768                
+POS_UNKNOWNREFERERBROWSER 8588                
+POS_ORIGIN 8789                
+POS_SEREFERRALS 8935                
+POS_PAGEREFS 9119                
+POS_SEARCHWORDS 9542                
+POS_KEYWORDS 11042               
+POS_MISC 2333                
+POS_ERRORS 11996               
+POS_CLUSTER 3747                
+POS_SIDER_404 12133               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20180501000810 114 34561 3586029546406
+FirstTime 20180401003015
+LastTime 20180427010457
+LastUpdate 20180501010104 1 0 0 0 0
+TotalVisits 799                 
+TotalUnique 631                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 788                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 595 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 15 220 21650580 151 316 2302534
+1 26 215 19248820 101 267 2086772
+2 23 234 21932074 161 325 2436023
+3 17 214 20274225 160 299 2208301
+4 21 238 22209490 109 232 2292258
+5 30 271 25440863 127 307 5510642
+6 38 536 50590569 99 269 3145212
+7 33 488 47397243 112 298 2802751
+8 54 783 76032650 109 333 8645478
+9 54 846 82273845 119 354 9528976
+10 97 1215 112117018 131 370 8007512
+11 113 1383 133044774 104 268 2492517
+12 83 1305 127807049 114 341 2366886
+13 108 1578 150432614 124 303 2567422
+14 77 1219 118226275 109 354 10084197
+15 99 1467 135976441 107 362 9415152
+16 107 1556 152435216 139 390 5746830
+17 107 1583 155502354 167 400 5892803
+18 80 1240 120348983 127 357 6678752
+19 76 1108 107814691 103 321 5631323
+20 86 1212 114120859 95 298 5940177
+21 57 790 77538106 100 305 3881243
+22 79 1156 111722254 120 288 3881830
+23 52 811 79235433 104 265 2111200
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 1532 21668 2083372426
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 13
+yandex 805 66895849 20180427233756 0
+no_user_agent 658 27450472 20180427010846 0
+googlebot 166 5054819 20180425180257 0
+bot[\s_+:,\.\;\/\\-] 103 2157650 20180426074707 0
+seznambot 32 3043839 20180422200444 0
+mj12bot 13 550056 20180425172312 0
+favicon 6 253872 20180426112339 0
+crawl 5 211560 20180425180535 0
+netcraft 3 126936 20180409123156 0
+python 2 84624 20180418220657 0
+[\s_+:,\.\;\/\\-]bot 1 42312 20180406223822 0
+mail\.ru 2 84624 20180422134039 0
+robot 1 42312 20180420234831 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 11
+css 2410 20678988 0 0
+eot 23 3812066 0 0
+png 1153 213847932 0 0
+ttf 8 1324384 0 0
+woff 24 2352576 0 0
+woff2 533 41126280 0 0
+php 2 0 0 0
+html 942 39561720 0 0
+js 3631 37242689 0 0
+jpg 12940 1722537033 0 0
+svg 2 888758 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS 11
+linuxandroid 4907
+winlong 75
+winxp 851
+winnt 3983
+win2000 1
+winvista 2141
+linux 146
+win7 7126
+macosx 2223
+win16 3
+Unknown 212
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 109
+msie6.0 19
+firefox57.0 74
+chrome52.0.2743.116 41
+chrome40.0.2214.115 36
+firefox44.0 73
+chrome5.0.375.99 1
+firefox18.0 1
+chrome47.5.2526.173 78
+chrome63.0.3223.8 1
+firefox54.0 36
+chrome31.0.1650.57 1
+curl 1
+firefox34.0 2
+chrome58.0.3029.110 624
+chrome63.0.3239.84 1
+msie8.0 48
+chrome53.0.2785.146 220
+chrome50.0.2661.94 72
+firefox43.0 1
+msie7.0 1
+chrome62.0.3250.0 1
+firefox59.0 1183
+chrome50.0.2661.102 3
+firefox41.0 36
+chrome62.0.3202.89 40
+chrome49.0.2623.112 508
+chrome42.0.2311.152 36
+chrome65.0.3325.181 4367
+chrome64.0.3282.137 217
+firefox37.1 1
+firefox48.0 74
+chrome66.0.3359.117 328
+chrome64.0.3282.119 36
+chrome63.0.3239.132 5437
+firefox38.0 3
+chrome62.0.3202.94 498
+firefox45.0 6
+chrome60.0.3112.113 36
+chrome14.0.794.0 1
+firefox33.0 2
+chrome63.0.3239.108 37
+safari11.0.3 35
+mozilla 582
+chrome40.0.2214.89 36
+chrome52.0.2743.98 37
+chrome64.0.3282.186 923
+chrome60.0.3112.90 43
+chrome41.0.2228.0 1
+chrome40.0.2214.93 1
+chrome61.0.3163.98 31
+firefox35.0 2
+safari 70
+chrome34.0.1847.76 3
+safari7.0 219
+safari11.0 742
+chrome65.0.3325.183 36
+safari10.1 1
+chrome66.0.3359.139 6
+android 101
+chrome58.0.3029.81 36
+chrome43.0.2357.125 37
+firefox52.0 220
+chrome56.0.2924.87 726
+chrome36.0.1985.125 12
+firefox24.0 1
+chrome57.0.2987.98 1
+opera9.80 80
+chrome57.0.2987.108 181
+iphone 1
+chrome15.0.874.121 1
+chrome61.0.3163.100 170
+chrome47.0.2526.111 74
+chrome61.0.3163.141 145
+abrowse 42
+chrome65.0.3202.74 36
+firefox16.0 13
+chrome34.0.1847.116 1
+chrome55.0.2883.75 73
+chrome55.0.2883.95 36
+chrome40.0.2214.85 2
+chrome66.0.3359.67 36
+chrome37.0.2062.103 7
+Unknown 53
+chrome57.0.2987.137 75
+chrome66.0.3359.126 76
+firefox32.1 1
+chrome56.0.2924.84 36
+chrome66.0.3359.106 10
+firefox17.0 7
+chrome63.0.3239.111 72
+safari10.0 491
+firefox58.0 36
+chrome49.0.2623.108 3
+safari11.0.2 39
+chrome51.0.2704.79 1
+chrome59.0.3071.125 36
+chrome38.0.2125.102 72
+nokia 80
+chrome45.0.2454.94 73
+chrome62.0.3202.84 109
+safari9.0 181
+chrome51.0.2704.106 36
+chrome65.0.3325.162 3
+chrome25.0.1364.172 36
+msie10.0 31
+firefox51.0 36
+chrome61.0.3163.125 36
+chrome65.0.3325.109 980
+safari9.1.3 78
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 14
+Mozilla/5.0_(Android_7.0;_Mobile;_rv:59.0)_Gecko/59.0_Firefox/59.0 20180416134836
+tx 20180412152320
+Opera/9.80_(Android;_Opera_Mini/32.0.2254/93.110;_U;_ru)_Presto/2.12.423_Version/12.16 20180413135609
+dr 20180410182850
+Mozilla/5.0_(Android_5.1;_Mobile;_rv:59.0)_Gecko/59.0_Firefox/59.0 20180408235103
+Mozilla/5.0_(Android_5.1;_Tablet;_rv:59.0)_Gecko/59.0_Firefox/59.0 20180413174755
+zz 20180413174524
+Mozilla/5.0_(compatible;_ips-agent) 20180419231118
+sf 20180412111258
+Mozilla/5.0_(compatible;_vkShare;__http://vk.com/dev/Share) 20180411080548
+jr 20180412122425
+com.google.GoogleMobile/47.1.0_iPhone/11.2.6_hw/iPhone7_1 20180416190059
+Magic_Browser 20180426101530
+GuzzleHttp/6.1.0_curl/7.35.0_PHP/5.5.9-1ubuntu4.14 20180421061153
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 6
+tx 20180412152320
+sf 20180412111258
+dr 20180410182850
+jr 20180412122425
+Magic_Browser 20180426101530
+zz 20180413174524
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 201 292
+From1 5 5
+From2 655 739
+From3 18 31
+From4 653 20601
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 3
+google 25 49
+rambler 4 4
+yandex 626 686
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 9
+https://yandex.ua/clck/jsredir 3 3
+http://go.mail.ru 3 3
+https://yandex.fr/clck/jsredir 3 3
+https://yandex.by/clck/jsredir 2 2
+http://adguard.com/referrer.html 2 2
+https://yandex.kz 2 2
+https://www.yandex.ua/clck/jsredir 2 2
+https://duckduckgo.com 1 1
+http://domain.com 0 13
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 9
+%d0%b4%d0%b5%d0%bb%d1%8c%d1%82%d0%b0+%d1%82%d0%b5%d1%81%d1%82+2+%d0%b3%d0%bc%d1%81%d1%81%d0%b1+%d0%be%d1%82%d0%b2%d0%b5%d1%82%d1%8b 11
+%d0%b4%d0%b5%d0%bb%d1%8c%d1%82%d0%b0+%d1%82%d0%b5%d1%81%d1%82 7
+%d0%b4%d0%b5%d0%bb%d1%8c%d1%82%d0%b0+%d1%82%d0%b5%d1%81%d1%82+%d0%b4%d0%bb%d1%8f+%d0%ba%d0%b2%d0%b0%d0%bb%d0%b8%d1%84%d0%b8%d1%86%d0%b8%d1%80%d0%be%d0%b2%d0%b0%d0%bd%d0%bd%d0%be%d0%b3%d0%be+%d0%bc%d0%be%d1%82%d0%be%d1%80%d0%b8%d1%81%d1%82%d0%b0 2
+%d1%8d%d0%ba%d0%b7%d0%b0%d0%bc%d0%b5%d0%bd+%d0%b4%d0%bb%d1%8f+%d0%b4%d0%b5%d0%bb%d1%8c%d1%82%d0%b0+%d1%82%d0%b5%d1%81%d1%82%d0%b0+%d0%b2%d0%b0%d1%85%d1%82%d0%b5%d0%bd%d0%bd%d1%8b%d0%b9+%d0%bc%d0%b0%d1%82%d1%80%d0%be%d1%81 1
+%d0%b4%d0%b5%d0%bb%d1%8c%d1%82%d0%b0+%d0%b1%d0%b6%d1%81+%d1%82%d0%b5%d1%81%d1%82+%d0%be%d1%82%d0%b2%d0%b5%d1%82%d1%8b 1
+%d1%85%d0%be%d1%87%d1%83+%d1%81%d0%ba%d0%b0%d1%87%d0%b0%d1%82%d1%8c+%d0%bb%d0%b5%d0%bb%d1%8c%d1%82%d0%b0+%d1%82%d0%b5%d1%81%d1%82+%d0%bf%d0%be+%d1%8d%d0%ba%d0%bd%d0%b8%d1%81+%d0%b2%d1%8b%d1%85%d0%be%d0%b4%d0%bd%d0%be%d0%b9 1
+%d0%b4%d0%b5%d0%bb%d1%8c%d1%82%d0%b0+%d0%b1%d0%b6%d1%81 1
+%d0%b4%d0%b5%d0%bb%d1%8c%d1%82%d0%b0+%d1%82%d0%b5%d1%81%d1%82+%d1%81%d1%83%d0%b4%d0%be%d0%b2%d0%be%d0%b4%d0%b8%d1%82%d0%b5%d0%bb%d1%8c 1
+%d0%b4%d0%b5%d0%bb%d1%8c%d1%82%d0%b0+%d0%be%d0%bd%d0%bb%d0%b0%d0%b9%d0%bd+%d0%bf%d1%80%d0%be%d0%b9%d1%82%d0%b8+%d1%82%d0%b5%d1%81%d1%82 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 22
+%d0%b4%d0%b5%d0%bb%d1%8c%d1%82%d0%b0 25
+%d1%82%d0%b5%d1%81%d1%82 24
+%d0%be%d1%82%d0%b2%d0%b5%d1%82%d1%8b 12
+2 11
+%d0%b3%d0%bc%d1%81%d1%81%d0%b1 11
+%d0%b4%d0%bb%d1%8f 3
+%d0%ba%d0%b2%d0%b0%d0%bb%d0%b8%d1%84%d0%b8%d1%86%d0%b8%d1%80%d0%be%d0%b2%d0%b0%d0%bd%d0%bd%d0%be%d0%b3%d0%be 2
+%d0%b1%d0%b6%d1%81 2
+%d0%bc%d0%be%d1%82%d0%be%d1%80%d0%b8%d1%81%d1%82%d0%b0 2
+%d0%b2%d1%8b%d1%85%d0%be%d0%b4%d0%bd%d0%be%d0%b9 1
+%d0%be%d0%bd%d0%bb%d0%b0%d0%b9%d0%bd 1
+%d0%b2%d0%b0%d1%85%d1%82%d0%b5%d0%bd%d0%bd%d1%8b%d0%b9 1
+%d1%8d%d0%ba%d0%b7%d0%b0%d0%bc%d0%b5%d0%bd 1
+%d1%85%d0%be%d1%87%d1%83 1
+%d0%bb%d0%b5%d0%bb%d1%8c%d1%82%d0%b0 1
+%d1%81%d0%ba%d0%b0%d1%87%d0%b0%d1%82%d1%8c 1
+%d0%bf%d0%be 1
+%d1%82%d0%b5%d1%81%d1%82%d0%b0 1
+%d0%bf%d1%80%d0%be%d0%b9%d1%82%d0%b8 1
+%d0%bc%d0%b0%d1%82%d1%80%d0%be%d1%81 1
+%d1%81%d1%83%d0%b4%d0%be%d0%b2%d0%be%d0%b4%d0%b8%d1%82%d0%b5%d0%bb%d1%8c 1
+%d1%8d%d0%ba%d0%bd%d0%b8%d1%81 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+403 306 779168
+302 2798 839395
+206 12 532336
+404 2112 6057216
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 344
+/component/virtuemart/dlya-otdykha/balon-gazovyj-5l-12l-27l-i-50l-detail/askquestion 1 -
+/admin.php 3 https://deltatest.ru/admin.php
+/component/virtuemart/bytovaya-tekhnika/myasorubki-blendera-sokovyzhimalki/myasorubka-s-sokovyzhimalkoj-diva-35-300-2-detail/askquestion 1 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/benzopily/pila-benzinovaya-ural-45-detail/askquestion 1 -
+/component/virtuemart/elektrika/lampy 2 -
+/wp-content/uploads/2017/12/zgepd_oddsd.php 1 http://deltatest.ru
+/component/virtuemart/dlya-sadovodov-i-fermerov 1 -
+/logo_img.php 1 -
+/component/virtuemart/dlya-otdykha/plita-pokhodnaya-gazovaya-komfort-pgp-2-3-detail 1 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/opryskivateli/opryskivatel-zhuk-na-5-7-litrov-chernyj-detail/askquestion 2 -
+/component/virtuemart/poleznoe-dlya-doma/fonari/fonar-na-lob-6631-linza-detail/askquestion 1 -
+/component/virtuemart/bytovaya-tekhnika/bojlery-nagrevateli-teny/ten-duga-rezba-f22-detail 2 -
+/images/stories/virtuemart/product/lobzik-lem-830e--kalibr-830vt-regul.oboroty.jpg 1 -
+/wp-content/uploads/2016/03/zgepd_oddsd.php 1 http://deltatest.ru
+/images/stories/virtuemart/product/vesy-napoln.-delta-d-9200.jpg 1 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/poliv-i-oroshenie/shlang-palisad-palisad-detail 2 -
+/wp-content/themes/u-design/style.css 4 -
+/component/virtuemart/bytovaya-tekhnika/bojlery-nagrevateli-teny/gazovyj-protochnyj-vodonagrevatel-edisson-s-20-detail 1 -
+/images/stories/virtuemart/product/opryskivatel-gidroagregat-9l.jpg 1 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/opryskivateli/brandspojt-teleskopicheskij-k-opryskivatelyu-2-2m-alyuminievyj-detail/askquestion 2 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/poliv-i-oroshenie/shlang-rezinovyj-volzhskij-kurskij-detail 2 -
+/fckeditor/editor/filemanager/connectors/php/upload.php 2 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/komplektuyushchie-k-nasosam/shtutser-latun-rezba-shtutser-f1-25-detail 2 -
+/component/virtuemart/bytovaya-tekhnika/bojlery-nagrevateli-teny/vodonagrevatel-protochnyj-garanterm-ghm-350-3-5kvt-detail/askquestion 1 -
+/component/virtuemart/silovaya-tekhnika/stabilizatory/stabilizator-asn-10000-1-ts-resanta-10kvt-detail 1 -
+/mscms/ 3 https://deltatest.ru/mscms/
+/component/virtuemart/dlya-sadovodov-i-fermerov/komplektuyushchie-k-nasosam/nipel-latun-rezba-rezba-f25-20-detail 1 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/nasosy/tsentrobezhnye-skvazhinnye-nasosy-vodolej-detail/askquestion 2 -
+/images/stories/virtuemart/product/vesy-elektro.torgovye-so-schjotchikom-tseny-st-acs-30-1.jpg 1 -
+/component/virtuemart/klimaticheskoe-oborudovanie/obogrevateli 1 -
+/component/virtuemart/dlya-remonta-doma/betonosmesiteli-miksery/betonosmesitel-sturm-cm20180r-750vt-180l-chugunnyj-venets-detail 1 -
+/images/stories/virtuemart/product/termos-mallony-1800jh-1,8l.-steklo.jpg 2 -
+/component/virtuemart/avtoprinadlezhnosti/zhidkost-nezamerzayushchaya-dlya-avtomobilya-detail 1 -
+/component/virtuemart/instrument/lobziki/lobzik-lem-830e-kalibr-detail 1 -
+/wp-content/uploads/2015/09/zgepd_oddsd.php 1 http://deltatest.ru
+/component/virtuemart/televidenie-i-priemniki/pristavki-tv-antenny/tv-pristavka-kaskad-va2203-detail 2 -
+/component/virtuemart/instrument/lobziki/lobzik-lem-830e-kalibr-detail/askquestion 1 -
+/component/virtuemart/elektrika 2 http://deltatest.ru/component/virtuemart/elektrika
+/images/stories/virtuemart/product/utyug-centek-2322.jpg 1 -
+/skidki-aktsii 2 http://deltatest.ru/skidki-aktsii
+/component/virtuemart/bytovaya-tekhnika/chajniki-termosa-kofevarki/termos-mallony-1800jh-1-8l-steklo-detail 1 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/opryskivateli/opryskivatel-zhuk-na-5-7-litrov-chernyj-detail 1 -
+/wp-content/plugins/cherry-plugin/admin/css/cherry-admin-plugin.css 4 -
+/component/virtuemart/ruchnoj-instrument/nabor-instrumentov/nabor-slesarnyj-montazhnyj-stels-14102-detail/askquestion 1 -
+/dostavka-i-oplata 2 http://deltatest.ru/dostavka-i-oplata
+/component/virtuemart/instrument/lobziki/lobzik-elektropribor-mp-80e-detail 2 -
+/component/virtuemart/dlya-remonta-doma/betonosmesiteli-miksery/betonosmesitel-sturm-cm20180r-750vt-180l-chugunnyj-venets-detail/askquestion 1 -
+/component/virtuemart/dlya-otdykha/ugol-drevesnyj-5kg-detail 1 -
+/images/stories/virtuemart/product/vodonagrevatel--elektrich.protochnyj-etalon-mk-10-kombi.jpg 2 -
+/component/virtuemart/bytovaya-tekhnika/dlya-kukhni 1 -
+/component/virtuemart/avtoprinadlezhnosti 3 http://deltatest.ru/component/virtuemart/avtoprinadlezhnosti
+/component/virtuemart/bytovaya-tekhnika/vesy-utyugi/vesy-napolnye-delta-d-9207-7-detail/askquestion 1 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/tros-verevka-khomuty/shpagat-polipropilenovyj-belyj-0-5-1-0kg-detail 1 -
+/component/virtuemart/instrument/shurupovjorty/drel-akkamul-shurupovert-engy-ecd-182-18v-detail/askquestion 1 -
+/component/virtuemart/bytovaya-tekhnika/dukhovki-shashlychnitsy/orderDesc 1 -
+/component/virtuemart/ruchnoj-instrument/nabor-instrumentov 1 -
+/component/virtuemart/instrument/shurupovjorty/drel-shurupovert-interskol-sh-700er-detail/askquestion 1 -
+/images/stories/virtuemart/product/bak-dlya-nasosnoj-stantsii.jpg 1 -
+/images/stories/virtuemart/product/myasorubka-s-sokovyzhimalkoj-diva-35.300-2.jpg 1 -
+/component/virtuemart/dlya-otdykha/balonchik-gazovyj-220ml-detail 1 -
+/---------------- 27 https://deltatest.ru/
+/license.txt 2 http://deltatest.ru/license.txt
+/component/virtuemart/bytovaya-tekhnika/chajniki-termosa-kofevarki/chajnik-centek-ct-1036-2l-detail/askquestion 1 -
+/component/virtuemart/elektrika/lampy/lampa-nakalivaniya-60w-75w-95w-e27-detail/askquestion 2 -
+/cms/admin/ 3 https://deltatest.ru/cms/admin/
+/users/sign_in 3 https://deltatest.ru/users/sign_in
+/images/stories/virtuemart/product/gazovyj-protochnyj-vodonagrev.edisson-s-20.jpg 1 -
+/license.php 2 -
+/wp-content/plugins/omni-secure-files/plupload/examples/upload.php 1 http://www.deltatest.ru/wp-content/plugins/omni-secure-files/plupload/examples/upload.php
+/component/virtuemart/bytovaya-tekhnika/chajniki-termosa-kofevarki/termos-mallony-fs2614-1-4l-nerzh-stal-detail 1 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/sadovyj-instrument 1 -
+/component/virtuemart/bytovaya-tekhnika/bojlery-nagrevateli-teny 1 -
+/images/stories/virtuemart/product/drel-mikser-kalibr-de-1100emkh.jpg 1 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/nasosy/nasos-vintovoj-4water-fgd3-1-2-50-0-37-detail 1 -
+/component/virtuemart/santekhnika/raskhodniki2016-03-25-19-49-14/schetchik-vody-sgv-15-betar-g-chistopol-detail/askquestion 1 -
+/admin/fckeditor/editor/dialog/fck_about/search.php 1 -
+/component/virtuemart/poleznoe-dlya-doma 1 http://deltatest.ru/component/virtuemart/poleznoe-dlya-doma
+/component/virtuemart/bytovaya-tekhnika/vesy-utyugi/utyug-centek-2319-detail/askquestion 1 -
+/component/virtuemart/elektrika/lampy/lampa-nakalivaniya-60w-75w-95w-e27-detail 1 -
+/component/virtuemart/dlya-remonta-doma 2 http://deltatest.ru/component/virtuemart/dlya-remonta-doma
+/component/virtuemart/ruchnoj-instrument/kusachki-otvertki-ploskogubtsy 1 -
+/images/stories/virtuemart/product/brandspojt-teleskopicheskij.jpg 1 -
+/wp-content/plugins/wp-copysafe-pdf/lib/uploadify/uploadify.php 1 http://www.deltatest.ru/wp-content/plugins/wp-copysafe-pdf/lib/uploadify/uploadify.php
+/component/virtuemart/dlya-sadovodov-i-fermerov/trimery/trimmer-benzin-ural-bk-3700-3-5kvt-detail/askquestion 2 -
+/component/virtuemart/bytovaya-tekhnika/bojlery-nagrevateli-teny/vodonagrevatel-protochnyj-garanterm-ghm-350-3-5kvt-detail 1 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/tros-verevka-khomuty/khomut-metallicheskij-nerzhavka-1-1-2-20mm-1-3-4-25mm-detail 2 -
+/component/virtuemart/bytovaya-tekhnika/vesy-utyugi/utyug-centek-2339-detail/askquestion 1 -
+/component/virtuemart/avtoprinadlezhnosti/orderDesc/by,product_price 1 -
+/robots.txt 1605 -
+/images/stories/virtuemart/product/plita-pokhodnaya-gazovaya-komfort-pgp-2,3.jpg 1 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/poliv-i-oroshenie/shlang-rezinovyj-volzhskij-kurskij-detail/askquestion 2 -
+/component/virtuemart/bytovaya-tekhnika/chajniki-termosa-kofevarki/chajnik-delta-dl-1008-1100vt-1-0l-detail 1 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/komplektuyushchie-k-nasosam/pyaternik-dlya-nasosnoj-stantsii-detail 2 -
+/component/virtuemart/avtoprinadlezhnosti/zhidkost-nezamerzayushchaya-dlya-avtomobilya-detail/askquestion 1 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/benzopily/pila-elektricheskaya-tsepnaya-elektropribor-pts-16-2500-detail 1 -
+/wp-content/plugins/estatik/readme.txt 1 http://www.deltatest.ru/wp-content/plugins/estatik/readme.txt
+/wp-content/uploads/2017/09/zgepd_oddsd.php 1 http://deltatest.ru
+/component/virtuemart/bytovaya-tekhnika/vesy-utyugi/vesy-elektricheskie-torgovye-so-schjotchikom-tseny-sprint-st-acs-detail 1 -
+/component/virtuemart/avtoprinadlezhnosti/by 1 -
+/component/virtuemart/ruchnoj-instrument 2 http://deltatest.ru/component/virtuemart/ruchnoj-instrument
+/images/stories/virtuemart/product/pila-benz.-ural-45.jpg 1 -
+/component/virtuemart/avtoprinadlezhnosti/orderDesc/by,product_name 1 -
+/wp-admin/ 1 https://www.google.com/
+/component/virtuemart/bytovaya-tekhnika/vesy-utyugi/utyug-centek-2339-detail 1 -
+/wp-content/uploads/2018/02/zgepd_oddsd.php 1 http://deltatest.ru
+/wp-content/uploads/2018/01/zgepd_oddsd.php 1 http://deltatest.ru
+/component/virtuemart/instrument/shurupovjorty/drel-shurupovert-interskol-sh-700er-detail 1 -
+/component/virtuemart/bytovaya-tekhnika/dukhovki-shashlychnitsy 1 -
+/component/virtuemart/krasota-i-zdorove/feny-i-plojki/fen-delta-dl-0474-v-nabore-detail 2 -
+/component/virtuemart/instrument/mshu/ushm-kalibr-180e-detail/askquestion 1 -
+/images/stories/virtuemart/product/shlang-polisad.jpg 1 -
+/component/virtuemart/dlya-otdykha/plita-pokhodnaya-gazovaya-komfort-pgp-2-3-detail/askquestion 1 -
+/wp-content/uploads/2015/08/zgepd_oddsd.php 1 http://deltatest.ru
+/component/virtuemart/dlya-remonta-doma/betonosmesiteli-miksery 1 -
+/component/virtuemart/ruchnoj-instrument/rezhushchij/nozhovka-po-derevu-500mm-shag-zuba-6-5mm-detail 2 -
+/component/virtuemart/krasota-i-zdorove/feny-i-plojki 1 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/trimery/trimer-elektricheskij-prioritet-et-1800-detail 1 -
+/component/virtuemart/dlya-otdykha/ugol-drevesnyj-5kg-detail/askquestion 1 -
+/component/virtuemart/avtoprinadlezhnosti/by,product_price 1 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/benzopily/pila-benzinovaya-carver-45-18k-detail 1 -
+/component/virtuemart/bytovaya-tekhnika/bojlery-nagrevateli-teny/by 1 -
+/component/virtuemart/instrument/lobziki 2 http://deltatest.ru/component/virtuemart/instrument/lobziki
+/component/virtuemart/silovaya-tekhnika/stabilizatory/stabilizator-asn-3000n-1-ts-resanta-lux-3kvt-detail 1 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/komplektuyushchie-k-nasosam/bak-dlya-nasosnoj-stantsii-24l-detail 2 -
+/administrator 3 https://deltatest.ru/administrator
+/admin/images/cal_date_over.gif 2 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/benzopily/pila-benzinovaya-ural-50-detail/askquestion 1 -
+/component/virtuemart/televidenie-i-priemniki/pristavki-tv-antenny/tv-pristavka-d-color-va1301-detail 1 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/komplektuyushchie-k-nasosam/obratnyj-klapan-1-detail 1 -
+/manager 3 https://deltatest.ru/manager
+/component/virtuemart/instrument/shurupovjorty/drel-akkamul-shurupovert-engy-ecd-182-18v-detail 1 -
+/component/virtuemart/bytovaya-tekhnika/myasorubki-blendera-sokovyzhimalki/myasorubka-s-sokovyzhimalkoj-diva-35-300-2-detail 1 -
+/component/virtuemart/santekhnika/raskhodniki2016-03-25-19-49-14/kartridzh-filtr-polipropilenovyj-detail/askquestion 2 -
+/component/virtuemart/bytovaya-tekhnika/vesy-utyugi/utyug-centek-2322-detail/askquestion 1 -
+/component/virtuemart/televidenie-i-priemniki/pristavki-tv-antenny/tv-pristavka-d-color-va1301-detail/askquestion 1 -
+/component/virtuemart/instrument/shurupovjorty/drel-elektropribor-da-18-2k-detail 1 -
+/component/virtuemart/instrument/mshu/ushm-kalibr-180e-detail 1 -
+/component/virtuemart/dlya-otdykha/balon-gazovyj-5l-12l-27l-i-50l-detail 1 -
+/wp-content/themes/gallery/style.css 1 http://www.deltatest.ru/wp-content/themes/gallery/style.css
+/apple-touch-icon.png 1 -
+/404.php 1 http://deltatest.ru
+/component/virtuemart/silovaya-tekhnika 3 http://deltatest.ru/component/virtuemart/silovaya-tekhnika
+/templates/system/css/system.css 2 -
+/netcat/ 3 https://deltatest.ru/netcat/
+/images/stories/virtuemart/product/vesy-napoln.-delta-d-9207.7.jpg 1 -
+/component/virtuemart/poleznoe-dlya-doma/fonari/fonar-na-lob-6631-linza-detail 1 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/benzopily/pila-elektricheskaya-tsepnaya-elektropribor-pts-16-2500-detail/askquestion 1 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/trimery/trimmer-benzin-ural-bk-3700-3-5kvt-detail 2 -
+/blog/ 1 http://deltatest.ru/blog/
+/components/com_b2jcontact/css/b2jcontact.css 6 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/komplektuyushchie-k-nasosam/shtutser-latun-rezba-shtutser-f1-20-detail 2 -
+/images/stories/virtuemart/product/blender-delta--dl-7014d-250vt-2skorosti.jpg 1 -
+/component/virtuemart/bytovaya-tekhnika/vesy-utyugi/utyug-centek-2319-detail 1 -
+/wp-content/uploads/2017/04/zgepd_oddsd.php 1 http://deltatest.ru
+/wp-content/uploads/zgepd_oddsd.php 1 http://deltatest.ru
+/component/virtuemart/avtoprinadlezhnosti/by,mf_name 1 -
+/apple-touch-icon-precomposed.png 1 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/tros-verevka-khomuty/shpagat-polipropilenovyj-belyj-0-5-1-0kg-detail/askquestion 1 -
+/wp-content/uploads/2014/07/zgepd_oddsd.php 1 http://deltatest.ru
+/component/virtuemart/instrument/tochilo 2 http://deltatest.ru/component/virtuemart/instrument/tochilo
+/component/virtuemart/santekhnika/raskhodniki2016-03-25-19-49-14/schetchik-vody-sgv-15-betar-g-chistopol-detail 1 -
+/images/stories/virtuemart/product/nasos-vintovoj--4water-fgd3-1,2-50-0,37-f75mm-370vt-1,2kubchas.jpg 1 -
+/roots.php 1 https://deltatest.ru/roots.php
+/component/virtuemart/dlya-sadovodov-i-fermerov/benzopily 1 -
+/wp-content/uploads/2017/06/zgepd_oddsd.php 1 http://deltatest.ru
+/ckupload.php 1 -
+/admin 3 https://deltatest.ru/admin
+/component/virtuemart/dlya-sadovodov-i-fermerov/tros-verevka-khomuty/khomut-usilinyj-29-31mm-80-85mm-detail 2 -
+/wp-content/plugins/front-file-manager/readme.txt 1 http://www.deltatest.ru/wp-content/plugins/front-file-manager/readme.txt
+/wp-content/uploads/2016/05/zgepd_oddsd.php 1 http://deltatest.ru
+/component/virtuemart/santekhnika/raskhodniki2016-03-25-19-49-14/orderDesc/by,product_name 1 -
+/%23about 1 -
+/component/virtuemart/krasota-i-zdorove 3 http://deltatest.ru/component/virtuemart/krasota-i-zdorove
+/component/virtuemart/dlya-sadovodov-i-fermerov/nasosy/nasos-avtomat-dlya-povysheniya-davleniya-xinwilo-x15g-15-detail 1 -
+/images/stories/virtuemart/product/opryskivatel-gidroagregat-6l.jpg 1 -
+/component/virtuemart/instrument/perforatory 1 -
+/component/virtuemart/silovaya-tekhnika/stabilizatory/stabilizator-asn-10000-1-ts-resanta-10kvt-detail/askquestion 1 -
+/%23page-top 1 -
+/component/virtuemart/bytovaya-tekhnika/myasorubki-blendera-sokovyzhimalki 1 -
+/wp-content/plugins/sfbrowser/css/sfbrowser.css 1 http://www.deltatest.ru/wp-content/plugins/sfbrowser/css/sfbrowser.css
+/component/virtuemart/dlya-sadovodov-i-fermerov/benzopily/pila-elektricheskaya-tsepnaya-elektropribor-pts-182600-detail/askquestion 2 -
+/wp-content/uploads/2017/10/zgepd_oddsd.php 1 http://deltatest.ru
+/component/virtuemart/dlya-sadovodov-i-fermerov/benzopily/pila-benzinovaya-ural-45-detail 1 -
+/wp-content/uploads/2015/11/zgepd_oddsd.php 1 http://deltatest.ru
+/%23portfolio 1 -
+/wp-content/plugins/sexy-contact-form/includes/js/eye.js 1 http://www.deltatest.ru/wp-content/plugins/sexy-contact-form/includes/js/eye.js
+/component/virtuemart/bytovaya-tekhnika/chajniki-termosa-kofevarki/termos-mallony-fs2614-1-4l-nerzh-stal-detail/askquestion 1 -
+/wp-content/uploads/2014/06/zgepd_oddsd.php 1 http://deltatest.ru
+/component/virtuemart/dlya-sadovodov-i-fermerov/komplektuyushchie-k-nasosam/nipel-latun-rezba-rezba-f25-20-detail/askquestion 1 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/tros-verevka-khomuty/khomut-chervyachnyj-20mm-s-barashkom-detail 1 -
+/administrator.php 3 https://deltatest.ru/administrator.php
+/images/stories/virtuemart/product/balonchik-gazovyj-220ml.jpg 1 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/komplektuyushchie-k-nasosam/bak-dlya-nasosnoj-stantsii-24l-detail/askquestion 1 -
+/docs/prices/nasosy.xls 2 http://deltatest.ru/docs/prices/nasosy.xls
+/component/virtuemart/dlya-sadovodov-i-fermerov/sadovyj-instrument/tyapka-samozatochnaya-detail/askquestion 1 -
+/images/stories/virtuemart/product/shlang-rezinovyj.jpg 2 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/dlya-fermerov/zernodrobilka-zubrenok-dlya-zerna-i-kukuruzy-detail 1 -
+/component/virtuemart/bytovaya-tekhnika/chajniki-termosa-kofevarki/chajnik-delta-dl-1007-2200vt-1-7l-stalnoj-detail/askquestion 1 -
+/component/virtuemart/televidenie-i-priemniki/pristavki-tv-antenny/tv-pristavka-kaskad-va2203-detail/askquestion 3 -
+/wp-content/plugins/font-uploader/readme.txt 1 http://www.deltatest.ru/wp-content/plugins/font-uploader/readme.txt
+/component/virtuemart/dlya-sadovodov-i-fermerov/sadovyj-instrument/tyapka-samozatochnaya-detail 1 -
+/images/stories/virtuemart/product/ten-duga-rezba-f22--1.0 2 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/tros-verevka-khomuty/khomut-metallicheskij-nerzhavka-1-1-2-20mm-1-3-4-25mm-detail/askquestion 1 -
+/component/virtuemart/bytovaya-tekhnika/elektricheskie-i-gazovye-pechki/gazovaya-plita-komfort-pgb-4-ke-4-kh-konforochnaya-detail 2 http://deltatest.ru/component/virtuemart/bytovaya-tekhnika/elektricheskie-i-gazovye-pechki/gazovaya-plita-komfort-pgb-4-ke-4-kh-konforochnaya-detail
+/component/virtuemart/silovaya-tekhnika/istochniki-besperebojnogo-pitaniya 2 http://deltatest.ru/component/virtuemart/silovaya-tekhnika/istochniki-besperebojnogo-pitaniya
+/component/virtuemart/bytovaya-tekhnika/bojlery-nagrevateli-teny/orderDesc 1 -
+/component/virtuemart/dlya-otdykha 3 http://deltatest.ru/component/virtuemart/dlya-otdykha
+/images/stories/virtuemart/product/anod.jpg 1 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/komplektuyushchie-k-nasosam/regulyator-davleniya-mdd-1-detail 2 -
+/images/stories/virtuemart/product/drel-akkamulyatorn-elektropribor-da-18-2k.jpg 1 -
+/component/virtuemart/instrument 2 -
+/images/stories/virtuemart/product/gazovaya-gorelka-pezopodzhig-is09001.jpg 1 -
+/component/virtuemart/dlya-otdykha/gazovaya-gorelka-pezopodzhig-is09001-detail 1 -
+/user/register 1 -
+/component/virtuemart/bytovaya-tekhnika/vesy-utyugi/vesy-napolnye-delta-d-9207-7-detail 1 -
+/wp-content/themes/famous/style.css 3 http://www.deltatest.ru/wp-content/themes/famous/style.css
+/component/virtuemart/dlya-sadovodov-i-fermerov/benzopily/pila-benzinovaya-carver-45-18k-detail/askquestion 1 -
+/images/stories/virtuemart/product/fonar-na-lob-6631-linza.jpg 1 -
+/component/virtuemart/bytovaya-tekhnika/chajniki-termosa-kofevarki/chajnik-metallicheskij-kazbek-1-8l-detail 2 -
+/component/virtuemart/bytovaya-tekhnika/bojlery-nagrevateli-teny/vodonagrevatel-elektricheskij-protochnyj-etalon-mk-10-kombi-detail/askquestion 1 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/komplektuyushchie-k-nasosam/nipel-latun-rezba-rezba-f20-detail 1 -
+/component/virtuemart/avtoprinadlezhnosti/orderDesc 2 -
+/component/virtuemart/televidenie-i-priemniki/raskhodniki-dlya-tv 1 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/nasosy/nasos-avtomat-dlya-povysheniya-davleniya-xinwilo-x15g-15-detail/askquestion 1 -
+/component/virtuemart/silovaya-tekhnika/stabilizatory/stabilizator-asn-3000n-1-ts-resanta-lux-3kvt-detail/askquestion 2 -
+/aipkey.php 1 http://deltatest.ru
+/component/virtuemart/ruchnoj-instrument/rezhushchij/nozhovka-po-derevu-500mm-shag-zuba-6-5mm-detail/askquestion 1 -
+/component/virtuemart/bytovaya-tekhnika/vesy-utyugi/vesy-napolnye-delta-d-9200-detail/askquestion 1 -
+/component/virtuemart/bytovaya-tekhnika/chajniki-termosa-kofevarki/chajnik-metallicheskij-elbrus-1-1-8l-detail 1 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/opryskivateli 1 -
+/component/virtuemart/avtoprinadlezhnosti/orderDesc/by 1 -
+/images/stories/virtuemart/product/trimer-benzin.ural-bk-3700-3,5kvt.jpg 1 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/benzopily/pila-elektricheskaya-tsepnaya-elektropribor-pts-182600-detail 1 -
+/component/virtuemart/silovaya-tekhnika/stabilizatory/stabilizator-asn-10000-n-1ts-resanta-lux-10kvt-detail/askquestion 1 -
+/component/virtuemart/instrument/mshu/ushm-elektropribor-125-800e-detail 1 -
+/component/virtuemart/bytovaya-tekhnika 2 http://deltatest.ru/component/virtuemart/bytovaya-tekhnika
+/images/stories/virtuemart/product/chajnik-centek-ct-1036-2l.jpg 1 -
+/images/stories/virtuemart/product/vodonagrevatel--elektrich.protochnyj-garanterm-ghm-350-3,5kvt.jpg 1 -
+/wp-content/plugins/wp-powerplaygallery//js/swfupload/js/upload.php 1 http://www.deltatest.ru/wp-content/plugins/wp-powerplaygallery//js/swfupload/js/upload.php
+/wp-content/plugins/xaisyndicate/idx.php 2 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/opryskivateli/brandspojt-teleskopicheskij-k-opryskivatelyu-2-2m-alyuminievyj-detail 2 -
+/images/stories/virtuemart/product/lobzik-elektropribor-mp-80e-800vt-500-3000obmin-lazer.jpg 2 -
+/wp-content/uploads/2015/07/zgepd_oddsd.php 1 http://deltatest.ru
+/administrator/index.php 12 -
+/component/virtuemart/bytovaya-tekhnika/chajniki-termosa-kofevarki/termos-mallony-1800jh-1-8l-steklo-detail/askquestion 1 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/trimery/trimer-elektricheskij-prioritet-et-1800-detail/askquestion 1 -
+/component/virtuemart/bytovaya-tekhnika/bojlery-nagrevateli-teny/ten-duga-rezba-f22-detail/askquestion 2 -
+/component/virtuemart/instrument/mshu/ushm-elektropribor-125-800e-detail/askquestion 1 -
+/wp-content/uploads/2017/11/zgepd_oddsd.php 1 http://deltatest.ru
+/images/stories/virtuemart/product/termos-mallony-fs2614-1,4l,-nerzh.stal-kontejner-dlya-pishchev.-produktov.jpg 1 -
+/component/virtuemart/bytovaya-tekhnika/chajniki-termosa-kofevarki/chajnik-delta-dl-1007-2200vt-1-7l-stalnoj-detail 1 -
+/administrator/components/com_bt_portfolio/helpers/uploadify/uploadify.css 1 http://www.deltatest.ru/administrator/components/com_bt_portfolio/helpers/uploadify/uploadify.css
+/component/virtuemart/vsjo-dlya-svarki/elektrody-i-maski/maska-svarshchika-khameleon-resanta-ms-4-detail 2 -
+/images/stories/virtuemart/product/opryskivatel-gidroagregat-8l.jpg 1 -
+/sitemap.xml 2 http://deltatest.ru/sitemap.xml
+/component/virtuemart/bytovaya-tekhnika/chajniki-termosa-kofevarki/chajnik-energy-e-238-2l-disk-detail/askquestion 1 -
+/wp-content/plugins/apikey/apikey.php 1 http://deltatest.ru
+/user 1 -
+/component/virtuemart/bytovaya-tekhnika/myasorubki-blendera-sokovyzhimalki/blender-delta-dl-7014d-250vt-2skorosti-detail 1 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/nasosy 1 http://deltatest.ru/component/virtuemart/dlya-sadovodov-i-fermerov/nasosy
+/component/virtuemart/bytovaya-tekhnika/chajniki-termosa-kofevarki/chajnik-metallicheskij-kazbek-1-8l-detail/askquestion 2 -
+/admin/login.php 5 https://deltatest.ru/admin/login.php
+/component/virtuemart/dlya-sadovodov-i-fermerov/komplektuyushchie-k-nasosam/nipel-latun-rezba-rezba-f20-detail/askquestion 1 -
+/component/virtuemart/bytovaya-tekhnika/bojlery-nagrevateli-teny/orderDesc/by,mf_name 1 -
+/component/virtuemart/santekhnika 3 http://deltatest.ru/component/virtuemart/santekhnika
+/component/virtuemart/elektrika/provod-i-kabel 1 http://deltatest.ru/component/virtuemart/elektrika/provod-i-kabel
+/wp-content/plugins/Tevolution/tmplconnector/monetize/templatic-custom_fields/css/jquery.lightbox.css 1 http://www.deltatest.ru/wp-content/plugins/Tevolution/tmplconnector/monetize/templatic-custom_fields/css/jquery.lightbox.css
+/component/virtuemart/bytovaya-tekhnika/elektricheskie-i-gazovye-pechki 3 http://deltatest.ru/component/virtuemart/bytovaya-tekhnika/elektricheskie-i-gazovye-pechki
+/adminzone 3 https://deltatest.ru/adminzone
+/browserconfig.xml 1 -
+/component/virtuemart/avtoprinadlezhnosti/orderDesc/by,mf_name 1 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/opryskivateli/pnevmaticheskij-opryskivatel-gidroagregat-6l-8l-9l-detail 2 -
+/component/virtuemart/bytovaya-tekhnika/chajniki-termosa-kofevarki/chajnik-energy-e-238-2l-disk-detail 2 -
+/images/stories/virtuemart/product/utyug-centek-2339.jpg 1 -
+/component/virtuemart/dlya-remonta-doma/stroitelnyj-inventar 1 -
+/component/virtuemart/instrument/shurupovjorty/drel-elektropribor-da-18-2k-detail/askquestion 1 -
+/images/stories/virtuemart/product/tv-pristavka-kaskad-va2203.jpg 1 -
+/wp-content/uploads/2016/01/zgepd_oddsd.php 1 http://deltatest.ru
+/component/virtuemart/vsjo-dlya-svarki 2 -
+/images/stories/virtuemart/product/ugol-drevesnyj-5kg.jpg 1 -
+/component/virtuemart/instrument/lobziki/lobzik-elektropribor-mp-80e-detail/askquestion 2 -
+/component/virtuemart/bytovaya-tekhnika/chajniki-termosa-kofevarki/chajnik-delta-dl-1008-1100vt-1-0l-detail/askquestion 1 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/nasosy/nasos-vintovoj-4water-fgd3-1-2-50-0-37-detail/askquestion 1 -
+/component/virtuemart/bytovaya-tekhnika/bojlery-nagrevateli-teny/anod-detail/askquestion 1 -
+/wp-content/uploads/2015/06/zgepd_oddsd.php 1 http://deltatest.ru
+/docs/prices/ibp.xls 2 http://deltatest.ru/docs/prices/ibp.xls
+/wp-content/uploads/2017/05/zgepd_oddsd.php 1 http://deltatest.ru
+/wp-content/plugins/wp-symposium/readme.txt 1 http://www.deltatest.ru/wp-content/plugins/wp-symposium/readme.txt
+/component/virtuemart/vsjo-dlya-svarki/elektrody-i-maski/elektrody-d-3-standart-ano-21-detail/askquestion 1 -
+/sites/all/themes/views/views.php 2 http://deltatest.ru
+/component/virtuemart/bytovaya-tekhnika/bojlery-nagrevateli-teny/gazovyj-protochnyj-vodonagrevatel-edisson-s-20-detail/askquestion 1 -
+/images/stories/virtuemart/product/tv-pristavka-d-color-va1301.jpg 1 -
+/images/stories/virtuemart/product/vodolej-btspe.jpg 1 -
+/component/virtuemart/avtoprinadlezhnosti/by,product_name 1 -
+/component/virtuemart/ruchnoj-instrument/nabor-instrumentov/nabor-otvertok-sturm-1040-02-ss9-detail 1 -
+/assets/images/content-post.php 1 https://deltatest.ru/assets/images/content-post.php
+/component/virtuemart/bytovaya-tekhnika/vesy-utyugi/vesy-napolnye-delta-d-9200-detail 1 -
+/component/virtuemart/vsjo-dlya-svarki/elektrody-i-maski/maska-svarshchika-khameleon-resanta-ms-4-detail/askquestion 1 -
+/component/virtuemart/bytovaya-tekhnika/chajniki-termosa-kofevarki/chajnik-centek-ct-1036-2l-detail 1 -
+/component/virtuemart/bytovaya-tekhnika/bojlery-nagrevateli-teny/orderDesc/by 1 -
+/component/virtuemart/instrument/mshu 3 http://deltatest.ru/component/virtuemart/instrument/mshu
+/component/virtuemart/silovaya-tekhnika/stabilizatory/stabilizator-asn-10000-n-1ts-resanta-lux-10kvt-detail 1 -
+/component/virtuemart/vsjo-dlya-svarki/elektrody-i-maski 1 -
+/bitrix/admin/htmleditor2/aipkey.php 1 http://deltatest.ru
+/component/virtuemart/bytovaya-tekhnika/bojlery-nagrevateli-teny/anod-detail 1 -
+/component/virtuemart/bytovaya-tekhnika/chajniki-termosa-kofevarki 1 -
+/component/virtuemart/bytovaya-tekhnika/chajniki-termosa-kofevarki/chajnik-metallicheskij-elbrus-1-1-8l-detail/askquestion 1 -
+/component/virtuemart/dlya-remonta-doma/betonosmesiteli-miksery/drel-mikser-kalibr-de-1100emkh-detail/askquestion 1 -
+/component/virtuemart/televidenie-i-priemniki/pristavki-tv-antenny 1 http://deltatest.ru/component/virtuemart/televidenie-i-priemniki/pristavki-tv-antenny
+/component/virtuemart/santekhnika/raskhodniki2016-03-25-19-49-14/kartridzh-filtr-polipropilenovyj-detail 1 -
+/images/stories/virtuemart/product/pila-benz.-carver45-18k.jpg 1 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/poliv-i-oroshenie/shlang-palisad-palisad-detail/askquestion 1 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/dlya-fermerov 1 -
+/component/virtuemart/ruchnoj-instrument/nabor-instrumentov/nabor-otvertok-sturm-1040-02-ss9-detail/askquestion 1 -
+/component/virtuemart/vsjo-dlya-svarki/elektrody-i-maski/elektrody-d-3-standart-ano-21-detail 1 -
+/images/stories/virtuemart/product/pila-elektro.tsepnaya-elektropribor3.jpg 1 -
+/plugins/content/apismtp/apismtp.php 1 http://deltatest.ru
+/images/stories/virtuemart/product/zhidkost-nezamerzayushchaya-dlya-avtomobilya-zima-5-litrov.jpg 1 -
+/component/virtuemart/bytovaya-tekhnika/bojlery-nagrevateli-teny/vodonagrevatel-elektricheskij-protochnyj-etalon-mk-10-kombi-detail 1 -
+/component/virtuemart/dlya-remonta-doma/betonosmesiteli-miksery/drel-mikser-kalibr-de-1100emkh-detail 1 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/benzopily/pila-benzinovaya-ural-50-detail 1 -
+/images/stories/virtuemart/product/ballon-gazovyj--5l,-12l,-27l-.jpg 1 -
+/images/stories/virtuemart/product/drel-akkamul.-shurupovert-engy-ecd-182-18v.jpg 2 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/dlya-fermerov/zernodrobilka-zubrenok-dlya-zerna-i-kukuruzy-detail/askquestion 1 -
+/component/virtuemart/bytovaya-tekhnika/myasorubki-blendera-sokovyzhimalki/blender-delta-dl-7014d-250vt-2skorosti-detail/askquestion 1 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/komplektuyushchie-k-nasosam 3 http://deltatest.ru/component/virtuemart/dlya-sadovodov-i-fermerov/komplektuyushchie-k-nasosam
+/component/virtuemart/dlya-otdykha/gazovaya-gorelka-pezopodzhig-is09001-detail/askquestion 1 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/nasosy/tsentrobezhnye-skvazhinnye-nasosy-vodolej-detail 2 -
+/images/aipkey.php 1 http://deltatest.ru
+/component/virtuemart/dlya-sadovodov-i-fermerov/opryskivateli/pnevmaticheskij-opryskivatel-gidroagregat-6l-8l-9l-detail/askquestion 2 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/komplektuyushchie-k-nasosam/nipel-latun-rezba-rezba-f25-detail 2 -
+/component/virtuemart/elektrika/svetotekhnika 1 -
+/component/virtuemart/bytovaya-tekhnika/vesy-utyugi/vesy-elektricheskie-torgovye-so-schjotchikom-tseny-sprint-st-acs-detail/askquestion 1 -
+/images/stories/virtuemart/product/pila-elektro.tsepnaya-elektropribor.jpg 1 -
+/component/virtuemart/ruchnoj-instrument/nabor-instrumentov/nabor-slesarnyj-montazhnyj-stels-14102-detail 1 -
+/component/virtuemart/bytovaya-tekhnika/vesy-utyugi/utyug-centek-2322-detail 1 -
+/cms/ 3 https://deltatest.ru/cms/
+/component/virtuemart/dlya-otdykha/balonchik-gazovyj-220ml-detail/askquestion 1 -
+/index.php 4 https://deltatest.ru/index.php
+/component/virtuemart/dlya-sadovodov-i-fermerov/tros-verevka-khomuty/khomut-dlya-trosikov-f3-f5-detail 2 -
+/svyazatsya-s-nami 2 http://deltatest.ru/svyazatsya-s-nami
+/favicon.png 1 -
+/wp-content/uploads/2014/08/zgepd_oddsd.php 1 http://deltatest.ru
+/images/stories/virtuemart/product/nasos-avtomar.-dlya-povysh.-davleniya-xinwilo-x15g-15.jpg 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 788
+52.34.24.33 20 20 846240 20180425112410
+52.41.211.72 18 18 761616 20180424110456
+37.146.215.157 16 84 7570852 20180417120057
+88.99.2.89 15 15 634680 20180427010457
+91.121.168.132 14 14 592368 20180415040104
+217.118.78.82 13 216 20988073 20180424121755
+94.19.143.219 13 179 18061014 20180421150656
+85.195.116.66 12 12 507744 20180405022807
+109.162.3.98 11 21 921154 20180424061210
+82.146.49.235 11 11 465432 20180426054843
+178.66.119.77 2 36 3531554 20180401222653
+92.100.115.116 0 3 47972 
+178.64.92.43 0 1 257983 
+185.57.30.91 2 36 3531554 20180405124226
+188.162.166.103 2 36 3531554 20180419173103
+92.101.66.25 0 3 47972 
+176.59.13.85 2 36 3531554 20180410152001
+80.83.234.236 2 36 3531554 20180412142344
+37.204.155.120 0 1 37204 
+95.153.222.28 2 36 3531554 20180421054029
+217.66.157.64 2 36 3531554 20180409194817
+176.100.114.8 2 36 3620136 20180406185452
+159.65.124.43 2 36 3531554 20180411080625
+54.183.165.74 7 7 296184 20180426202804
+105.73.27.85 0 2 132286 
+217.69.143.217 1 1 42312 20180422210842
+101.199.108.118 2 12 231529 20180423010850
+173.236.55.90 1 1 42312 20180413224010
+188.162.197.28 2 37 3789537 20180417105427
+93.179.68.151 1 1 42312 20180402173410
+37.110.118.21 0 1 257983 
+105.73.27.121 0 1 364038 
+217.118.78.126 2 36 3531554 20180417200701
+188.162.197.124 2 36 3531554 20180414143444
+85.26.165.141 3 37 3573866 20180424131121
+188.170.81.45 2 36 3531554 20180417145854
+95.153.135.38 3 37 3573866 20180424154405
+178.68.113.35 2 36 3531554 20180423152341
+188.162.229.129 4 38 3616178 20180424060758
+5.143.8.12 2 36 3531554 20180425043327
+178.155.4.211 3 37 3573866 20180404190205
+188.134.15.238 2 36 3531554 20180416141725
+37.139.109.105 2 36 3531554 20180414173459
+94.233.224.10 2 36 3531554 20180422010043
+95.153.130.232 2 36 3620136 20180419060207
+109.110.32.82 2 36 3531554 20180402072142
+213.5.19.63 7 109 10636974 20180416044510
+95.221.58.180 0 1 37204 
+217.118.81.219 2 36 3531554 20180402155145
+176.59.78.169 0 3 47972 
+178.34.158.74 7 41 3743114 20180415131900
+46.101.18.209 2 36 3531554 20180420133310
+94.100.202.40 2 36 3531554 20180401201027
+213.87.129.49 1 1 42312 20180406091757
+62.249.136.142 3 37 3573866 20180419044742
+80.83.239.115 3 37 3573866 20180417062521
+176.59.5.4 2 36 3531554 20180424093935
+46.61.166.182 2 36 3531554 20180416035541
+95.139.77.147 3 37 3573866 20180401142947
+65.55.210.157 0 1 38706 
+95.153.131.91 2 36 3531554 20180419095715
+185.3.182.235 0 3 47972 
+213.167.205.221 2 36 3531554 20180423090325
+199.30.24.167 1 1 165548 20180426022601
+217.150.79.135 4 72 7063108 20180419144018
+217.172.23.77 2 36 3531554 20180405112806
+95.52.76.53 2 37 3789537 20180412111330
+89.250.148.104 2 39 3579526 20180425141722
+90.154.68.208 0 3 47972 
+5.18.217.219 2 36 3531554 20180425231717
+91.109.145.237 2 39 3679781 20180404113227
+95.159.154.214 2 36 3531554 20180423083330
+176.100.107.60 2 36 3531554 20180410195700
+109.165.86.105 4 38 3558166 20180406124544
+178.140.25.174 0 1 30301 
+62.183.124.153 6 6 433014 20180415055920
+46.32.67.193 3 37 3573866 20180418224837
+217.118.81.212 2 36 3531554 20180418130119
+217.66.154.93 0 3 47972 
+95.161.249.162 2 36 3531554 20180402220332
+5.142.136.247 2 36 3531554 20180410173705
+31.184.244.54 2 36 3531554 20180425121327
+95.27.241.116 0 1 37204 
+185.3.35.250 4 72 7063108 20180411015912
+195.54.40.238 2 36 3531554 20180415083105
+62.117.114.210 2 36 3531554 20180402162504
+5.142.69.166 2 36 3531554 20180417174459
+109.110.32.45 2 36 3531554 20180406163952
+93.185.17.121 2 34 2515328 20180403200152
+95.153.134.89 2 36 3531554 20180418065514
+213.176.239.93 0 3 47972 
+178.68.77.196 2 36 3531554 20180416170012
+95.153.133.134 2 36 3531554 20180418201305
+185.202.212.192 2 36 3531554 20180423145430
+95.153.132.65 2 36 3531554 20180423164915
+5.149.216.246 2 36 3531554 20180422222310
+95.220.70.212 0 1 829 
+105.73.27.48 1 6 120540 20180413191808
+37.146.147.117 2 36 3531554 20180412225102
+178.155.4.228 2 36 3531554 20180417214415
+93.190.179.11 3 37 3573866 20180423190046
+95.153.131.199 0 3 47972 
+5.142.228.109 0 3 47972 
+46.0.133.6 0 1 284070 
+217.118.81.223 4 72 7083972 20180426070508
+178.66.134.121 2 36 3531554 20180403021827
+217.66.157.63 2 36 3531554 20180416132155
+194.28.215.152 2 36 3531554 20180422160332
+178.140.199.128 1 1 42312 20180409202755
+31.15.90.17 2 36 3531554 20180406171955
+217.118.81.24 3 71 6566675 20180413140501
+95.153.132.148 2 36 3531554 20180418105512
+128.69.122.104 5 74 7321091 20180425094256
+93.188.37.229 2 2 84624 20180417204837
+95.54.23.171 0 3 47972 
+94.25.169.150 1 2 64864 20180419103212
+188.162.41.34 3 37 3573866 20180405204138
+128.69.139.29 2 36 3531554 20180424191728
+188.255.91.224 0 1 7145 
+93.178.64.68 1 1 42312 20180420071440
+81.30.219.149 2 36 3531554 20180419132318
+109.110.67.112 2 36 3531554 20180420104023
+188.170.73.1 1 1 42312 20180402152121
+217.66.154.116 1 1 42312 20180419173225
+176.59.5.230 2 36 3531554 20180419170312
+176.59.23.38 2 36 3531554 20180413090853
+185.35.101.0 3 37 3573866 20180401195155
+213.27.103.135 2 36 3531554 20180425075043
+65.55.210.91 0 1 846 
+178.64.63.33 2 36 3531554 20180408114449
+176.59.18.141 2 36 3531554 20180416134828
+188.113.188.156 4 72 7063108 20180411074735
+178.65.217.176 2 36 3531554 20180415180459
+185.35.63.86 1 1 42312 20180412122425
+95.139.74.187 2 36 3531554 20180426191432
+176.59.149.226 2 36 3197234 20180408235932
+109.68.173.187 0 3 47972 
+5.164.190.170 2 36 3531554 20180421162835
+178.140.88.82 0 4 49917 
+138.201.255.45 5 5 211560 20180424100804
+213.108.137.245 2 36 3531554 20180414123939
+87.228.18.81 0 1 257983 
+46.32.66.198 2 36 3531554 20180403084353
+80.83.234.220 3 40 3722093 20180424145006
+85.173.128.219 2 39 3679781 20180416095857
+195.211.23.216 1 2 67539 20180411080548
+109.110.32.83 0 6 95944 
+92.100.205.216 2 36 3531554 20180409135858
+178.62.4.246 1 1 42312 20180408135109
+5.164.180.220 2 36 3531554 20180423162018
+78.36.23.129 2 36 3531554 20180403110825
+46.188.107.201 0 1 6634 
+109.126.5.30 2 36 3531554 20180404130822
+109.68.173.53 3 37 3573866 20180409190954
+188.170.83.196 3 37 161784 20180409152043
+188.254.100.246 2 36 3531554 20180419150027
+79.171.119.55 4 38 3616178 20180404131944
+217.118.78.124 2 36 3531554 20180412092553
+77.35.44.53 0 3 47972 
+176.59.80.219 0 3 47972 
+95.161.239.41 2 36 3531554 20180405230642
+217.66.156.128 2 36 3531554 20180419115327
+95.53.41.86 2 36 3552418 20180416183115
+5.164.66.7 1 1 42312 20180407204826
+217.150.72.154 2 36 3531554 20180413131105
+93.100.96.175 2 36 3531554 20180409174040
+46.188.52.117 0 1 334320 
+5.142.86.122 2 37 3789537 20180409121629
+217.118.81.252 2 36 3531554 20180418152838
+188.162.166.230 2 36 3531554 20180407123720
+95.30.165.220 2 36 3531554 20180409171624
+176.59.10.45 0 3 47972 
+158.46.167.119 1 1 42312 20180407130656
+91.147.20.15 4 50 4056049 20180412062913
+31.23.96.46 0 6 1566948 
+95.53.33.175 2 36 3531554 20180403213933
+83.219.136.21 4 38 3616178 20180402202202
+37.144.136.54 2 36 3531554 20180417203614
+95.53.6.232 2 36 3552418 20180409165541
+109.110.32.66 2 36 3531554 20180408123347
+199.30.24.212 0 1 257983 
+176.59.13.60 0 1 284070 
+85.26.241.97 2 34 2916870 20180416023307
+93.80.37.24 1 35 3454394 20180421174758
+62.192.251.208 2 37 3789537 20180420104156
+87.236.195.22 5 5 211560 20180410104206
+91.219.56.102 2 36 3531554 20180421163540
+95.221.14.140 2 36 3531554 20180418121842
+176.97.223.234 2 36 3531554 20180402171318
+217.66.154.18 2 36 3531554 20180406090927
+188.170.73.141 2 36 3531554 20180423115440
+217.118.78.109 2 36 3531554 20180402204709
+64.246.161.190 1 1 42312 20180421180912
+195.154.184.40 1 1 42312 20180411002243
+188.162.166.14 2 39 3679781 20180403235010
+65.55.210.50 0 4 338662 
+37.144.46.130 0 8 1124366 
+77.34.106.106 4 72 6878987 20180417144628
+176.15.52.181 0 3 47972 
+176.14.227.205 0 1 22552 
+85.26.186.202 0 1 257983 
+176.100.114.70 2 31 3473542 20180412173621
+83.219.147.71 2 36 3531554 20180402195358
+35.162.70.167 10 10 423120 20180426101530
+85.115.224.219 2 36 3531554 20180417152452
+199.30.25.58 0 2 360643 
+178.155.5.169 0 3 47972 
+83.219.136.43 2 36 3531554 20180412123853
+95.153.128.127 3 37 3573866 20180418141910
+217.118.81.226 2 36 3531554 20180418102342
+213.176.239.3 0 3 47972 
+2.95.222.28 1 1 42312 20180423195839
+46.151.246.243 2 36 3531554 20180424115105
+217.66.156.142 3 37 3573866 20180410162015
+89.221.61.131 2 36 3531554 20180405113729
+62.76.12.72 2 36 3531554 20180411080217
+109.184.227.81 3 37 3573866 20180425135710
+178.23.4.179 2 36 3531554 20180422222143
+95.174.97.176 2 36 3531554 20180417125119
+176.99.72.79 3 3 126936 20180426235152
+145.255.1.137 2 36 3531554 20180424082610
+95.161.253.57 3 37 3594730 20180401141146
+185.35.63.59 1 1 42312 20180410182850
+178.68.95.142 2 36 3531554 20180418215439
+83.149.19.254 2 36 3531554 20180409061724
+85.173.128.6 2 36 3531554 20180419130845
+95.139.94.58 2 36 3531554 20180417200715
+81.163.69.180 2 39 3679781 20180410225023
+31.23.179.157 2 36 119472 20180417155057
+85.26.186.61 2 36 3531554 20180412144449
+62.192.247.114 3 37 3573866 20180424172625
+5.59.56.130 4 67 7005096 20180421231407
+138.246.253.19 2 2 0 20180426224028
+213.184.248.31 2 36 3531554 20180410161129
+217.118.81.18 2 36 3531554 20180424150608
+105.73.27.63 0 2 429330 
+37.146.138.237 4 75 7211335 20180413193814
+199.30.25.127 0 3 361342 
+5.3.156.84 1 35 3454394 20180416041742
+217.66.159.202 3 37 3573866 20180413144407
+78.36.2.203 2 34 3153438 20180404135642
+194.15.147.22 5 73 7105420 20180426194055
+217.118.79.35 2 36 3619942 20180404102501
+37.145.10.145 1 1 165742 20180426104858
+62.183.124.242 3 37 3718160 20180414220357
+95.153.128.151 2 36 3531554 20180422153325
+93.100.96.213 7 104 10578962 20180417200602
+95.153.129.207 3 37 3573866 20180425220323
+188.170.83.35 2 36 3531554 20180409130433
+185.16.30.155 2 36 3531554 20180411024507
+178.140.247.122 2 36 3531554 20180417230435
+176.116.4.238 1 1 42312 20180415192213
+81.230.137.192 2 2 84624 20180414143517
+217.66.159.201 2 36 3531554 20180413174743
+188.170.83.102 0 1 257983 
+178.65.241.172 2 36 3531554 20180416011900
+185.3.35.212 4 72 7063108 20180411201957
+213.251.184.63 1 1 42312 20180412174723
+5.164.195.212 1 1 42312 20180411050031
+95.28.186.238 0 1 547 
+80.77.168.134 2 2 42312 20180409185622
+188.32.251.196 0 1 2489 
+82.145.222.242 2 36 3531554 20180402213622
+195.211.23.221 0 1 25424 
+130.255.138.53 2 36 3531554 20180419203720
+213.108.172.6 2 36 3531554 20180403085033
+217.175.12.163 2 36 3531554 20180423221033
+217.66.157.172 2 32 1482350 20180418190843
+95.79.170.11 2 36 3531554 20180404200615
+176.59.11.106 1 1 98024 20180420092309
+199.30.24.109 0 2 190820 
+91.204.150.201 2 36 3531554 20180406205527
+83.219.136.31 5 73 7105420 20180412085204
+217.118.93.149 2 39 3579526 20180425172357
+185.153.133.68 7 76 7431802 20180413134933
+178.155.4.97 3 37 3573866 20180404155459
+89.185.70.19 2 36 3531554 20180402123514
+188.170.193.98 2 40 3818769 20180417194545
+109.110.32.24 2 36 3531554 20180403101635
+85.115.224.199 2 36 3531554 20180418150722
+217.66.159.42 2 36 3531554 20180416115133
+85.173.129.45 2 36 3531554 20180409172422
+93.80.36.247 0 1 829 
+69.58.178.57 1 1 42312 20180419231118
+213.221.41.6 2 36 3620136 20180421135913
+40.77.179.39 0 1 1444 
+188.32.53.37 0 4 120403 
+188.170.193.6 2 36 3531554 20180424113257
+89.248.191.43 0 1 37204 
+31.15.91.216 2 36 3531554 20180419125455
+217.118.81.249 2 36 3531554 20180411200910
+199.30.24.251 0 1 312242 
+46.159.169.255 2 36 3531554 20180424203423
+195.211.23.222 0 1 24238 
+37.146.144.100 2 36 3531554 20180402180916
+85.173.128.84 2 36 3531554 20180426121333
+176.59.22.103 1 33 2987696 20180424160604
+91.243.36.7 2 36 3531554 20180412221635
+85.173.128.142 0 3 47972 
+176.100.114.71 2 36 3531554 20180406165821
+5.143.67.222 2 36 3531554 20180425133306
+178.155.4.251 2 36 3531554 20180402182752
+178.65.223.176 2 36 3620136 20180426133018
+217.150.72.198 2 36 3531554 20180421143416
+40.77.179.52 0 1 25593 
+5.142.97.77 5 78 7175307 20180418164201
+213.21.33.32 4 72 7063108 20180423221657
+145.255.3.206 0 3 47972 
+217.118.64.56 0 3 47972 
+62.76.12.66 2 36 3531554 20180425184813
+85.173.129.42 4 73 7321091 20180415201636
+178.76.230.124 2 36 3531554 20180425151134
+46.173.1.160 2 36 3531554 20180425083015
+91.196.159.254 2 36 3531554 20180424192431
+85.117.83.49 4 38 3616178 20180424132627
+213.27.100.234 3 37 3573866 20180426155423
+217.118.81.26 2 39 3579526 20180417210717
+185.57.31.208 0 6 95944 
+37.194.168.103 2 36 3531554 20180412092126
+188.162.166.150 3 3 126936 20180407152704
+148.251.13.51 1 1 0 20180406083643
+176.59.9.122 2 36 3531554 20180416092123
+85.173.128.251 2 36 3531554 20180425232054
+188.170.73.122 2 36 3531554 20180423132524
+85.115.224.217 4 38 3616178 20180409184014
+185.182.81.45 1 1 42312 20180406162457
+178.155.4.168 2 36 3531554 20180404163317
+77.34.58.88 2 37 3789537 20180426050300
+188.243.133.35 2 36 3531554 20180425220304
+95.27.43.80 2 36 3531554 20180423220702
+31.23.220.160 2 36 3531554 20180417153020
+85.26.165.184 3 37 3594730 20180424174720
+167.114.233.118 1 1 42312 20180420203758
+109.165.98.9 2 36 3531554 20180424125921
+178.204.214.226 2 36 3531554 20180419092145
+188.170.193.74 2 36 3531554 20180418160748
+83.219.146.250 2 36 3531554 20180426201618
+199.30.24.103 0 1 410109 
+185.153.132.238 4 72 7063108 20180424184424
+62.221.84.23 1 1 42312 20180425162329
+199.30.24.147 0 3 337675 
+69.12.66.213 2 2 84624 20180415195705
+213.59.143.70 2 36 3531554 20180411113411
+77.35.15.117 3 37 3573866 20180418123207
+5.164.204.190 0 1 334320 
+5.59.57.135 2 36 3531554 20180411065253
+176.222.194.12 2 36 3531554 20180409094958
+37.18.41.240 2 36 3531554 20180421155751
+65.55.210.204 0 4 425059 
+83.219.147.120 2 36 3531554 20180420163501
+109.68.173.94 2 36 3531554 20180424235815
+54.212.64.159 1 1 42312 20180410162150
+176.193.131.140 0 1 34829 
+188.170.81.30 3 3 126936 20180403213053
+176.116.27.14 1 1 42312 20180419205806
+46.173.6.238 2 36 3531554 20180426184714
+89.178.231.211 0 5 50365 
+46.173.4.137 5 39 3658490 20180409215341
+217.118.78.107 2 36 3531554 20180411143455
+77.82.103.157 2 36 3531554 20180421035136
+92.37.143.212 2 36 3531554 20180421042516
+195.211.23.220 0 1 26606 
+78.37.110.27 4 49 3959508 20180424205048
+77.222.104.236 2 36 3531554 20180408235103
+85.115.224.151 2 36 3531554 20180418190758
+95.153.132.175 2 36 3531554 20180420123603
+92.61.65.162 6 99 11103535 20180423185223
+185.57.29.251 0 1 257983 
+81.22.128.102 2 36 3531554 20180402175646
+199.30.24.64 0 2 104104 
+178.155.4.113 2 36 3531554 20180425163728
+88.99.203.210 1 1 42312 20180408224534
+95.105.69.64 2 36 3531554 20180424151255
+37.193.144.75 3 37 3594730 20180402113315
+89.232.134.50 2 36 3531554 20180416053700
+85.143.129.122 2 36 3620136 20180424072809
+178.66.3.182 2 36 3531554 20180418102119
+176.59.21.189 7 85 9627244 20180417162058
+85.115.224.131 2 36 3531554 20180414092436
+5.144.98.0 2 36 3531554 20180425124010
+178.65.255.195 3 37 3573866 20180418065019
+31.173.242.137 2 36 3531554 20180404102330
+195.208.172.101 2 39 3679781 20180409213154
+62.210.152.248 1 1 0 20180409012129
+77.35.148.209 2 36 3531554 20180424065601
+31.23.9.152 2 36 3531554 20180423001757
+77.35.37.199 2 36 3531554 20180401190345
+65.55.210.214 0 2 309544 
+37.144.180.113 5 73 7105420 20180418212050
+188.235.236.85 2 36 3531554 20180424161254
+109.173.58.101 2 36 3531554 20180413113638
+105.73.27.49 0 7 691560 
+93.177.10.38 0 3 47972 
+95.159.187.29 2 36 3531554 20180410071232
+5.164.202.160 1 1 42312 20180406225510
+217.118.64.62 2 36 3531554 20180421175226
+128.74.148.138 2 36 3531554 20180419152140
+176.59.12.101 2 36 3531554 20180425150452
+178.65.157.141 2 39 3679781 20180409140508
+195.211.23.223 0 1 25593 
+94.231.126.106 2 36 3531554 20180426165345
+82.145.223.13 2 36 3531554 20180425083303
+217.66.154.34 0 1 284070 
+77.34.39.167 2 36 3620136 20180415235321
+91.218.222.41 3 37 3573866 20180420111718
+5.142.201.35 2 37 3843796 20180402232343
+89.163.206.215 1 1 42312 20180422162732
+37.204.31.146 0 1 547 
+178.68.72.14 2 36 3531554 20180409005644
+83.69.16.125 2 36 3531554 20180412175632
+95.161.210.226 4 72 7063108 20180416180226
+94.25.233.191 2 37 3865874 20180418122417
+5.228.95.146 0 1 6634 
+5.164.196.40 4 72 7063108 20180414131019
+180.97.61.251 1 1 42312 20180424202322
+217.118.81.215 2 36 3552418 20180417130207
+188.170.72.86 2 36 3531554 20180407211013
+5.18.255.53 3 37 3573866 20180413083500
+46.101.252.13 2 36 3552418 20180419213412
+92.126.68.10 2 36 3531554 20180415151831
+85.26.165.70 2 36 3531554 20180425204709
+79.164.157.110 0 1 22552 
+212.91.214.9 3 37 3573866 20180401135134
+146.120.57.169 4 39 3632225 20180406172335
+78.106.215.61 2 36 3531554 20180425180851
+46.161.57.44 1 1 42312 20180421061153
+62.76.12.195 3 37 3573866 20180422115146
+95.27.202.137 0 3 47972 
+195.208.173.168 4 72 7063108 20180418223533
+95.153.133.158 2 36 3531554 20180403114028
+178.219.244.162 2 36 3531554 20180413062449
+178.155.5.208 2 36 3531554 20180421153245
+178.65.213.188 0 1 257983 
+95.53.0.49 2 36 3531554 20180424223850
+46.159.110.61 3 37 3573866 20180413235646
+176.59.23.123 2 36 3531554 20180413171304
+217.118.78.101 2 36 3531554 20180424100334
+95.213.218.56 1 35 3454394 20180420092258
+178.64.82.128 2 36 3531554 20180414204219
+217.150.73.165 2 36 3531554 20180410140621
+40.77.177.37 1 2 252475 20180414134807
+217.66.154.74 3 37 3573866 20180408125633
+199.30.25.7 0 3 375719 
+95.153.132.107 2 36 3531554 20180423162642
+185.57.29.61 2 36 3531554 20180425111956
+217.118.78.102 0 1 256460 
+5.18.235.34 2 36 3531554 20180416230925
+188.162.132.213 2 36 3531554 20180401203826
+217.66.154.51 2 36 3531554 20180411083600
+176.213.20.14 2 36 3531554 20180426091708
+109.68.173.93 2 36 3531554 20180417184734
+5.19.236.175 4 57 3835090 20180406201920
+40.77.178.49 0 1 48020 
+95.53.105.127 5 73 7105420 20180410195450
+95.55.151.167 2 36 3531554 20180411033623
+78.157.236.72 2 36 3531554 20180424114927
+185.57.28.54 2 36 3531554 20180406045630
+46.61.37.105 2 36 3531554 20180406225539
+195.218.153.138 2 2 119472 20180424225300
+176.59.66.55 0 4 889976 
+85.140.76.245 2 36 3531554 20180425232649
+95.54.161.205 2 36 3531554 20180409142421
+91.243.36.253 2 36 3531554 20180412191717
+65.55.210.83 1 1 165548 20180412112724
+46.32.85.18 2 36 3531554 20180420102807
+80.83.239.83 2 36 3552418 20180424140459
+105.73.27.19 0 3 366378 
+81.201.74.106 2 36 3531554 20180412182645
+185.35.63.163 1 1 42312 20180412152320
+95.221.54.195 0 1 284070 
+94.25.233.252 0 3 47972 
+80.83.239.72 2 36 3531554 20180418140704
+95.153.133.79 2 36 3531554 20180426115920
+95.52.44.233 2 36 3531554 20180410182142
+86.110.169.86 2 36 3531554 20180425175900
+92.255.5.78 2 36 3531554 20180403210320
+85.173.128.147 2 36 3531554 20180424051922
+2.79.39.233 3 61 4484566 20180419122040
+95.154.71.143 2 36 3531554 20180414024747
+94.25.224.59 0 3 47972 
+188.162.197.59 2 36 3531554 20180418105929
+85.173.129.124 2 36 3531554 20180424102915
+37.110.135.98 1 1 42312 20180413113629
+131.253.27.119 1 1 165548 20180418035403
+95.153.130.168 2 36 3531554 20180418202957
+178.65.254.189 3 37 3573866 20180417154355
+217.66.157.162 2 32 2001648 20180412182852
+5.138.169.54 2 36 3531554 20180407083936
+213.176.236.8 2 36 3531554 20180418074043
+213.87.122.129 2 36 3531554 20180417083816
+85.26.232.199 0 1 284070 
+176.59.18.121 0 1 257983 
+185.182.81.18 2 36 3531554 20180406105530
+95.52.5.54 2 36 3531554 20180425164400
+84.240.218.108 1 1 42312 20180421162757
+188.114.11.61 2 36 3531554 20180422104508
+176.112.71.192 2 36 3531554 20180420185813
+213.87.122.252 0 3 47972 
+37.29.55.18 2 35 3247484 20180425170424
+194.84.234.27 2 36 3531554 20180412114525
+95.54.251.76 2 36 3531554 20180420102736
+80.83.234.208 0 3 47972 
+46.173.5.68 2 36 3531554 20180415162221
+82.149.153.102 2 36 3531554 20180410050303
+145.255.21.210 1 1 42312 20180410193101
+82.145.221.32 2 40 3609022 20180413135609
+5.143.123.243 2 36 3531554 20180408074759
+92.101.195.242 2 36 3531554 20180411220438
+178.34.158.98 2 36 3531554 20180424121659
+95.220.75.175 0 1 284070 
+62.192.247.173 2 36 3552418 20180401064714
+185.35.63.62 1 1 42312 20180412111258
+5.228.200.172 0 1 257983 
+188.166.77.200 3 38 3589913 20180416200915
+37.204.156.141 0 1 284070 
+188.114.36.69 2 36 3531554 20180420230355
+217.118.81.205 3 37 3573866 20180425153821
+95.153.129.44 2 36 3531554 20180412182738
+95.54.155.14 0 1 257983 
+46.101.80.192 1 1 42312 20180414111206
+109.191.13.57 1 1 42312 20180403132929
+188.162.166.170 3 37 3573866 20180407162411
+5.18.207.36 2 36 3531554 20180416230949
+130.255.134.142 4 72 7063108 20180410152516
+195.208.36.212 2 36 3531554 20180424170608
+105.73.27.20 0 5 387947 
+95.24.3.66 0 1 30301 
+176.117.148.226 2 36 3531554 20180401003015
+5.138.144.23 2 36 3531554 20180403192740
+46.229.170.197 2 2 84624 20180420212258
+77.123.211.117 2 36 3531554 20180416190925
+217.118.81.225 2 36 3531554 20180412190414
+46.42.137.0 0 3 47972 
+92.101.229.117 2 36 3531554 20180417210244
+178.70.133.30 0 1 334320 
+77.35.228.247 2 36 3531554 20180414111311
+95.153.131.29 0 1 257983 
+188.162.166.210 2 2 84624 20180417225015
+185.85.160.158 1 1 42312 20180407070654
+85.173.128.235 0 3 47972 
+217.118.78.103 2 36 3531554 20180424135518
+94.180.52.22 0 1 284070 
+195.135.215.2 2 36 3531554 20180409082612
+78.155.182.38 4 72 7063108 20180424012200
+188.170.83.52 3 37 3718160 20180420114755
+89.223.47.200 6 74 7147732 20180403164449
+95.153.132.98 2 36 3531554 20180425113531
+217.118.81.28 1 4 90284 20180404190438
+128.69.222.50 0 1 284070 
+199.30.24.83 0 10 1622341 
+5.18.232.32 2 36 3531554 20180410170639
+178.68.71.195 2 36 3531554 20180415121910
+37.143.15.220 7 7 296184 20180424001428
+188.162.166.234 2 36 3531554 20180408111621
+178.65.134.65 2 36 3531554 20180406105356
+198.57.56.46 1 1 42312 20180417210302
+78.30.244.215 2 36 3531554 20180416184438
+176.100.114.39 2 36 3531554 20180402165428
+46.61.9.11 4 72 7063108 20180413112645
+105.73.27.123 0 2 304480 
+217.118.81.23 5 43 4090787 20180423172255
+178.155.4.72 2 7 182506 20180425144809
+40.77.179.18 1 35 3577630 20180407162104
+77.35.203.117 2 36 3531554 20180402095515
+176.59.78.246 0 2 744429 
+31.23.172.65 2 36 3531554 20180402111121
+54.184.63.47 1 1 42312 20180404082421
+176.100.114.14 2 2 208054 20180424185108
+95.24.30.7 2 28 2407188 20180409202810
+128.69.108.217 2 36 3531554 20180413211451
+188.170.81.250 2 36 3531554 20180409210519
+128.69.228.58 0 1 448 
+78.36.163.70 2 35 2508313 20180418162825
+46.0.224.37 2 36 3531554 20180416105039
+109.110.32.94 2 36 3531554 20180414102148
+94.25.224.183 2 36 3531554 20180419153953
+217.66.157.101 2 36 3531554 20180415171909
+77.73.142.147 3 37 3422513 20180412215705
+37.193.142.39 2 36 3531554 20180403041324
+109.110.66.215 0 1 284070 
+92.50.223.31 0 1 26606 
+93.185.29.98 0 3 876373 
+188.32.176.228 0 4 49917 
+89.169.199.231 1 1 42312 20180426081659
+80.83.239.48 0 3 47972 
+89.179.64.236 3 37 3573866 20180402220747
+95.153.135.104 2 36 3531554 20180405184420
+105.73.27.50 0 5 349348 
+77.37.168.40 0 1 334320 
+176.59.2.143 0 3 47972 
+5.139.82.36 2 36 3531554 20180417101426
+95.54.168.40 2 36 3531554 20180423084014
+5.167.113.47 2 36 3552418 20180421221717
+95.53.0.143 2 36 3531554 20180424210506
+217.66.159.114 2 36 3531554 20180415191631
+77.37.168.184 0 1 19221 
+217.118.64.44 2 36 3531554 20180414132010
+87.117.61.247 2 36 3531554 20180426191318
+217.118.81.210 3 37 3573866 20180416162945
+85.26.164.78 0 1 284070 
+62.183.124.20 4 72 7063108 20180422104944
+95.153.134.159 2 36 3152607 20180419141659
+91.186.108.145 2 36 3531554 20180419083056
+185.184.53.233 2 36 3531554 20180402162857
+178.64.83.115 2 36 3531554 20180420143241
+5.143.81.145 2 36 3531554 20180415082800
+217.118.81.199 2 36 3531554 20180423212634
+193.106.111.5 3 37 3573866 20180422104002
+176.213.12.17 2 36 3531554 20180404201120
+5.18.240.111 0 1 278186 
+190.115.181.208 2 36 3531554 20180414171450
+217.66.154.137 2 36 3531554 20180406130153
+94.143.246.68 2 36 3531554 20180413184114
+176.100.114.27 2 36 3620136 20180423191333
+188.242.91.220 0 2 618390 
+80.242.103.158 0 3 47972 
+217.118.81.30 0 6 95944 
+95.79.54.9 2 36 3531554 20180418091934
+185.94.213.48 2 36 3531554 20180412152153
+188.162.166.148 1 1 42312 20180407133326
+93.80.15.91 2 36 3531554 20180425232305
+91.214.222.156 0 3 47972 
+95.37.205.51 1 1 42312 20180412033915
+62.192.247.35 4 66 7051134 20180425175825
+94.25.233.136 2 36 3531554 20180420094756
+83.234.243.11 2 36 3531554 20180409230645
+217.150.72.34 2 36 3531554 20180409142902
+62.192.249.175 2 36 3531554 20180418174051
+188.162.166.45 2 36 3531554 20180415184303
+188.170.192.140 2 36 3531554 20180410171009
+37.60.213.81 0 1 257983 
+94.25.170.21 2 36 3531554 20180417132555
+37.110.98.114 0 2 13143 
+31.173.84.43 0 2 666569 
+62.76.12.253 2 36 3531554 20180423135937
+62.76.12.73 3 37 3573866 20180401171658
+188.234.5.83 1 31 3333991 20180413122248
+81.163.241.166 0 1 257983 
+5.18.249.157 2 36 3531554 20180404000254
+5.228.106.149 0 1 1027 
+187.102.173.218 0 1 32460 
+86.172.141.199 2 36 3531554 20180410154005
+62.192.231.64 2 36 3531554 20180425133034
+165.231.90.174 1 1 42312 20180417164349
+87.241.218.249 2 36 3531554 20180402023817
+5.164.76.122 2 36 3531554 20180423130005
+188.170.81.147 0 1 284070 
+65.55.210.1 1 1 165548 20180404175632
+213.87.249.40 2 36 3531554 20180425224259
+95.54.173.102 2 36 3531554 20180424144819
+188.244.32.76 0 1 2489 
+213.176.238.90 0 3 47972 
+217.118.81.221 4 72 7063108 20180424171017
+79.171.119.56 2 37 3815624 20180419163906
+178.155.5.84 2 39 3679781 20180403184031
+188.162.166.67 2 36 3531554 20180404050950
+217.66.154.224 0 3 47972 
+176.212.57.252 2 36 3531554 20180416215151
+80.83.239.10 1 30 2977515 20180413093031
+212.58.212.126 2 36 3531554 20180418150742
+193.106.185.117 2 36 3531554 20180424220521
+105.73.27.122 1 1 165742 20180413191819
+176.59.15.250 0 1 257983 
+176.59.3.255 0 1 257983 
+203.88.67.34 2 36 3552418 20180409231538
+178.76.231.33 2 36 3531554 20180420100115
+80.242.99.6 2 36 3531554 20180426164228
+188.162.228.178 2 36 3531554 20180414100636
+217.107.115.225 2 36 3531554 20180418144439
+217.66.156.229 2 36 3531554 20180420111328
+176.100.75.121 0 2 592303 
+77.94.124.66 2 36 3531554 20180409151918
+109.110.69.86 0 1 257983 
+178.70.5.191 3 37 3573866 20180412104351
+37.29.88.230 2 28 987386 20180416131402
+95.37.251.75 1 1 42312 20180419051836
+105.73.27.58 0 2 308487 
+199.30.24.31 0 1 364038 
+77.35.168.71 0 3 47972 
+95.153.133.59 2 36 3531554 20180421172933
+178.65.133.205 2 36 3531554 20180409231158
+176.59.137.242 0 1 334320 
+62.192.250.121 2 36 3531554 20180415114637
+178.65.232.107 2 36 3531554 20180425181342
+199.30.25.0 0 3 79053 
+188.162.192.248 2 36 3531554 20180423153607
+199.30.24.88 0 1 444379 
+65.55.210.77 0 3 310840 
+188.162.166.76 1 1 42312 20180404101552
+95.52.46.60 2 36 3531554 20180418164249
+109.165.32.123 2 36 3531554 20180412132050
+81.30.216.3 1 1 0 20180426154523
+31.131.69.245 2 36 3347433 20180425055002
+54.67.59.131 10 10 423120 20180425201540
+185.57.28.57 5 73 7105420 20180426124227
+195.211.23.219 0 1 31358 
+62.192.250.167 4 72 7063108 20180411164416
+85.26.232.141 2 36 3531554 20180414201609
+188.162.132.211 2 36 3531554 20180405151431
+176.59.20.111 1 33 2987696 20180423134438
+95.153.128.155 2 36 3531554 20180409120429
+128.68.47.34 0 1 19221 
+128.69.240.101 4 38 3616178 20180419192106
+213.110.210.170 3 38 3937904 20180408214252
+62.192.246.18 2 36 3531554 20180424134948
+185.35.63.111 1 1 42312 20180413174524
+176.99.72.147 1 1 42312 20180424160535
+217.118.81.22 2 36 3531554 20180415221156
+109.110.32.81 1 22 1349967 20180421032723
+188.162.166.146 2 36 3531554 20180417121813
+46.151.150.231 2 36 3531554 20180424162606
+82.145.223.87 3 37 3531554 20180404140408
+85.173.129.114 3 37 3573866 20180420111015
+31.23.235.116 0 3 47972 
+95.79.95.93 3 6 310917 20180424165826
+178.64.105.100 2 36 3531554 20180405104312
+176.59.23.174 2 36 3531554 20180406090752
+78.81.178.24 2 40 4026198 20180404175032
+95.53.89.64 2 37 3789537 20180407222407
+158.46.167.222 1 1 42312 20180403141239
+109.191.18.30 1 1 42312 20180418160400
+95.28.2.63 0 1 7145 
+91.210.146.254 1 1 42312 20180418071933
+199.30.24.7 0 9 823964 
+65.55.210.134 0 1 14754 
+95.54.80.31 2 36 3531554 20180412185358
+188.32.42.133 1 1 42312 20180426104851
+5.143.127.15 3 37 3573866 20180402160240
+188.170.74.111 2 36 3531554 20180424155253
+217.66.154.55 2 36 3531554 20180412120103
+199.30.24.116 0 1 444379 
+92.101.90.82 2 36 3531554 20180422154910
+31.23.46.21 2 36 3531554 20180407071944
+185.57.29.202 2 36 3531554 20180416125803
+46.158.163.228 4 62 7149079 20180419133128
+85.142.41.2 2 36 3531554 20180401151538
+37.112.238.40 2 36 3531554 20180411214649
+217.19.208.103 1 1 42312 20180416223109
+31.28.233.137 2 36 3531554 20180411095901
+94.180.52.15 2 36 3531554 20180402152742
+176.100.95.32 2 36 3620136 20180419193120
+46.173.4.205 4 38 3616178 20180410191157
+188.242.81.252 2 39 3679781 20180407175900
+62.76.12.103 4 72 7063108 20180407224214
+217.118.78.104 3 37 3594730 20180426152008
+82.149.128.245 3 37 3573866 20180420131517
+46.52.134.210 0 1 284070 
+213.151.7.4 2 36 3531554 20180401185313
+188.162.166.176 1 1 42312 20180406214448
+217.66.157.163 3 37 3573866 20180406164704
+128.69.114.41 2 36 3531554 20180418132712
+109.184.14.158 1 1 42312 20180409235456
+199.30.25.161 0 6 259067 
+37.29.88.80 3 37 3718160 20180402115542
+95.84.10.227 2 36 3531554 20180426111329
+199.30.25.112 1 1 165548 20180408010950
+5.164.95.241 2 36 3620136 20180404133420
+178.219.244.131 4 72 7063108 20180426105803
+197.27.189.56 2 36 3531554 20180416211137
+185.232.168.205 1 7 100772 20180420102050
+176.100.75.120 0 1 334320 
+176.59.13.243 2 36 3531554 20180418233633
+188.243.105.246 2 36 3531554 20180412134142
+109.74.140.12 2 36 3259663 20180423121351
+46.173.12.45 2 36 3531554 20180402230538
+5.18.208.164 2 36 3531554 20180412170331
+176.59.14.98 2 10 368085 20180423131815
+64.246.165.50 1 1 42312 20180403180635
+185.153.133.12 2 36 3531554 20180419182720
+83.149.21.10 2 36 3531554 20180421183244
+176.59.3.195 2 36 3531554 20180412120630
+109.110.57.8 4 72 7063108 20180403161656
+188.162.166.90 2 36 3531554 20180404145919
+85.115.224.143 2 70 3531554 20180423230832
+195.211.23.218 0 1 37204 
+37.110.38.9 0 1 1027 
+158.181.41.222 0 6 1848184 
+213.108.168.6 2 36 3531554 20180409182539
+193.106.30.99 2 2 84624 20180403192545
+91.214.214.26 2 36 3531554 20180404204715
+93.80.15.248 2 36 3531554 20180404171643
+188.162.166.80 1 1 42312 20180404081628
+62.183.124.157 2 36 3531554 20180405132648
+178.65.220.236 2 39 3679781 20180413141536
+217.118.81.17 3 37 3573866 20180415100525
+188.162.132.25 3 37 3573866 20180412124424
+178.68.109.243 2 36 3531554 20180422142111
+178.67.229.99 2 36 3531554 20180419065944
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20180401 39 515 49948916 20
+20180402 71 963 95284236 37
+20180403 50 734 70650733 25
+20180404 50 667 64682989 27
+20180405 41 623 60858324 20
+20180406 42 534 50283722 23
+20180407 33 352 32746474 21
+20180408 33 315 31062552 20
+20180409 77 1144 108812385 38
+20180410 54 703 68128496 32
+20180411 49 740 72070865 27
+20180412 75 1100 106107498 40
+20180413 55 778 76224632 33
+20180414 44 525 51512821 26
+20180415 53 642 61833158 24
+20180416 64 1039 100890297 32
+20180417 95 1225 117422465 39
+20180418 93 1424 138090624 46
+20180419 67 1003 97409460 36
+20180420 55 778 75838768 30
+20180421 48 711 65481574 28
+20180422 32 409 39864960 18
+20180423 60 963 92857699 30
+20180424 115 1667 162702769 55
+20180425 86 1346 131400101 42
+20180426 50 608 58681957 29
+20180427 1 64 1030984 1
+20180428 0 33 527692 0
+20180429 0 22 337749 0
+20180430 0 41 627526 0
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 3
+5mn-15mn 16
+0s-30s 704
+15mn-30mn 11
+30s-2mn 32
+2mn-5mn 15
+30mn-1h 18
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 6
+/ 942 39561720 789 284
+/vendor/font-awesome/fonts/fontawesome-webfont.woff2 533 41126280 0 466
+/vendor/font-awesome/fonts/fontawesome-webfont.woff 24 2352576 1 20
+/vendor/font-awesome/fonts/fontawesome-webfont.eot 23 3812066 2 19
+/vendor/font-awesome/fonts/fontawesome-webfont.ttf 8 1324384 7 8
+/mail/contact_me.php 2 0 0 2
+END_SIDER

@@ -1,0 +1,501 @@
+AWSTATS DATA FILE 7.0 (build 1.971)
+# If you remove this file, all statistics for date 201801 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.deltatest.ru.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1992                
+POS_TIME 2670                
+POS_VISITOR 19104               
+POS_DAY 20688               
+POS_DOMAIN 3434                
+POS_LOGIN 3665                
+POS_ROBOT 3820                
+POS_WORMS 4207                
+POS_EMAILSENDER 4338                
+POS_EMAILRECEIVER 4481                
+POS_SESSION 20877               
+POS_SIDER 21077               
+POS_FILETYPES 4616                
+POS_DOWNLOADS 4880                
+POS_OS 4928                
+POS_BROWSER 5065                
+POS_SCREENSIZE 5611                
+POS_UNKNOWNREFERER 5685                
+POS_UNKNOWNREFERERBROWSER 5863                
+POS_ORIGIN 6051                
+POS_SEREFERRALS 6186                
+POS_PAGEREFS 6341                
+POS_SEARCHWORDS 6527                
+POS_KEYWORDS 6679                
+POS_MISC 2333                
+POS_ERRORS 6738                
+POS_CLUSTER 3521                
+POS_SIDER_404 6865                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20180201000949 366 73105 3637719164259
+FirstTime 20180127130734
+LastTime 20180131202141
+LastUpdate 20180201010101 1 0 0 0 0
+TotalVisits 48                  
+TotalUnique 36                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 38                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 27 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 11 82 7432445 15 41 264322
+1 1 1 42312 11 15 175178
+2 2 2 84624 10 12 174147
+3 0 0 0 16 19 226040
+4 0 0 0 8 8 170412
+5 0 0 0 36 40 221944
+6 1 1 42312 31 55 244462
+7 4 4 169248 21 47 268316
+8 0 0 0 32 88 372402
+9 3 3 126936 22 25 233042
+10 1 1 42312 28 30 199981
+11 5 39 3658490 42 46 267490
+12 1 1 42312 29 42 380549
+13 14 184 15163147 25 35 282967
+14 4 38 3616178 17 29 282089
+15 12 114 11357946 24 30 313187
+16 9 43 3785426 28 33 247655
+17 3 3 127107 79 80 405202
+18 3 3 127278 31 31 285029
+19 1 1 42312 21 39 1150691
+20 7 41 3789726 23 51 313301
+21 6 108 10640738 24 28 439027
+22 15 165 11297081 18 219 551903
+23 0 0 0 23 50 733850
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 103 834 71587930
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 7
+no_user_agent 110 4651479 20180131230944 0
+googlebot 30 1560798 20180131182702 0
+python 11 423291 20180131213649 0
+favicon 3 126936 20180131114423 0
+bot[\s_+:,\.\;\/\\-] 3 127107 20180131142502 0
+slurp 1 42312 20180128092504 0
+spider 1 0 20180128121127 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 11
+eot 2 331484 0 0
+css 87 675236 0 0
+png 42 7197656 0 0
+ttf 2 331096 0 0
+woff 1 98024 0 0
+woff2 14 1080240 0 0
+php 4 0 0 0
+map 3 1377154 0 0
+html 77 3172142 0 0
+jpg 468 56053088 0 0
+js 134 1271810 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS 9
+linuxandroid 127
+winxp 4
+winnt 384
+winvista 6
+linux 72
+win7 184
+macosx 42
+winunknown 1
+Unknown 14
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 30
+firefox57.0 302
+safari7.0 35
+msie6.0 1
+chrome52.0.2743.116 3
+chrome64.0.3282.123 40
+firefox17.0 2
+android 2
+chrome48.0.2564.82 1
+lg\- 38
+chrome63.0.3239.132 183
+chrome56.0.2924.122 1
+chrome41.0.2272.118 36
+chrome56.0.2924.87 43
+chrome62.0.3202.94 1
+msie11 4
+firefox3.6.26 1
+chrome58.0.3029.110 1
+chrome61.0.3163.100 3
+chrome18.0.1025.133 4
+chrome50.0.2661.94 2
+firefox33.0 1
+chrome45.0.2454.101 2
+mozilla 37
+netscape5.0 2
+msie7.0 1
+firefox16.0 1
+msie10.0 36
+Unknown 14
+safari 36
+firefox3.6.13 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 3
+Mozilla/5.0 20180127220155
+WhatsApp/2.17.427_A 20180128001642
+Magic_Browser 20180131110431
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 3
+WhatsApp/2.17.427_A 20180128001642
+Magic_Browser 20180131110431
+Microsoft_Office_Word_2014 20180131202137
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 73 76
+From1 0 0
+From2 2 2
+From3 1 1
+From4 27 755
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+google 2 2
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 1
+http://www.urlw.ru/w.deltatest.ru 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+302 536 167853
+206 2 4448
+400 1 264
+404 368 1055424
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 157
+/component/virtuemart/bytovaya-tekhnika/myasorubki-blendera-sokovyzhimalki 1 -
+/components/com_virtuemart/assets/js/vmprices.js 1 http://www.deltatest.ru/about-us
+/admin/content/sitetree/ 1 -
+/component/virtuemart/bytovaya-tekhnika/dukhovki-shashlychnitsy/orderDesc/results,3-4 1 -
+/component/virtuemart/instrument/kraskopult-i-nabory 1 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/zamki 1 -
+/component/virtuemart/klimaticheskoe-oborudovanie/ventilyatory/results,1-1 1 -
+/.well-known/apple-app-site-association 1 -
+/component/virtuemart/dlya-sadovodov-i-fermerov 1 -
+/component/virtuemart/instrument/tochilo/orderDesc/results,2-2 1 -
+/media/system/js/mootools-core.js 7 http://deltatest.ru/component/virtuemart/elektrika/udliniteli-perenoski
+/components/com_virtuemart/assets/js/vmsite.js 1 http://www.deltatest.ru/about-us
+/component/virtuemart/bytovaya-tekhnika/chajniki-termosa-kofevarki/orderDesc/results,11-10 1 -
+/modules/mod_accordion_menu/cache/175-langru-RU/5ca6535a9a1e6feccffdbcec93d6ac56.css 7 http://deltatest.ru/component/virtuemart/elektrika/udliniteli-perenoski
+/cache/leo/6b8ab6e38bf8f55432fad2527b147a4d.css 1 http://www.deltatest.ru/about-us
+/component/virtuemart/dlya-sadovodov-i-fermerov/poliv-i-oroshenie/shlang-palisad-palisad-detail 1 -
+/component/virtuemart/bytovaya-tekhnika/myasorubki-blendera-sokovyzhimalki/by,mf_name 1 -
+/component/virtuemart/bytovaya-tekhnika/dukhovki-shashlychnitsy/orderDesc/by,mf_name/results,3-4 1 -
+/plugins/community/uploadify/uploadify.css 1 -
+/component/virtuemart/elektrika/udliniteli-perenoski 2 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/nasosy/results,4-6 1 -
+/component/virtuemart/silovaya-tekhnika/stabilizatory/stabilizator-asn-10000-1-ts-resanta-10kvt-detail 1 -
+/component/virtuemart/silovaya-tekhnika/istochniki-besperebojnogo-pitaniya 1 -
+/cache/leo/e13c9ad3d49a876f47ee998ea84cd5a2.css 4 http://deltatest.ru/component/virtuemart/elektrika/udliniteli-perenoski
+/component/virtuemart/ruchnoj-instrument/rezhushchij 2 -
+/cache/leo/9b1749a2ea05df61e4528b7e2b4fce57.js 3 http://www.deltatest.ru/component/virtuemart/instrument/dreli-udarnye
+/component/virtuemart/poleznoe-dlya-doma/batarejki/by,product_price/results,2-2 1 -
+/component/virtuemart/bytovaya-tekhnika/dlya-kukhni/by,product_name/results,3-3 1 -
+/component/virtuemart/televidenie-i-priemniki/pristavki-tv-antenny/tv-pristavka-kaskad-va2203-detail 1 -
+/component/virtuemart/silovaya-tekhnika/stabilizatory/stabilizator-kalibri-stbn-3000m-3kvt-detail 1 -
+/component/virtuemart/elektrika 1 -
+/media/widgetkit/js/jquery.js 1 http://www.deltatest.ru/about-us
+/skidki-aktsii 1 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/zamki/by,mf_name 1 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/opryskivateli/opryskivatel-zhuk-na-5-7-litrov-chernyj-detail 1 -
+/modules/mod_accordion_menu/cache/98-langru-RU/f6b9ae3bcfaf89d655559232e1875086.css 7 http://deltatest.ru/component/virtuemart/elektrika/udliniteli-perenoski
+/component/virtuemart/silovaya-tekhnika/stabilizatory 1 -
+/phpinfo.php 1 -
+/component/virtuemart/poleznoe-dlya-doma/batarejki/results,1-1 1 -
+/component/virtuemart/bytovaya-tekhnika/dlya-kukhni 3 -
+/component/virtuemart/bytovaya-tekhnika/vesy-utyugi 1 -
+/component/virtuemart/elektrika/svetotekhnika/orderDesc/by,product_price/results,1-20 1 -
+/component/virtuemart/bytovaya-tekhnika/dlya-kukhni/by,product_price/results,3-3 1 -
+/component/virtuemart/bytovaya-tekhnika/myasorubki-blendera-sokovyzhimalki/results,11-10 1 -
+/component/virtuemart/poleznoe-dlya-doma/batarejki/by,mf_name/results,2-2 1 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/nasosy/results,6-6 1 -
+/component/virtuemart/elektrika/svetotekhnika/orderDesc/by,product_price/results,1-2 1 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/opryskivateli 2 -
+/---------------- 2 https://www.deltatest.ru/
+/js/mage/cookies.js 1 -
+/modules/mod_accordion_menu/cache/98-langru-RU/4e34ecfe41c649e425d82d43b8e9326a.js 7 http://deltatest.ru/component/virtuemart/elektrika/udliniteli-perenoski
+/component/virtuemart/bytovaya-tekhnika/myasorubki-blendera-sokovyzhimalki/by,mf_name/results,5-6 1 -
+/component/virtuemart/bytovaya-tekhnika/dlya-kukhni/by,product_price/results,2-2 1 -
+/component/virtuemart/bytovaya-tekhnika/dukhovki-shashlychnitsy/orderDesc/by,mf_name/results,2-2 1 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/sadovyj-instrument 1 -
+/components/com_virtuemart/assets/js/facebox.js 1 http://www.deltatest.ru/about-us
+/component/virtuemart/dlya-sadovodov-i-fermerov/opryskivateli/brandspojt-teleskopicheskij-k-opryskivatelyu-2-2m-alyuminievyj-detail 1 -
+/component/virtuemart/ruchnoj-instrument/raskhodniki 2 -
+/component/virtuemart/instrument/mshu/ushm-elektropribor-230-2100p-detail 1 -
+/cache/leo/d712bffc3fe31abb5ef00ff6c70e4a4f.js 4 http://deltatest.ru/component/virtuemart/elektrika/udliniteli-perenoski
+/administrator/index.php 1 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/nasosy/results,7-9 1 -
+/simpla/ 1 -
+/component/virtuemart/poleznoe-dlya-doma/batarejki/results,1-4 1 -
+/modules/mod_callback/tmpl/style.css 7 http://deltatest.ru/component/virtuemart/elektrika/udliniteli-perenoski
+/component/virtuemart/instrument/shurupovjorty 1 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/nasosy/results,9-10 1 -
+/component/virtuemart/bytovaya-tekhnika/dlya-kukhni/orderDesc/results,3-3 1 -
+/component/virtuemart/dlya-remonta-doma 2 -
+/component/virtuemart/poleznoe-dlya-doma/batarejki/by,mf_name 1 -
+/component/virtuemart/bytovaya-tekhnika/dukhovki-shashlychnitsy/orderDesc/by,product_name/results,3-4 1 -
+/component/virtuemart/elektrika/svetotekhnika/results,2-2 1 -
+/component/virtuemart/bytovaya-tekhnika/dlya-kukhni/toster-delta-dl-71-800w-detail/askquestion 1 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/nasosy/results,5-6 1 -
+/components/com_virtuemart/assets/css/facebox.css 1 http://www.deltatest.ru/about-us
+/robots.txt 127 -
+/component/virtuemart/bytovaya-tekhnika/myasorubki-blendera-sokovyzhimalki/orderDesc 1 -
+/manager/ 1 -
+/component/virtuemart/klimaticheskoe-oborudovanie 2 -
+/component/virtuemart/santekhnika/truba-i-furnitura/by,product_name 1 -
+/component/virtuemart/santekhnika/truba-i-furnitura/orderDesc/by,mf_name 1 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/nasosy/results,9-9 1 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/nasosy 1 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/zamki/orderDesc/by,product_price/results,5-8 1 -
+/component/virtuemart/elektrika/svetotekhnika/by,mf_name 1 -
+/media/system/js/mootools-more.js 7 http://deltatest.ru/component/virtuemart/elektrika/udliniteli-perenoski
+/media/system/js/core.js 7 http://deltatest.ru/component/virtuemart/elektrika/udliniteli-perenoski
+/component/virtuemart/instrument/tochilo/by,product_name/results,2-21 1 -
+/component/virtuemart/ruchnoj-instrument 1 -
+/component/virtuemart/dlya-otdykha/results,9-9 1 -
+/component/virtuemart/bytovaya-tekhnika/elektricheskie-i-gazovye-pechki 1 -
+/component/virtuemart/bytovaya-tekhnika/dukhovki-shashlychnitsy/orderDesc/by,product_price/results,4-6 1 -
+/component/virtuemart/bytovaya-tekhnika/dukhovki-shashlychnitsy 1 -
+/component/virtuemart/krasota-i-zdorove/feny-i-plojki/fen-delta-dl-0474-v-nabore-detail 1 -
+/component/virtuemart/instrument/tochilo/by,mf_name/results,3-4 1 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/raznoe 1 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/nasosy/results,11-12 1 -
+/component/virtuemart/krasota-i-zdorove/feny-i-plojki 1 -
+/component/virtuemart/bytovaya-tekhnika/dlya-kukhni/by,mf_name/results,3-3 1 -
+/component/virtuemart/dlya-remonta-doma/stroitelnyj-inventar 1 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/trimery/trimer-elektricheskij-prioritet-et-1800-detail 1 -
+/KlfhsYYs 1 http://www.deltatest.ru/KlfhsYYs
+/component/virtuemart/instrument/lobziki 1 -
+/component/virtuemart/bytovaya-tekhnika/dukhovki-shashlychnitsy/by,mf_name/results,3-4 1 -
+/component/virtuemart/santekhnika/truba-i-furnitura 1 -
+/component/virtuemart/bytovaya-tekhnika/dukhovki-shashlychnitsy/orderDesc/results,4-5 1 -
+/component/virtuemart/televidenie-i-priemniki/pristavki-tv-antenny/tv-pristavka-d-color-va1301-detail 1 -
+/cache/leo/cefe2338ae5005ef5e8489b73a9d9ce1.css 3 http://www.deltatest.ru/component/virtuemart/instrument/dreli-udarnye
+/component/virtuemart/instrument/shurupovjorty/drel-akkamul-shurupovert-engy-ecd-182-18v-detail 1 -
+/component/virtuemart/bytovaya-tekhnika/dukhovki-shashlychnitsy/by,mf_name/results,2-2 1 -
+/component/virtuemart/bytovaya-tekhnika/dlya-kukhni/by,product_name/results,3-4 1 -
+/admin/ 1 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/nasosy/results,10-10 1 -
+/component/virtuemart/bytovaya-tekhnika/dukhovki-shashlychnitsy/orderDesc/by,mf_name/results,3-3 1 -
+/cache/leo/482c22021c5bf9e428d337d7a7c9d243.js 1 http://www.deltatest.ru/about-us
+/component/virtuemart/instrument/mshu 1 -
+/component/virtuemart/poleznoe-dlya-doma/batarejki/results,1-20 1 -
+/component/virtuemart/silovaya-tekhnika 1 -
+/component/virtuemart/bytovaya-tekhnika/chajniki-termosa-kofevarki 2 -
+/modules/mod_accordion_menu/cache/175-langru-RU/4e34ecfe41c649e425d82d43b8e9326a.js 7 http://deltatest.ru/component/virtuemart/elektrika/udliniteli-perenoski
+/component/virtuemart/bytovaya-tekhnika/dlya-kukhni/by,mf_name/results,2-2 1 -
+/assets/global/plugins/jquery-file-upload/server/node/server.js 1 -
+/component/virtuemart/instrument/tochilo/orderDesc/by,mf_name/results,2-4 1 -
+/.well-known/assetlinks.json 1 -
+/component/virtuemart/televidenie-i-priemniki/pristavki-tv-antenny 1 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/dlya-fermerov 1 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/trimery/trimmer-benzin-ural-bk-3700-3-5kvt-detail 1 -
+/component/virtuemart/elektrika/svetotekhnika/orderDesc 1 -
+/component/virtuemart/bytovaya-tekhnika/bojlery-nagrevateli-teny/by,product_price 1 -
+/component/virtuemart/televidenie-i-priemniki 1 -
+/component/virtuemart/bytovaya-tekhnika/dlya-kukhni/by,product_price 1 -
+/component/virtuemart/bytovaya-tekhnika/dlya-kukhni/by,product_price/results,3-4 1 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/komplektuyushchie-k-nasosam 1 -
+/component/virtuemart/instrument/dreli-udarnye/drel-udarnaya-engy-gid-810-detail 1 -
+/components/com_virtuemart/assets/css/vmsite-ltr.css 1 http://www.deltatest.ru/about-us
+/component/virtuemart/dlya-sadovodov-i-fermerov/nasosy/tsentrobezhnye-skvazhinnye-nasosy-vodolej-detail 2 -
+/component/virtuemart/instrument/tochilo/orderDesc/by,mf_name/results,3-22 1 -
+/plugins/system/shadowbox/shadowbox/min/index.php 7 http://deltatest.ru/component/virtuemart/elektrika/udliniteli-perenoski
+/component/virtuemart/instrument/tochilo 1 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/nasosy/results,19-20 1 -
+/component/virtuemart/ruchnoj-instrument/nabor-instrumentov/results,1-3 1 -
+/component/virtuemart/bytovaya-tekhnika/dlya-kukhni/orderDesc/results,3-4 1 -
+/component/virtuemart/elektrika/svetotekhnika/results,1-2 1 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/benzopily 1 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/komplektuyushchie-k-nasosam/results,1-1 1 -
+/component/virtuemart/poleznoe-dlya-doma/batarejki/orderDesc/results,2-2 1 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/nasosy/results,13-15 1 -
+/component/virtuemart/elektrika/svetotekhnika 4 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/nasosy/results,5-5 1 -
+/component/virtuemart/bytovaya-tekhnika/dlya-kukhni/results,1-1 1 -
+/component/virtuemart/poleznoe-dlya-doma/batarejki 1 -
+/component/virtuemart/bytovaya-tekhnika/dukhovki-shashlychnitsy/orderDesc/by,mf_name/results,4-4 1 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/nasosy/results,7-8 1 -
+/js/share42/share42.js 8 http://deltatest.ru/component/virtuemart/elektrika/udliniteli-perenoski
+/component/virtuemart/instrument/tochilo/by,product_price/results,2-2 1 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/nasosy/results,10-12 1 -
+/apple-app-site-association 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 38
+109.167.132.145 14 197 11556334 20180127224138
+95.211.225.158 8 8 338496 20180131172031
+35.162.70.167 6 6 254214 20180131110431
+188.170.72.194 6 41 3731283 20180127220840
+83.149.40.91 6 74 7888621 20180129143206
+93.185.29.190 6 74 7126284 20180128132839
+35.162.141.144 4 4 169248 20180129074151
+188.170.73.9 4 4 169248 20180128002038
+104.6.217.117 4 38 3662448 20180131202141
+192.241.193.203 4 72 7063020 20180127151656
+185.104.248.7 1 1 42312 20180128121127
+199.30.228.141 1 1 42312 20180128131520
+82.146.49.235 1 1 42312 20180130024309
+199.30.25.226 1 35 3577630 20180127215353
+185.57.31.128 2 36 3531554 20180131164710
+66.102.9.19 0 13 1617607 
+181.214.116.192 1 1 42312 20180131134726
+66.102.9.16 2 10 1049015 20180128211936
+213.159.38.90 1 1 42312 20180128191419
+94.181.45.166 1 1 42483 20180127222118
+52.41.211.72 2 2 84624 20180130091840
+138.201.60.47 1 1 42483 20180127184250
+188.242.50.36 3 37 3531554 20180128211242
+93.185.27.90 3 40 3668467 20180128001811
+54.183.130.127 2 2 84795 20180130202013
+51.254.139.2 1 1 42312 20180128095947
+91.201.201.11 1 1 42312 20180131161826
+136.243.79.240 2 36 3619942 20180128133432
+66.102.9.13 0 13 864932 
+167.114.233.118 1 1 42312 20180130025936
+209.0.146.204 2 2 84624 20180129160555
+109.184.104.164 2 36 3531554 20180129115411
+37.28.185.101 1 1 42312 20180129101801
+188.170.83.210 2 36 3620307 20180127221821
+188.165.4.128 1 1 42312 20180131061255
+13.56.229.65 1 1 42312 20180131162131
+81.200.8.9 3 3 126936 20180131185201
+37.143.15.220 2 2 84795 20180131010612
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 5
+20180127 33 387 29803472 12
+20180128 27 234 21943233 13
+20180129 14 116 11674047 6
+20180130 10 10 423120 6
+20180131 19 87 7744058 11
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+5mn-15mn 3
+15mn-30mn 1
+0s-30s 37
+2mn-5mn 3
+30s-2mn 1
+30mn-1h 3
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 8
+/ 77 3172142 47 34
+/vendor/font-awesome/fonts/fontawesome-webfont.woff2 14 1080240 0 7
+/mail/contact_me.php 4 0 0 3
+/vendor/font-awesome/fonts/fontawesome-webfont.eot 2 331484 0 2
+/vendor/bootstrap/css/bootstrap.min.css.map 2 1103282 0 0
+/vendor/font-awesome/fonts/fontawesome-webfont.ttf 2 331096 1 2
+/vendor/bootstrap/js/bootstrap.bundle.min.js.map 1 273872 0 0
+/vendor/font-awesome/fonts/fontawesome-webfont.woff 1 98024 0 0
+END_SIDER

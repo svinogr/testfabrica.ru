@@ -1,0 +1,1717 @@
+AWSTATS DATA FILE 7.0 (build 1.971)
+# If you remove this file, all statistics for date 201803 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.deltatest.ru.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1992                
+POS_TIME 2659                
+POS_VISITOR 76565               
+POS_DAY 93822               
+POS_DOMAIN 3610                
+POS_LOGIN 3843                
+POS_ROBOT 3998                
+POS_WORMS 4716                
+POS_EMAILSENDER 4847                
+POS_EMAILRECEIVER 4990                
+POS_SESSION 94730               
+POS_SIDER 94931               
+POS_FILETYPES 5125                
+POS_DOWNLOADS 5405                
+POS_OS 5453                
+POS_BROWSER 5617                
+POS_SCREENSIZE 7346                
+POS_UNKNOWNREFERER 7420                
+POS_UNKNOWNREFERERBROWSER 7970                
+POS_ORIGIN 8196                
+POS_SEREFERRALS 8341                
+POS_PAGEREFS 8513                
+POS_SEARCHWORDS 8917                
+POS_KEYWORDS 9242                
+POS_MISC 2321                
+POS_ERRORS 9482                
+POS_CLUSTER 3699                
+POS_SIDER_404 9615                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20180401000959 719 179261 3684896695667
+FirstTime 0
+LastTime 20180331234355
+LastUpdate 20180401010103 1 0 0 0 0
+TotalVisits 441                 
+TotalUnique 318                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 480                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 209 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 22 261 25776239 195 372 2371728
+1 17 125 10020411 160 326 4383061
+2 19 190 18037987 163 351 4857047
+3 10 78 7316980 194 337 2286679
+4 12 81 7538841 151 339 2510700
+5 13 151 14955269 188 378 2353291
+6 21 294 28799257 171 361 2996705
+7 23 296 25840699 157 346 3439083
+8 15 51 4796961 191 377 2931818
+9 41 487 44150899 159 350 2689838
+10 50 403 37339028 188 361 2249143
+11 37 313 30527995 165 329 2019636
+12 28 406 40284049 161 407 6263971
+13 39 532 50777047 158 386 2378101
+14 44 616 61377356 186 391 2457857
+15 33 498 49205153 167 329 2624001
+16 62 775 75331878 196 388 2836754
+17 44 602 57729384 164 366 2732754
+18 35 516 51209879 203 381 3308281
+19 44 546 47400606 160 341 2677491
+20 57 550 51223666 209 435 3337980
+21 24 332 32179953 177 381 2861019
+22 35 479 46409572 180 371 2364825
+23 13 150 14475207 174 307 2011141
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 738 8732 832704316
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 16
+no_user_agent 777 32876424 20180331230944 0
+yandex 219 16261360 20180331211950 0
+googlebot 111 5092377 20180331182710 0
+bot[\s_+:,\.\;\/\\-] 55 1438651 20180330134010 0
+crawl 32 1353984 20180320184335 0
+mj12bot 10 423120 20180330063611 0
+favicon 7 296184 20180320134314 0
+seznambot 5 126936 20180329113617 0
+mail\.ru 3 126936 20180318053221 0
+netcraft 3 126936 20180309174304 0
+java\/[0-9] 1 0 20180320205025 0
+[\s_+:,\.\;\/\\-]bot 2 84624 20180331091017 0
+robot 2 84624 20180329154737 0
+python 1 42312 20180301104938 0
+surveybot 1 42312 20180316214112 0
+wget 1 42312 20180329031627 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 11
+css 963 9021775 0 0
+eot 13 2154646 0 0
+png 458 85443291 0 0
+ttf 10 1655480 0 0
+woff 9 882216 0 0
+woff2 199 15354840 0 0
+php 1 0 0 0
+html 506 20902128 0 0
+jpg 5119 681826857 0 0
+js 1453 15018704 0 0
+svg 1 444379 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS 11
+macosx 1506
+linuxandroid 1068
+winlong 5
+winxp 127
+j2me 35
+win2000 1
+winnt 1830
+Unknown 109
+winvista 760
+linux 299
+win7 2992
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 92
+firefox57.0 326
+msie6.0 17
+chrome52.0.2743.116 39
+chrome40.0.2214.115 1
+chrome56.0.2924.92 36
+safari10.1.2 36
+chrome31.0.1650.57 1
+chrome63.0.3223.8 1
+curl 2
+safari9.1.2 1
+chrome58.0.3029.110 296
+firefox2.0.0.13 1
+chrome63.0.3239.84 1
+msie8.0 35
+chrome42.0.2311.90 32
+chrome64.0.3282.167 72
+chrome39.0.2171.65 2
+firefox43.0 1
+chrome62.0.3250.0 1
+firefox59.0 216
+firefox40.1 2
+firefox41.0 1
+chrome62.0.3202.89 1
+chrome49.0.2623.112 1
+chrome42.0.2311.152 1
+chrome64.0.3282.137 44
+chrome65.0.3325.181 541
+firefox99.0 36
+chrome41.0.2224.3 4
+chrome55.0.2883.87 1
+firefox55.0 1
+chrome67.0.3374.0 72
+chrome63.0.3239.132 1553
+chrome62.0.3202.94 224
+firefox7.0.1 2
+firefox45.0 10
+safari11.0.3 108
+chrome63.0.3239.108 37
+mozilla 275
+firefox43.1 1
+chrome64.0.3282.186 1243
+chrome60.0.3112.90 16
+chrome61.0.3163.98 108
+safari 108
+firefox35.0 4
+safari7.0 372
+safari11.0 576
+firefox30.1 1
+chrome38.0.2125.104 1
+android 40
+chrome55.0.2883.91 36
+firefox52.0 3
+chrome56.0.2924.87 37
+opera9.80 37
+chrome33.0.0.0 36
+iphone 1
+chrome39.0.0.0 36
+chrome61.0.3163.100 58
+firefox0.10.1 2
+chrome47.0.2526.111 36
+abrowse 37
+chrome34.0.1847.116 1
+firefox16.0 14
+chrome40.0.2214.85 9
+msie9.0 38
+Unknown 63
+chrome57.0.2987.137 36
+firefox32.0 2
+firefox32.1 1
+chrome49.0.2636.72 2
+chrome63.0.3239.111 1
+firefox17.0 10
+chrome25.0.1349.2 36
+safari10.0 194
+chrome64.0.3282.168 218
+chrome41.0.2272.118 108
+firefox58.0 215
+chrome54.0.2840.99 34
+firefox30.0 2
+chrome59.0.3071.125 72
+chrome41.0.2227.1 2
+chrome45.0.2454.94 2
+chrome62.0.3202.84 72
+safari9.0 38
+chrome45.0.2454.101 10
+chrome65.0.3325.162 154
+msie10.0 60
+chrome61.0.3116.0 182
+chrome65.0.3325.146 72
+firefox3.6.8 5
+chrome65.0.3325.109 257
+firefox34.1 2
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 9
+com.google.GoogleMobile/45.0.0_iPhone/11.1_hw/iPhone7_1 20180322024727
+Mozilla/5.0_(compatible;_Dataprovider.com;) 20180323201007
+Mozilla/5.0_(compatible;_ips-agent) 20180309044057
+Validator.nu/LV 20180317165547
+WhatsApp/2.18.79_A 20180327125713
+Scrapy/1.5.0_(_https://scrapy.org) 20180326094135
+Mozilla/5.0_(compatible;_PR-CY.RU;___https://a.pr-cy.ru) 20180317165547
+Magic_Browser 20180331102527
+GuzzleHttp/6.1.0_curl/7.35.0_PHP/5.5.9-1ubuntu4.14 20180321064133
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 4
+Scrapy/1.5.0_(_https://scrapy.org) 20180326094135
+WhatsApp/2.18.79_A 20180327125713
+Magic_Browser 20180331102527
+Validator.nu/LV 20180317165547
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 218 371
+From1 1 1
+From2 209 239
+From3 11 21
+From4 299 8100
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+google 39 68
+yandex 170 171
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 7
+https://yandex.fr/clck/jsredir 3 3
+https://a.pr-cy.ru/deltatest.ru 3 3
+https://appagg.com/developer/up-developers/ 2 2
+https://yandex.by/clck/jsredir 1 1
+http://www.webviki.ru/www.deltatest.ru 1 1
+https://poisk.skydns.ru/search/ 1 1
+http://domain.com 0 10
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 1
+%d0%b4%d0%b5%d0%bb%d1%8c%d1%82%d0%b0+%d1%82%d0%b5%d1%81%d1%82+%d0%b2%d0%b0%d1%85%d1%82%d0%b5%d0%bd%d0%bd%d1%8b%d0%b9+%d0%bc%d0%be%d1%82%d0%be%d1%80%d0%b8%d1%81%d1%82+2017 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 5
+%d0%b4%d0%b5%d0%bb%d1%8c%d1%82%d0%b0 1
+%d0%b2%d0%b0%d1%85%d1%82%d0%b5%d0%bd%d0%bd%d1%8b%d0%b9 1
+%d0%bc%d0%be%d1%82%d0%be%d1%80%d0%b8%d1%81%d1%82 1
+2017 1
+%d1%82%d0%b5%d1%81%d1%82 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+302 3588 1086010
+206 7 617486
+400 1 264
+404 3675 10539900
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 814
+/component/virtuemart/santekhnika/truba-i-furnitura/by,mf_name 1 -
+/component/virtuemart/instrument/dreli-udarnye/drel-udarnaya-energomash-du20880-detail 1 -
+/docs/prices/kraski-gruntovki.xls 3 -
+/docs/prices/strizhka.xls 2 -
+/component/virtuemart/krasota-i-zdorove/feny-i-plojki/by,mf_name 1 -
+/about-us 2 -
+/images/stories/virtuemart/product/centek-2319.jpg 1 -
+/component/virtuemart/ruchnoj-instrument/rezhushchij/nozhovka-po-metallu-detail 1 -
+/component/virtuemart/dlya-sadovodov-i-fermerov 2 -
+/component/virtuemart/elektrika/rozetki-i-vyklyuchateli 4 -
+/component/virtuemart/instrument/mshu/ushm-kalibr-1801400ek-detail 2 -
+/docs/prices/ventilyatory.xls 1 -
+/component/virtuemart/instrument/perforatory/perforator-engy-ehd-620c-detail 2 -
+/component/virtuemart/elektrika/rozetki-i-vyklyuchateli/by,product_price 1 -
+/installation/index.php 1 -
+/components/com_virtuemart/assets/js/vmsite.js 6 https://deltatest.ru/component/virtuemart/instrument/perforatory/perforator-elektropribor-pr-1200-sds-plus-detail/askquestion
+/component/virtuemart/bytovaya-tekhnika/vesy-utyugi/results,11-10 2 -
+/wp-content/themes/u-design/style.css 1 http://www.deltatest.ru/wp-content/themes/u-design/style.css
+/component/virtuemart/dlya-sadovodov-i-fermerov/dlya-fermerov/zernodrobilka-zubr-1a-dlya-zerna-detail 2 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/poliv-i-oroshenie/shlang-palisad-palisad-detail 4 -
+/component/virtuemart/bytovaya-tekhnika/myasorubki-blendera-sokovyzhimalki/by,mf_name 1 -
+/component/virtuemart/bytovaya-tekhnika/dlya-kukhni/toster-delta-dl-71-800w-detail 1 -
+/svyazatsya-s-nami/ 7 https://deltatest.ru/svyazatsya-s-nami/
+/component/virtuemart/krasota-i-zdorove/feny-i-plojki/fen-centek-2221-detail 2 -
+/component/virtuemart/vsjo-dlya-svarki/svarochnye-apparaty/orderDesc 1 -
+/component/virtuemart/vsjo-dlya-svarki/svarochnye-apparaty/svarochnyj-apparat-invertornyj-resanta-isa-190-detail 1 -
+/component/virtuemart/vsjo-dlya-svarki/elektrody-i-maski/svarochnaya-provoloka-0-8mm-1kg-574-576-detail 2 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/tros-verevka-khomuty/by,product_price 1 -
+/component/virtuemart/silovaya-tekhnika/generatory-i-kompressory/by,product_name 2 -
+/component/virtuemart/bytovaya-tekhnika/dukhovki-shashlychnitsy/el-dukhovka-delta-23v-term-tajm-f-c-a-t-t-detail 1 -
+/component/virtuemart/dlya-remonta-doma/betonosmesiteli-miksery/orderDesc 2 -
+/mscms/ 2 https://deltatest.ru/mscms/
+/component/virtuemart/dlya-sadovodov-i-fermerov/komplektuyushchie-k-nasosam/nipel-latun-rezba-rezba-f25-20-detail 1 -
+/docs/prices/zamki.xls 1 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/dlya-fermerov/setka-dlya-inkubatora-gusinaya-i-utinaya-detail 2 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/trimery/by,product_price 2 -
+/component/virtuemart/ruchnoj-instrument/nabor-instrumentov/orderDesc 1 -
+/component/virtuemart/instrument/dreli-udarnye/drel-elektricheskaya-udarnaya-sturm-id2078s-detail 1 -
+/component/virtuemart/klimaticheskoe-oborudovanie/obogrevateli 10 -
+/component/virtuemart/bytovaya-tekhnika/myasorubki-blendera-sokovyzhimalki/blender-delta-dl-7011d-200vt-2skorosti-detail 1 -
+/component/virtuemart/klimaticheskoe-oborudovanie/obogrevateli/orderDesc 2 -
+/component/virtuemart/vsjo-dlya-svarki/svarochnye-apparaty/svarochnyj-apparat-invertornyj-kalibr-new-svi-155ap-detail 1 -
+/component/virtuemart/poleznoe-dlya-doma/fonari/fonar-podarochnyj-power-style-detail 2 -
+/component/virtuemart/silovaya-tekhnika/generatory-i-kompressory/kompressor-maslyanyj-kalibr-kmk-160024-detail 2 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/benzopily/by,product_name 1 -
+/component/virtuemart/televidenie-i-priemniki/radiopriemniki/by,product_price 2 -
+/component/virtuemart/instrument/lobziki/lobzik-lem-830e-kalibr-detail 1 -
+/component/virtuemart/elektrika 5 -
+/component/virtuemart/silovaya-tekhnika/generatory-i-kompressory/by,mf_name 2 -
+/component/virtuemart/ruchnoj-instrument/nabor-instrumentov/nabor-slesarnyj-montazhnyj-stels-14105-detail 1 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/zamki/by,mf_name 1 -
+/skidki-aktsii 4 -
+/component/virtuemart/televidenie-i-priemniki/raskhodniki-dlya-tv/orderDesc 2 -
+/apple-touch-icon-152x152-precomposed.png 1 -
+/component/virtuemart/elektrika/lampy/by,product_price 2 -
+/component/virtuemart/bytovaya-tekhnika/chajniki-termosa-kofevarki/termos-mallony-1800jh-1-8l-steklo-detail 1 -
+/docs/prices/elektrody-maski.xls 2 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/opryskivateli/opryskivatel-zhuk-na-5-7-litrov-chernyj-detail 2 -
+/component/virtuemart/krasota-i-zdorove/mashinki-dlya-strizhki/by,product_name 2 -
+/plugins/system/shadowbox/shadowbox/examples/build/shadowbox.css 5 https://deltatest.ru/component/virtuemart/instrument/perforatory/perforator-elektropribor-pr-1200-sds-plus-detail/askquestion
+/component/virtuemart/bytovaya-tekhnika/myasorubki-blendera-sokovyzhimalki/sokovyzhimalka-delta-dl-0225-250vt-detail 1 -
+/dostavka-i-oplata 4 -
+/component/virtuemart/klimaticheskoe-oborudovanie/obogrevateli/by,product_name 2 -
+/contact-form.php 1 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/dlya-fermerov/separator-bytovoj-elektricheskij-rotor-sp-003-01-detail 2 -
+/component/virtuemart/krasota-i-zdorove/mashinki-dlya-strizhki/mashinka-dlya-strizhki-centek-ct-2110-detail 2 -
+/component/virtuemart/bytovaya-tekhnika/dlya-kukhni 4 -
+/component/virtuemart/avtoprinadlezhnosti 6 -
+/images/stories/virtuemart/product/shpagat-polipropilenovyj.jpg 1 -
+/component/virtuemart/televidenie-i-priemniki/pristavki-tv-antenny/by,product_price 1 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/dlya-fermerov/zernodrobilka-zubr-2a-detail 2 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/dlya-fermerov/zernodrobilka-zubr-3a-detail 2 -
+/docs/prices/sadovyi-inventar.xls 2 -
+/component/virtuemart/instrument/kraskopult-i-nabory/kraskopult-elektropribor-kr-130-detail 2 -
+/component/virtuemart/silovaya-tekhnika/generatory-i-kompressory/orderDesc 2 -
+/component/virtuemart/televidenie-i-priemniki/radiopriemniki/by,product_name 3 -
+/component/virtuemart/dlya-remonta-doma/kraska-i-gruntovka/orderDesc 2 -
+/component/virtuemart/klimaticheskoe-oborudovanie/obogrevateli/by,product_name/results,3-4 1 -
+/component/virtuemart/silovaya-tekhnika/stabilizatory/stabilizator-asn-500-1ts-resanta-0-5kvt-detail 1 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/nasosy/nasos-vodolej-3-s-zashchitoj-detail 2 -
+/component/virtuemart/instrument/lobziki/lobzik-lem-850e-kalibr-detail 3 -
+/users/sign_in 2 https://deltatest.ru/users/sign_in
+/component/virtuemart/poleznoe-dlya-doma/fonari/fonar-oblik-6002-akkamulyator-detail 2 -
+/component/virtuemart/televidenie-i-priemniki/radiopriemniki/radiopriemnik-7865-detail 2 -
+/component/virtuemart/bytovaya-tekhnika/chajniki-termosa-kofevarki/termos-mallony-fs2614-1-4l-nerzh-stal-detail 1 -
+/docs/prices/price-www.deltakamensk.ru.zip 2 -
+/component/virtuemart/silovaya-tekhnika/istochniki-besperebojnogo-pitaniya/orderDesc 2 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/zamki/zamok-navesnoj-extra-vs-detail 1 -
+/component/virtuemart/ruchnoj-instrument/raskhodniki 4 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/nasosy/nasos-vintovoj-4water-fgd3-1-2-50-0-37-detail 1 -
+/component/virtuemart/bytovaya-tekhnika/dukhovki-shashlychnitsy/by,product_name 1 -
+/component/virtuemart/ruchnoj-instrument/nabor-instrumentov/by,mf_name 1 -
+/kontakty 1 -
+/component/virtuemart/elektrika/provod-i-kabel/by,product_price 3 -
+/component/virtuemart/vsjo-dlya-svarki/elektrody-i-maski/svarochnaya-provoloka-0-8mm-1kg-detail 2 -
+/component/virtuemart/instrument/lobziki/orderDesc 2 -
+/component/virtuemart/vsjo-dlya-svarki/elektrody-i-maski/elektrody-d-3-manolit-detail 2 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/trimery/trimmer-benzo-prioritet-vt-33-detail 2 -
+/component/virtuemart/elektrika/lampy/lampa-nakalivaniya-60w-75w-95w-e27-detail 1 -
+/component/virtuemart/santekhnika/raskhodniki2016-03-25-19-49-14/by,mf_name/results,3-3 1 -
+/component/virtuemart/dlya-remonta-doma/betonosmesiteli-miksery/by,mf_name 2 -
+/component/virtuemart/poleznoe-dlya-doma/fonari/by,mf_name 2 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/dlya-fermerov/orderDesc 2 -
+/components/com_virtuemart/assets/js/languages/jquery.validationEngine-ru.js 6 https://deltatest.ru/component/virtuemart/instrument/perforatory/perforator-elektropribor-pr-1200-sds-plus-detail/askquestion
+/component/virtuemart/bytovaya-tekhnika/elektricheskie-i-gazovye-pechki/by,mf_name 1 -
+/component/virtuemart/bytovaya-tekhnika/elektricheskie-i-gazovye-pechki/orderDesc 2 -
+/component/virtuemart/bytovaya-tekhnika/chajniki-termosa-kofevarki/by,product_price 3 -
+/component/virtuemart/instrument/lobziki/by,product_price 2 -
+/docs/prices/boilery-nagrevateli-teny.xls 2 -
+/component/virtuemart/dlya-remonta-doma/valiki-shpateli-kisti/by,product_name 2 -
+/docs/prices/rozetki-vykluchateli.xls 1 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/komplektuyushchie-k-nasosam/results,21-20 2 -
+/component/virtuemart/bytovaya-tekhnika/myasorubki-blendera-sokovyzhimalki/blender-kelli-kl-5020-detail 1 -
+/component/virtuemart/ruchnoj-instrument/izmeritelnyj 2 -
+//wordpress/wp-includes/wlwmanifest.xml 1 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/opryskivateli/by,product_price 2 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/raznoe/orderDesc 1 -
+/component/virtuemart/elektrika/provod-i-kabel/provod-pvs-detail 1 -
+/component/virtuemart/instrument/tochilo/tochilo-elektropribor-te-125-250-detail 1 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/sadovyj-instrument/results,11-10 2 -
+/component/virtuemart/vsjo-dlya-svarki/elektrody-i-maski/maska-svarshchika-plastik-detail 2 -
+/docs/prices/betonosmesiteli-miksery.xls 2 -
+/docs/prices/svetotehnica.xls 1 -
+/media/system/js/core.js 6 https://deltatest.ru/component/virtuemart/instrument/perforatory/perforator-elektropribor-pr-1200-sds-plus-detail/askquestion
+/component/virtuemart/elektrika/svetotekhnika/by,mf_name 1 -
+/component/virtuemart/bytovaya-tekhnika/vesy-utyugi/vesy-elektricheskie-torgovye-so-schjotchikom-tseny-sprint-st-acs-detail 1 -
+/component/virtuemart/krasota-i-zdorove/feny-i-plojki/by,product_name 1 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/komplektuyushchie-k-nasosam/results,11-10 2 -
+/docs/prices/truba-furnitura 1 -
+/component/virtuemart/elektrika/rozetki-i-vyklyuchateli/orderDesc 2 -
+/component/virtuemart/krasota-i-zdorove/mashinki-dlya-strizhki/orderDesc 2 -
+/component/virtuemart/bytovaya-tekhnika/vesy-utyugi/utyug-centek-2339-detail 1 -
+/component/virtuemart/instrument/shurupovjorty/drel-shurupovert-interskol-sh-700er-detail 1 -
+/wp-content/uploads/2018/01/zgepd_oddsd.php 1 http://deltatest.ru
+/wp-content/uploads/2018/02/zgepd_oddsd.php 1 http://deltatest.ru
+/component/virtuemart/vsjo-dlya-svarki/elektrody-i-maski/by,product_price 2 -
+/component/virtuemart/klimaticheskoe-oborudovanie/obogrevateli/orderDesc/results,4-4 1 -
+/component/virtuemart/krasota-i-zdorove/feny-i-plojki/fen-delta-dl-0474-v-nabore-detail 1 -
+/images/stories/virtuemart/product/betonomeshalka-sturm-cm20180r--750vt-180l-chugunnyj-venets.jpg 1 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/komplektuyushchie-k-nasosam/results,31-30 2 -
+/component/virtuemart/klimaticheskoe-oborudovanie/obogrevateli/teplovaya-pushka-resanta-tep-2000k-detail 2 -
+/android_contact_name 1 -
+/images/stories/virtuemart/product/drel-shurupovert-interskol-sh-700er-700vt-4000obmin.jpg 1 -
+/component/virtuemart/bytovaya-tekhnika/chajniki-termosa-kofevarki/chajnyj-nabor-energy-en-202-chajnik-1-7l-zavarnik-detail 2 -
+/component/virtuemart/santekhnika/raskhodniki2016-03-25-19-49-14/by,mf_name 3 -
+/component/virtuemart/krasota-i-zdorove/feny-i-plojki 6 -
+/component/virtuemart/instrument/shurupovjorty/drel-akkamulyatorn-elektropribor-da-18-2k-777-detail 2 -
+/component/virtuemart/poleznoe-dlya-doma/fonari 7 -
+/component/virtuemart/instrument/shurupovjorty/by,product_name 3 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/trimery/trimer-elektricheskij-prioritet-et-1800-detail 1 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/nasosy/nasos-beshtau-mini-10m-detail 4 -
+/component/virtuemart/santekhnika/raskhodniki2016-03-25-19-49-14/by,mf_name/results,2-2 1 -
+/component/virtuemart/instrument/kraskopult-i-nabory/orderDesc 2 -
+/component/virtuemart/instrument/shurupovjorty/orderDesc 2 -
+//blog/wp-includes/wlwmanifest.xml 1 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/komplektuyushchie-k-nasosam/bochonok-latun-rezba-rezba-f15-detail 2 -
+/component/virtuemart/instrument/perforatory/by,mf_name 2 -
+/component/virtuemart/santekhnika/truba-i-furnitura 4 -
+/component/virtuemart/krasota-i-zdorove/mashinki-dlya-strizhki/mashinka-dlya-strizhki-energy-en-720-detail 2 -
+//site/wp-includes/wlwmanifest.xml 1 -
+/administrator 2 https://deltatest.ru/administrator
+/component/virtuemart/dlya-sadovodov-i-fermerov/sadovyj-instrument/vedro-plastmassovoe-lemira-10l-detail 2 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/sadovyj-instrument/nozhovka-sadovaya-park-ns0051-skladnaya-detail 1 -
+/component/virtuemart/televidenie-i-priemniki/pristavki-tv-antenny/tv-pristavka-electronics-vv8902hd-detail 2 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/komplektuyushchie-k-nasosam/obratnyj-klapan-1-detail 1 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/opryskivateli/opryskivatel-shprits-lemira-detail 2 -
+/docs/prices/tros-verevka-homuty.xls 1 -
+/component/virtuemart/klimaticheskoe-oborudovanie/ventilyatory/ventilyator-napolnyj-lumme-lu-103-40sm-detail 1 -
+/component/virtuemart/bytovaya-tekhnika/myasorubki-blendera-sokovyzhimalki/blender-delta-dl-7002-300-vt-detail 1 -
+/component/virtuemart/silovaya-tekhnika/stabilizatory/orderDesc 1 -
+/component/virtuemart/instrument/shurupovjorty/drel-elektropribor-da-18-2k-detail 1 -
+/component/virtuemart/bytovaya-tekhnika/myasorubki-blendera-sokovyzhimalki/sokovyzhimalka-delta-dl-0222-300vt-detail 1 -
+/component/virtuemart/instrument/mshu/ushm-kalibr-180e-detail 1 -
+/component/virtuemart/bytovaya-tekhnika/elektricheskie-i-gazovye-pechki/elektroplita-mechta-111t-1-konforochnaya-1000vt-detail 1 -
+/component/virtuemart/dlya-otdykha/balon-gazovyj-5l-12l-27l-i-50l-detail 1 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/komplektuyushchie-k-nasosam/by,product_price 2 -
+/apple-touch-icon.png 2 -
+/modules/mod_accordion_menu/cache/175-langru-RU/4e34ecfe41c649e425d82d43b8e9326a.js 3 http://deltatest.ru/component/virtuemart/santekhnika/raskhodniki2016-03-25-19-49-14/by,mf_name/results,3-3
+/component/virtuemart/silovaya-tekhnika 3 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/sadovyj-instrument/lopata-shtykovaya-s-2-bortikami-detail 2 -
+/component/virtuemart/bytovaya-tekhnika/elektricheskie-i-gazovye-pechki/elektrogril-scarlett-sc-122-2000vt-detail 1 -
+/netcat/ 2 https://deltatest.ru/netcat/
+/components/com_virtuemart/assets/js/jquery.noConflict.js 6 https://deltatest.ru/component/virtuemart/instrument/perforatory/perforator-elektropribor-pr-1200-sds-plus-detail/askquestion
+/component/virtuemart/krasota-i-zdorove/feny-i-plojki/plojka-centek-2071-detail 1 -
+/component/virtuemart/dlya-remonta-doma/valiki-shpateli-kisti 7 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/tros-verevka-khomuty/by,mf_name 1 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/dlya-fermerov/separator-motor-stsm-80-detail 3 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/trimery/trimmer-benzin-ural-bk-3700-3-5kvt-detail 2 -
+/index.php/component/users/ 1 -
+/component/virtuemart/silovaya-tekhnika/generatory-i-kompressory 7 -
+/component/virtuemart/bytovaya-tekhnika/bojlery-nagrevateli-teny/by,product_price 2 -
+/component/virtuemart/bytovaya-tekhnika/vesy-utyugi/utyug-centek-2319-detail 1 -
+/component/virtuemart/bytovaya-tekhnika/dukhovki-shashlychnitsy/dukhovka-elektro-energy-en-1004-detail 1 -
+/component/virtuemart/televidenie-i-priemniki/pristavki-tv-antenny/orderDesc 3 -
+/component/virtuemart/bytovaya-tekhnika/dlya-kukhni/by,product_price 1 -
+/templates/webcore_beginning/css/template.css 6 https://deltatest.ru/component/virtuemart/instrument/perforatory/perforator-elektropribor-pr-1200-sds-plus-detail/askquestion
+/wp-content/uploads/zgepd_oddsd.php 1 http://deltatest.ru
+/component/virtuemart/avtoprinadlezhnosti/by,mf_name 1 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/sadovyj-instrument/vedro-plastmassovoe-romashka-8l-10l-12l-15l-detail 2 -
+/apple-touch-icon-precomposed.png 2 -
+/component/virtuemart/instrument/tochilo 7 http://deltatest.ru/component/virtuemart/instrument/tochilo
+/component/virtuemart/dlya-sadovodov-i-fermerov/sadovyj-instrument/vedro-plastmassovoe-ogorodnoe-8-10l-tsvetnoe-detail 2 -
+/component/virtuemart/instrument/lobziki/by,mf_name 2 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/dlya-fermerov/by,mf_name 3 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/opryskivateli/opryskivatel-og-301-m4-ruchnoj-tuman-detail 2 -
+/component/virtuemart/poleznoe-dlya-doma/akkumulyatory 4 -
+/admin 3 https://deltatest.ru/admin
+/images/stories/virtuemart/product/opryskivatel--zhuk-chernyj.jpg 1 -
+/wp-content/plugins/wpstorecart/readme.txt 1 http://www.deltatest.ru/wp-content/plugins/wpstorecart/readme.txt
+/component/virtuemart/dlya-sadovodov-i-fermerov/nasosy/results,31-30 2 -
+/component/virtuemart/silovaya-tekhnika/stabilizatory/by,mf_name 1 -
+/component/virtuemart/televidenie-i-priemniki/raskhodniki-dlya-tv/by,product_price 2 -
+/component/virtuemart/dlya-remonta-doma/kraska-i-gruntovka/by,product_price 2 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/zamki/zamok-navesnoj-omron-vs-detail 1 -
+/component/virtuemart/klimaticheskoe-oborudovanie/ventilyatory 5 -
+/component/virtuemart/krasota-i-zdorove 6 -
+/component/virtuemart/bytovaya-tekhnika/dukhovki-shashlychnitsy/el-dukhovka-mechta-15m-s-2-mya-konforkami-detail 1 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/nasosy/nasos-avtomat-dlya-povysheniya-davleniya-xinwilo-x15g-15-detail 1 -
+/component/virtuemart/televidenie-i-priemniki/pristavki-tv-antenny/antenna-ulichnaya-televizionnaya-locus-detail 2 -
+/component/virtuemart/instrument/perforatory/perforator-hr-1830-makita-detail 2 -
+/component/virtuemart/vsjo-dlya-svarki/elektrody-i-maski/elektrody-d-2-0-standart-detail 2 -
+/wp-content/plugins/formcraft/file-upload/server/php/upload.php 1 http://www.deltatest.ru/wp-content/plugins/formcraft/file-upload/server/php/upload.php
+/component/virtuemart/dlya-sadovodov-i-fermerov/raznoe/by,product_price 1 -
+/apple-app-site-association 8 -
+/component/virtuemart/bytovaya-tekhnika/myasorubki-blendera-sokovyzhimalki 4 -
+/component/virtuemart/instrument/dreli-udarnye/drel-elektricheskaya-kalibr-de-650eru-e-detail 1 -
+/components/com_virtuemart/assets/js/vmprices.js 6 https://deltatest.ru/component/virtuemart/instrument/perforatory/perforator-elektropribor-pr-1200-sds-plus-detail/askquestion
+/component/virtuemart/elektrika/provod-i-kabel/provod-pvs-649-detail 3 -
+/component/virtuemart/krasota-i-zdorove/feny-i-plojki/by,product_price 1 -
+/docs/prices/fen-ploika.xls 1 -
+/contact 1 -
+/component/virtuemart/instrument/tochilo/tochilo-elektropribor-te-150-350-detail 1 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/zamki 4 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/raznoe/raspylitel-pistolet-8-rezhimov-detail 1 -
+/.well-known/apple-app-site-association 8 -
+/images/stories/virtuemart/product/ushm-elektropribor-125,800e--125mm-800vt.regul.oborot.jpg 1 -
+/docs/prices/dlya-fermerov.xls 2 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/tros-verevka-khomuty/khomut-chervyachnyj-20mm-s-barashkom-detail 2 -
+/administrator.php 2 https://deltatest.ru/administrator.php
+/media/system/js/mootools-core.js 8 https://deltatest.ru/component/virtuemart/instrument/perforatory/perforator-elektropribor-pr-1200-sds-plus-detail/askquestion
+/component/virtuemart/dlya-sadovodov-i-fermerov/trimery/trimmer-elektricheskij-elektropribor-et-1600-detail 3 -
+/docs/prices/nasosy.xls 4 -
+/component/virtuemart/instrument/lobziki/by,product_name 2 -
+/modules/mod_accordion_menu/cache/175-langru-RU/5ca6535a9a1e6feccffdbcec93d6ac56.css 3 http://deltatest.ru/component/virtuemart/santekhnika/raskhodniki2016-03-25-19-49-14/by,mf_name/results,3-3
+/component/virtuemart/bytovaya-tekhnika/dukhovki-shashlychnitsy/by,product_price 1 -
+/component/virtuemart/televidenie-i-priemniki/pristavki-tv-antenny/antenna-komnatnaya-laguna-mv-dmv-detail 2 -
+/component/virtuemart/televidenie-i-priemniki/pristavki-tv-antenny/antenna-abrakom-031-komnatnaya-s-usilitelem-detail 2 -
+/component/virtuemart/instrument/dreli-udarnye/drel-elektricheskaya-kalibr-de-670eru-detail 1 -
+/component/virtuemart/poleznoe-dlya-doma/akkumulyatory/by,product_price 1 -
+/images/stories/virtuemart/product/ten-duga-rezba-f22--1.0 1 -
+/component/virtuemart/elektrika/udliniteli-perenoski 3 -
+/component/virtuemart/bytovaya-tekhnika/elektricheskie-i-gazovye-pechki/gazovaya-plita-komfort-pgb-4-ke-4-kh-konforochnaya-detail 1 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/poliv-i-oroshenie/orderDesc 2 -
+/component/virtuemart/krasota-i-zdorove/mashinki-dlya-strizhki/by,mf_name 2 -
+/cache/leo/e13c9ad3d49a876f47ee998ea84cd5a2.css 3 http://deltatest.ru/component/virtuemart/santekhnika/raskhodniki2016-03-25-19-49-14/by,mf_name/results,3-3
+/component/virtuemart/dlya-otdykha 6 -
+/component/virtuemart/vsjo-dlya-svarki/elektrody-i-maski/results,11-10 2 -
+/log.php 1 -
+/component/virtuemart/silovaya-tekhnika/stabilizatory/stabilizator-asn-12000-1-ts-resanta-12kvt-detail 2 -
+/component/virtuemart/elektrika/provod-i-kabel/by,product_name 2 -
+/component/virtuemart/bytovaya-tekhnika/myasorubki-blendera-sokovyzhimalki/by,product_price 1 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/nasosy/by,product_name 2 -
+/user/register 1 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/opryskivateli/opryskivatel-ruchnoj-zhuk-1-5l-2l-detail 2 -
+/component/virtuemart/instrument/shurupovjorty/drel-akkamul-shurupovert-engy-ecd-181-18v-detail 2 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/sadovyj-instrument/nozhovka-sadovaya-park-ns0019-detail 2 -
+/component/virtuemart/silovaya-tekhnika/istochniki-besperebojnogo-pitaniya/by,product_name 2 -
+/component/virtuemart/instrument/tochilo/by,mf_name 1 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/poliv-i-oroshenie 6 -
+/component/virtuemart/silovaya-tekhnika/stabilizatory/stabilizator-asn-2000n-1-ts-resanta-lux-2kvt-detail 1 -
+/images/stories/virtuemart/product/kartridzh-filtr-polipropilenovyj.jpg 1 -
+/component/virtuemart/dlya-otdykha/orderDesc 2 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/raznoe/by,product_name 1 -
+/docs/prices/duhovki-shashlychicy.xls 1 -
+/component/virtuemart/santekhnika/raskhodniki2016-03-25-19-49-14/orderDesc 3 -
+/docs/prices/mshu.xls 4 -
+/upload.php 1 -
+/component/virtuemart/krasota-i-zdorove/mashinki-dlya-strizhki/mashinka-dlya-strizhki-ekonom-ek-400-detail 2 -
+/component/virtuemart/instrument/mshu/ushm-elektropribor-125-800-detail 2 -
+/component/virtuemart/vsjo-dlya-svarki/elektrody-i-maski/by,mf_name 2 -
+/component/virtuemart/bytovaya-tekhnika/vesy-utyugi 10 -
+/component/virtuemart/klimaticheskoe-oborudovanie/obogrevateli/by,product_price 2 -
+/aipkey.php 1 http://deltatest.ru
+/component/virtuemart/klimaticheskoe-oborudovanie/ventilyatory/by,mf_name 1 -
+/component/virtuemart/vsjo-dlya-svarki/elektrody-i-maski/orderDesc 3 -
+/component/virtuemart/vsjo-dlya-svarki/svarochnye-apparaty/svarochnyj-apparat-invertornyj-veldmaster-isa-210m-detail 1 -
+/component/virtuemart/bytovaya-tekhnika/myasorubki-blendera-sokovyzhimalki/results,11-10 1 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/zamki/zamok-navesnoj-locco-vs-detail 1 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/trimery/shpulka-dlya-benzotrimmera-detail 2 -
+/component/virtuemart/vsjo-dlya-svarki/elektrody-i-maski/maska-svarshchika-nn-ts-3s-14-karton-detail 2 -
+/images/stories/virtuemart/product/nipel-latun-rezba-rezba-f25-20.jpg 1 -
+/component/virtuemart/vsjo-dlya-svarki/svarochnye-apparaty/svarochnyj-apparat-invertornyj-resanta-iwm-250-energolux-detail 1 -
+/component/virtuemart/silovaya-tekhnika/istochniki-besperebojnogo-pitaniya/istochnik-besperebojnogo-pitaniya-epsi-detail 3 -
+/component/virtuemart/instrument/tochilo/orderDesc 1 -
+/component/virtuemart/bytovaya-tekhnika/elektricheskie-i-gazovye-pechki/elektroplita-zlata-2kh-konforochnaya-detail 1 -
+/component/virtuemart/instrument/dreli-udarnye/by,product_name 2 -
+/component/virtuemart/bytovaya-tekhnika/chajniki-termosa-kofevarki/chajnik-metallicheskij-elbrus-1-1-8l-detail 1 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/opryskivateli 7 -
+/components/com_virtuemart/assets/css/validationEngine.jquery.css 5 https://deltatest.ru/component/virtuemart/instrument/perforatory/perforator-elektropribor-pr-1200-sds-plus-detail/askquestion
+/component/virtuemart/dlya-sadovodov-i-fermerov/zamki/zamok-navesnoj-try-rhumb-vs-latun-detail 1 -
+/component/virtuemart/televidenie-i-priemniki/raskhodniki-dlya-tv/by,mf_name 2 -
+/component/virtuemart/instrument/mshu/ushm-elektropribor-125-800e-detail 1 -
+/2c891c3780582b1de1fc2812621ae67d 1 https://a.pr-cy.ru/deltatest.ru
+/cache/leo/d712bffc3fe31abb5ef00ff6c70e4a4f.js 3 http://deltatest.ru/component/virtuemart/santekhnika/raskhodniki2016-03-25-19-49-14/by,mf_name/results,3-3
+/component/virtuemart/instrument/mshu/ushm-elektropribor-230-2100p-detail 1 -
+/component/virtuemart/santekhnika/raskhodniki2016-03-25-19-49-14/by,product_name 3 -
+/wp-content/uploads/2017/11/zgepd_oddsd.php 1 http://deltatest.ru
+//wp/wp-includes/wlwmanifest.xml 1 -
+/component/virtuemart/bytovaya-tekhnika/chajniki-termosa-kofevarki/chajnik-delta-dl-1007-2200vt-1-7l-stalnoj-detail 1 -
+/modules/mod_callback/tmpl/style.css 3 http://deltatest.ru/component/virtuemart/santekhnika/raskhodniki2016-03-25-19-49-14/by,mf_name/results,3-3
+/component/virtuemart/instrument/shurupovjorty 6 -
+/component/virtuemart/instrument/mshu/by,product_name 3 -
+/component/virtuemart/instrument/dreli-udarnye/drel-udarnaya-engy-gid-810-461-462-detail 1 -
+/component/virtuemart/dlya-remonta-doma/stroitelnyj-inventar/by,product_name 3 -
+/docs/prices/vesy-utugi.xls 2 -
+/images/stories/virtuemart/product/opryskivatel-gidroagregat-8l.jpg 1 -
+/component/virtuemart/silovaya-tekhnika/istochniki-besperebojnogo-pitaniya/by,mf_name 2 -
+/component/virtuemart/bytovaya-tekhnika/myasorubki-blendera-sokovyzhimalki/by,product_name 1 -
+/jm-ajax/upload_file/ 1 http://www.deltatest.ru/jm-ajax/upload_file/
+/components/com_virtuemart/assets/css/facebox.css 5 https://deltatest.ru/component/virtuemart/instrument/perforatory/perforator-elektropribor-pr-1200-sds-plus-detail/askquestion
+/component/virtuemart/elektrika/rozetki-i-vyklyuchateli/rozetka-2-aya-sz-nakladnaya-belorus-detail 1 -
+/docs/prices/santehnika-rashodniki.xls 2 -
+/component/virtuemart/dlya-remonta-doma/betonosmesiteli-miksery/betonosmesitel-sturm-cm20120r-600vt-120l-chugunnyj-venets-detail 2 -
+/sitemap.xml 3 http://deltatest.ru/sitemap.xml
+/docs/prices/rashodniki-dly-tv.xls 2 -
+/component/virtuemart/poleznoe-dlya-doma/akkumulyatory/akkumulyator-gp-1000ma-aaa-detail 1 -
+/component/virtuemart/krasota-i-zdorove/mashinki-dlya-strizhki/mashinka-dlya-strizhki-energy-en-719-detail 2 -
+/component/virtuemart/santekhnika/truba-i-furnitura/by,product_name 1 -
+/component/virtuemart/dlya-remonta-doma/stroitelnyj-inventar/orderDesc 2 -
+/contacts 1 -
+/component/virtuemart/bytovaya-tekhnika/vesy-utyugi/by,product_name 2 -
+/component/virtuemart/krasota-i-zdorove/feny-i-plojki/orderDesc 1 -
+/media/system/js/mootools-more.js 8 https://deltatest.ru/component/virtuemart/instrument/perforatory/perforator-elektropribor-pr-1200-sds-plus-detail/askquestion
+/component/virtuemart/dlya-remonta-doma/valiki-shpateli-kisti/kist-ploskaya-stayer-20-100mm-derevyannaya-ruchka-detail 2 -
+/component/virtuemart/santekhnika 3 -
+/component/virtuemart/dlya-remonta-doma/betonosmesiteli-miksery/by,product_price 2 -
+/component/virtuemart/elektrika/provod-i-kabel 8 -
+/component/virtuemart/bytovaya-tekhnika/chajniki-termosa-kofevarki/by,mf_name 2 -
+/component/virtuemart/bytovaya-tekhnika/vesy-utyugi/by,product_price 2 -
+/docs/prices/trimmera.xls 2 -
+/component/virtuemart/ruchnoj-instrument/rezhushchij/by,product_name 1 -
+/component/virtuemart/silovaya-tekhnika/stabilizatory/results,31-30 1 -
+/component/virtuemart/elektrika/provod-i-kabel/by,mf_name 2 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/komplektuyushchie-k-nasosam/bak-dlya-nasosnoj-stantsii-36l-detail 2 -
+/browserconfig.xml 1 -
+/component/virtuemart/dlya-otdykha/results,11-10 3 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/raznoe 6 -
+/component/virtuemart/bytovaya-tekhnika/chajniki-termosa-kofevarki/chajnik-energy-e-238-2l-disk-detail 1 -
+/component/virtuemart/instrument/dreli-udarnye 6 -
+/component/virtuemart/televidenie-i-priemniki/raskhodniki-dlya-tv/orderDesc/by,mf_name 1 -
+/component/virtuemart/krasota-i-zdorove/mashinki-dlya-strizhki 6 -
+/component/virtuemart/instrument/mshu/ushm-engy-gag-1050-detail 2 -
+/component/virtuemart/instrument/lobziki/lobzik-lb40760n-energomash-detail 2 -
+/images/stories/virtuemart/product/tv-pristavka-kaskad-va2203.jpg 1 -
+/images/stories/virtuemart/product/khomut-metallicheskij-nerzhavka.jpg 1 -
+/component/virtuemart/silovaya-tekhnika/stabilizatory/stabilizator-asn-1500n-1-ts-resanta-lux-1-5kvt-detail 1 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/benzopily/by,mf_name 1 -
+/component/virtuemart/bytovaya-tekhnika/chajniki-termosa-kofevarki/by,product_name 2 -
+/apple-touch-icon-120x120.png 1 -
+/docs/prices/drel-udar.xls 1 -
+/component/virtuemart/bytovaya-tekhnika/myasorubki-blendera-sokovyzhimalki/myasorubka-chudesnitsa-emsh-202r-detail 1 -
+/component/virtuemart/dlya-remonta-doma/valiki-shpateli-kisti/s1-malyarnyj-nabor-sturm-detail 2 -
+/component/virtuemart/santekhnika/truba-i-furnitura/orderDesc 2 -
+/images/stories/virtuemart/product/vodolej-btspe.jpg 1 -
+/docs/prices/shurupovert.xls 2 -
+/component/virtuemart/televidenie-i-priemniki/pristavki-tv-antenny/antenna-komnatnaya-delta-k131-dmv-detail 2 -
+/component/virtuemart/ruchnoj-instrument/rezhushchij/by,mf_name 1 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/nasosy/results,11-10 2 -
+/component/virtuemart/bytovaya-tekhnika/dlya-kukhni/toster-delta-dl-62-detail 1 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/sadovyj-instrument/sekator-s-2-rezhushchimi-lezviyami-park-rkm-009-15sm-detail 1 -
+/component/virtuemart/vsjo-dlya-svarki/svarochnye-apparaty/svarochnyj-apparat-invertornyj-resanta-isa-220pn-detail 1 -
+/component/virtuemart/instrument/dreli-udarnye/by,mf_name 2 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/opryskivateli/opryskivatel-elektricheskij-trudyaga-16l-detail 2 -
+/component/virtuemart/bytovaya-tekhnika/chajniki-termosa-kofevarki/chajnik-centek-ct-1036-2l-detail 1 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/sadovyj-instrument/bur-sadovyj-1m-s-nasadkami-150mm-i-200mm-detail 2 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/dlya-fermerov/termoregulyator-dlya-inkubatora-1kvt-detail 2 -
+/bitrix/admin/htmleditor2/aipkey.php 1 http://deltatest.ru
+/component/virtuemart/vsjo-dlya-svarki/elektrody-i-maski 6 -
+/component/virtuemart/instrument/mshu/ugloshlifovalnaya-mashina-detail 2 -
+/component/virtuemart/bytovaya-tekhnika/bojlery-nagrevateli-teny/anod-detail 1 -
+/component/virtuemart/instrument/mshu/by,product_price 2 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/sadovyj-instrument/grabli-veernye-metallicheskimi-ruchkami-detail 2 -
+/component/virtuemart/krasota-i-zdorove/feny-i-plojki/plojka-irit-detail 1 -
+/.well-known/assetlinks.json 8 -
+/component/virtuemart/santekhnika/raskhodniki2016-03-25-19-49-14/kartridzh-filtr-polipropilenovyj-detail 1 -
+/component/virtuemart/dlya-otdykha/gamak-polotnyanyj-ham-04-200kh120sm-detail 2 -
+/contact-us 2 -
+/docs/prices/lobzik.xls 2 -
+/docs/prices/radiopriemniki.xlsx 3 -
+/component/virtuemart/elektrika/svetotekhnika/orderDesc 1 -
+/docs/prices/udliniteli-perenoski.xls 3 -
+/component/virtuemart/instrument/perforatory/perforator-engy-ehd-850-detail 2 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/komplektuyushchie-k-nasosam 7 http://deltatest.ru/component/virtuemart/dlya-sadovodov-i-fermerov/komplektuyushchie-k-nasosam
+/docs/prices/provod-kadel.xls 2 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/nasosy/tsentrobezhnye-skvazhinnye-nasosy-vodolej-detail 2 -
+/docs/prices/tv-pristavki-antenny.xls 2 -
+/ckupload/ckupload.php 1 -
+/component/virtuemart/ruchnoj-instrument/nabor-instrumentov/nabor-slesarnyj-montazhnyj-matriks-13586-detail 1 -
+/component/virtuemart/poleznoe-dlya-doma/akkumulyatory/akkumulyator-gp-1300ma-aaa-detail 1 -
+/component/virtuemart/vsjo-dlya-svarki/elektrody-i-maski/elektrody-d-3-novocherkask-detail 2 -
+/component/virtuemart/silovaya-tekhnika/stabilizatory/stabilizator-asn-1000-resanta-lux-1kvt-detail 1 -
+/component/virtuemart/poleznoe-dlya-doma/fonari/by,product_price 2 -
+/component/virtuemart/krasota-i-zdorove/feny-i-plojki/fen-centek-2201-detail 1 -
+/docs/prices/valiki-shpatelya-kisti.xls 2 -
+/docs/prices/obogrevateli.xls 3 -
+/component/virtuemart/krasota-i-zdorove/feny-i-plojki/shchiptsy-dlya-volos-centek-ct-2005-detail 1 -
+/component/virtuemart/elektrika/svetotekhnika 4 -
+/administrator/components/com_simplephotogallery/lib/uploadFile.php 1 http://www.deltatest.ru/administrator/components/com_simplephotogallery/lib/uploadFile.php
+/component/virtuemart/silovaya-tekhnika/generatory-i-kompressory/by,product_price 2 -
+/components/com_virtuemart/assets/css/validationEngine.template.css 6 https://deltatest.ru/component/virtuemart/instrument/perforatory/perforator-elektropribor-pr-1200-sds-plus-detail/askquestion
+/component/virtuemart/dlya-remonta-doma/kraska-i-gruntovka/gruntovka-gf-radugamaler-detail 2 -
+/component/virtuemart/bytovaya-tekhnika/bojlery-nagrevateli-teny/vodonagrevatel-garanterm-es-65v-tr-detail 2 -
+/docs/prices/perforator.xls 2 -
+/component/virtuemart/bytovaya-tekhnika/elektricheskie-i-gazovye-pechki/elektroplita-zlata-1-konforochnaya-detail 1 -
+/component/virtuemart/bytovaya-tekhnika/vesy-utyugi/utyug-centek-2322-detail 1 -
+/images/stories/virtuemart/product/zernodrobilka-zubrenok-.jpg 1 -
+/docs/prices/dlya-otdyha.xls 3 -
+/component/virtuemart/instrument/shurupovjorty/results,11-10 2 -
+/index.php 13 https://deltatest.ru/index.php
+/component/virtuemart/dlya-sadovodov-i-fermerov/tros-verevka-khomuty 5 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/opryskivateli/orderDesc 2 -
+/component/virtuemart/instrument/shurupovjorty/drel-akkamul-kalibr-da-122-li-lon-detail 2 -
+/component/virtuemart/instrument/perforatory/by,product_price 2 -
+/component/virtuemart/bytovaya-tekhnika/myasorubki-blendera-sokovyzhimalki/myasorubka-rotor-diva-emsh-35-300-3-detail 1 -
+/component/virtuemart/bytovaya-tekhnika/vesy-utyugi/utyug-centek-2320-detail 2 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/zamki/zamok-navesnoj-vs-krab-kd-90-or2-9-19-detail 1 -
+/component/virtuemart/poleznoe-dlya-doma/fonari/by,product_name 2 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/komplektuyushchie-k-nasosam/by,product_name 2 -
+/component/virtuemart/instrument/kraskopult-i-nabory 8 -
+/admin.php 2 https://deltatest.ru/admin.php
+/component/virtuemart/elektrika/lampy 8 -
+/component/virtuemart/poleznoe-dlya-doma/akkumulyatory/akkumulyator-kosmos-6v-4-5ah-detail 1 -
+/component/virtuemart/bytovaya-tekhnika/elektricheskie-i-gazovye-pechki/gazovaya-plita-komfort-pgb-2k-2-kh-konforochnaya-detail 1 -
+/wp-content/uploads/2017/12/zgepd_oddsd.php 1 http://deltatest.ru
+/docs/prices/svarochnye-apparaty.xls 2 -
+/component/virtuemart/poleznoe-dlya-doma/batarejki/by,product_price 1 -
+/component/virtuemart/elektrika/lampy/orderDesc 2 -
+/component/virtuemart/elektrika/rozetki-i-vyklyuchateli/by,mf_name 1 -
+/component/virtuemart/instrument/lobziki/lobzik-elektropribor-mp-65e-detail 2 -
+/component/virtuemart/dlya-otdykha/plita-pokhodnaya-gazovaya-komfort-pgp-2-3-detail 1 -
+/component/virtuemart/vsjo-dlya-svarki/elektrody-i-maski/elektrododerzhatel-svarochnyj-tok-300a-detail 2 -
+/component/virtuemart/santekhnika/raskhodniki2016-03-25-19-49-14/by,product_price 2 -
+/component/virtuemart/bytovaya-tekhnika/bojlery-nagrevateli-teny/gazovyj-protochnyj-vodonagrevatel-edisson-s-20-detail 1 -
+/component/virtuemart/instrument/dreli-udarnye/results,2-2 1 -
+/images/stories/virtuemart/product/opryskivatel-gidroagregat-9l.jpg 1 -
+/component/virtuemart/bytovaya-tekhnika/vesy-utyugi/vesy-napolnye-vhp-150-detail 2 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/tros-verevka-khomuty/by,product_name 1 -
+/component/virtuemart/silovaya-tekhnika/stabilizatory/stabilizator-asn-10000-1-ts-resanta-10kvt-detail 2 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/tros-verevka-khomuty/khomut-metallicheskij-5-8-1-2-1-1-2-20mm-1-1-4-25mm-detail 2 -
+/component/virtuemart/santekhnika/raskhodniki2016-03-25-19-49-14/results,1-3 1 -
+/component/virtuemart/santekhnika/raskhodniki2016-03-25-19-49-14/schetchik-vody-sgv-15-betar-g-chistopol-588-detail 2 -
+/component/virtuemart/dlya-remonta-doma/stroitelnyj-inventar/by,mf_name 2 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/sadovyj-instrument/vedro-otsinkovannoe-9l-12l-15l-detail 2 -
+/images/stories/virtuemart/product/pila-benz.-ural-50.jpg 1 -
+/component/virtuemart/dlya-remonta-doma/betonosmesiteli-miksery/betonosmesitel-sturm-cm20180r-750vt-180l-chugunnyj-venets-detail 1 -
+/component/virtuemart/poleznoe-dlya-doma/batarejki/batarejka-krona-duracell-9v-detail 1 -
+/component/virtuemart/instrument/mshu/by,mf_name 2 -
+/component/virtuemart/silovaya-tekhnika/generatory-i-kompressory/generator-benzinovyj-baumaster-2-5kvt-detail 2 -
+/docs/prices/stroi-inventar.xls 2 -
+/component/virtuemart/bytovaya-tekhnika/dlya-kukhni/orderDesc 1 -
+/component/virtuemart/bytovaya-tekhnika/chajniki-termosa-kofevarki/results,11-10 2 -
+/docs/prices/tochilo.xls 1 -
+/component/virtuemart/televidenie-i-priemniki/radiopriemniki 8 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/zamki/orderDesc 1 -
+/component/virtuemart/silovaya-tekhnika/stabilizatory/stabilizator-kalibri-stbn-3000m-3kvt-detail 1 -
+/cache/widgetkit/widgetkit-1ac03f92.js 5 https://deltatest.ru/component/virtuemart/instrument/perforatory/perforator-elektropribor-pr-1200-sds-plus-detail/askquestion
+/component/virtuemart/dlya-sadovodov-i-fermerov/opryskivateli/opryskivatel-lemira-og-301-ruchnoj-detail 2 -
+/wp-content/plugins/cherry-plugin/admin/css/cherry-admin-plugin.css 4 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/sadovyj-instrument/by,product_price 2 -
+/wp-login.php 1 -
+/wp-content/plugins/wp-front-end-repository/js/uploadify/uploadify.css 1 http://www.deltatest.ru/wp-content/plugins/wp-front-end-repository/js/uploadify/uploadify.css
+/component/virtuemart/silovaya-tekhnika/stabilizatory 4 -
+/docs/prices/chainiki-termosa-kofemolki.xls 2 -
+/component/virtuemart/vsjo-dlya-svarki/svarochnye-apparaty/svarochnyj-apparat-invertornyj-veldmaster-isa-190pn-detail 1 -
+/component/virtuemart/dlya-otdykha/ugol-drevesnyj-5kg-detail 1 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/zamki/by,product_name 1 -
+/component/virtuemart/televidenie-i-priemniki/radiopriemniki/radiopriemnik-607-detail 2 -
+/cache/widgetkit/widgetkit-15362c32.css 6 https://deltatest.ru/component/virtuemart/instrument/perforatory/perforator-elektropribor-pr-1200-sds-plus-detail/askquestion
+/component/virtuemart/bytovaya-tekhnika/dukhovki-shashlychnitsy/orderDesc 1 -
+/component/virtuemart/dlya-remonta-doma/betonosmesiteli-miksery/betonosmesitel-sturm-cm20140r-600vt-140l-chugunnyj-venets-detail 3 -
+/component/virtuemart/ruchnoj-instrument/nabor-instrumentov 4 -
+/component/virtuemart/instrument/kraskopult-i-nabory/by,product_name 3 -
+/component/virtuemart/dlya-otdykha/balonchik-gazovyj-220ml-detail 1 -
+/---------------- 36 -
+/component/virtuemart/televidenie-i-priemniki/radiopriemniki/by,mf_name 2 -
+/cms/admin/ 2 https://deltatest.ru/cms/admin/
+/license.php 4 -
+/component/virtuemart/bytovaya-tekhnika/bojlery-nagrevateli-teny/gazovyj-protochnyj-vodonagrevatel-edisson-s-20-g-kamin-detail 2 -
+/component/virtuemart/dlya-remonta-doma/valiki-shpateli-kisti/maklovitsa-stayer-detail 2 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/dlya-fermerov/termoregulyator-dlya-inkubatora-tsifrovoj-detail 2 -
+/component/virtuemart/dlya-remonta-doma/valiki-shpateli-kisti/der-master-valik-mekhanicheskij-detail 2 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/sadovyj-instrument 10 -
+/component/virtuemart/elektrika/svetotekhnika/svetilnik-svetodiodnyj-sll-010-16vt-detail 1 -
+/ads.txt 1 -
+/component/virtuemart/bytovaya-tekhnika/bojlery-nagrevateli-teny 8 -
+/component/virtuemart/instrument/tochilo/tochilo-uglovoe-kalibr-teu-150-200-400-detail 2 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/nasosy/nasosy-rucheek-tekhnopribor-g-mogilev-detail 2 -
+/component/virtuemart/poleznoe-dlya-doma 2 -
+/component/virtuemart/ruchnoj-instrument/nabor-instrumentov/nabor-slesarnyj-montazhnyj-stels-14106-detail 1 -
+/component/virtuemart/instrument/mshu/results,11-10 3 -
+/component/virtuemart/instrument/shurupovjorty/by,mf_name 2 -
+/modules/mod_fxprev/mod_fxprev.xml 4 -
+/readme.html 2 http://deltatest.ru/readme.html
+/images/stories/virtuemart/product/nozhovka-po-derevu-500mm-shag-zuba-6,5mm.jpg 1 -
+/component/virtuemart/dlya-remonta-doma 4 -
+/component/virtuemart/bytovaya-tekhnika/dlya-kukhni/orderDesc/results,3-3 1 -
+/component/virtuemart/ruchnoj-instrument/kusachki-otvertki-ploskogubtsy 4 -
+/images/stories/virtuemart/product/brandspojt-teleskopicheskij.jpg 1 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/poliv-i-oroshenie/by,mf_name 3 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/trimery 6 -
+/component/virtuemart/poleznoe-dlya-doma/fonari/orderDesc 2 -
+/component/virtuemart/instrument/kraskopult-i-nabory/kraskopult-elektropribor-kr-400-detail/askquestion 1 -
+/component/virtuemart/bytovaya-tekhnika/bojlery-nagrevateli-teny/vodonagrevatel-protochnyj-garanterm-ghm-350-3-5kvt-detail 1 -
+/component/virtuemart/krasota-i-zdorove/mashinki-dlya-strizhki/mashinka-dlya-strizhki-centek-ct-2109-detail 2 -
+/component/virtuemart/ruchnoj-instrument/rezhushchij/by,product_price 1 -
+/component/virtuemart/dlya-remonta-doma/kraska-i-gruntovka/by,product_name 2 -
+/component/virtuemart/vsjo-dlya-svarki/svarochnye-apparaty/by,product_name 1 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/nasosy/by,mf_name 2 -
+/component/virtuemart/bytovaya-tekhnika/elektricheskie-i-gazovye-pechki/by,product_name 1 -
+/component/virtuemart/klimaticheskoe-oborudovanie/obogrevateli/teplovaya-pushka-resanta-tep-3000k-detail 2 -
+/component/virtuemart/instrument/mshu/ushm-kalibr-1501400ek-detail 2 -
+/component/virtuemart/ruchnoj-instrument/nabor-instrumentov/by,product_name 1 -
+/robots.txt 1876 -
+/component/virtuemart/bytovaya-tekhnika/myasorubki-blendera-sokovyzhimalki/orderDesc 1 -
+/component/virtuemart/elektrika/provod-i-kabel/kabel-vvg-p-ng-detail 2 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/opryskivateli/results,11-10 2 -
+/component/virtuemart/dlya-remonta-doma/valiki-shpateli-kisti/orderDesc 2 -
+/component/virtuemart/bytovaya-tekhnika/chajniki-termosa-kofevarki/chajnik-delta-dl-1008-1100vt-1-0l-detail 1 -
+/component/virtuemart/dlya-remonta-doma/stroitelnyj-inventar/yashchik-pod-instrument-sturm-tbprof-detail 2 -
+/component/virtuemart/televidenie-i-priemniki/pristavki-tv-antenny/antenna-komnatnaya-delta-k331-02-detail 2 -
+/component/virtuemart/instrument/mshu/ushm-elektropribor-125-800dm-detail 2 -
+/component/virtuemart/instrument/shurupovjorty/drel-akkamulyatorn-elektropribor-da-14-2k-detail 2 -
+/component/virtuemart/bytovaya-tekhnika/vesy-utyugi/orderDesc 2 -
+/component/virtuemart/instrument/dreli-udarnye/orderDesc 2 -
+/component/virtuemart/silovaya-tekhnika/stabilizatory/stabilizator-asn-500n-1-ts-resanta-0-5kvt-detail 1 -
+/component/virtuemart/bytovaya-tekhnika/chajniki-termosa-kofevarki/chajnik-delta-dl-1039-1-7l-2200vt-detail 2 -
+/component/virtuemart/silovaya-tekhnika/stabilizatory/stabilizator-asn-2000-1-ts-resanta-2kvt-detail 2 -
+/wp-content/uploads/2017/09/zgepd_oddsd.php 1 http://deltatest.ru
+/component/virtuemart/dlya-sadovodov-i-fermerov/zamki/orderDesc/by,product_price/results,5-8 2 -
+/feedback 1 -
+/component/virtuemart/dlya-remonta-doma/valiki-shpateli-kisti/by,mf_name 2 -
+/component/virtuemart/silovaya-tekhnika/stabilizatory/stabilizator-asn-5000-1-ts-resanta-5kvt-detail 2 -
+/images/stories/virtuemart/product/nipel-latun-rezba-rezba-f20.jpg 1 -
+/docs/prices/akkumulyatory.xls 1 -
+/component/virtuemart/klimaticheskoe-oborudovanie/obogrevateli/by,mf_name/results,3-4 1 -
+/component/virtuemart/ruchnoj-instrument 3 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/opryskivateli/opryskivatel-komfort-elektricheskij-eo-10-detail 2 -
+/component/virtuemart/krasota-i-zdorove/feny-i-plojki/fen-delta-dl-0465-detail 1 -
+/component/virtuemart/poleznoe-dlya-doma/batarejki/by,product_name 1 -
+/component/virtuemart/silovaya-tekhnika/stabilizatory/stabilizator-asn-5000n-1-ts-resanta-lux-5kvt-detail 1 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/komplektuyushchie-k-nasosam/orderDesc 2 -
+/component/virtuemart/bytovaya-tekhnika/dukhovki-shashlychnitsy 5 -
+/docs/prices/dlya-kuhni%20.xlsx 1 -
+/component/virtuemart/dlya-remonta-doma/stroitelnyj-inventar/stremyanka-ufuk-5-6-7-8-9-10-stupenchataya-detail 2 -
+/component/virtuemart/dlya-remonta-doma/betonosmesiteli-miksery 6 -
+/docs/prices/el-gas-pechka.xls 1 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/zamki/zamok-navesnoj-park-vsepogodnyj-detail 1 -
+/component/virtuemart/ruchnoj-instrument/nabor-instrumentov/nabor-golovok-sturm-1045-20-st45-detail 1 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/sadovyj-instrument/by,product_name 2 -
+/component/virtuemart/poleznoe-dlya-doma/akkumulyatory/by,product_name 1 -
+/component/virtuemart/avtoprinadlezhnosti/by,product_price 1 -
+/component/virtuemart/instrument/lobziki 7 -
+/docs/prices/opryskivateli.xls 2 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/komplektuyushchie-k-nasosam/nipel-latun-rezba-rezba-f20-15-detail 2 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/opryskivateli/opryskivatel-zhuk-na-4-6-8-9-10-litrov-oranzhevyj-detail 2 -
+/component/virtuemart/santekhnika/truba-i-furnitura/by,product_price 1 -
+/component/virtuemart/silovaya-tekhnika/stabilizatory/stabilizator-asn-3000n-1-ts-resanta-lux-3kvt-detail 2 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/sadovyj-instrument/grabli-vitye-12-i-14-zubev-detail 2 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/trimery/orderDesc 2 -
+/component/virtuemart/elektrika/lampy/by,mf_name 2 -
+/component/virtuemart/bytovaya-tekhnika/elektricheskie-i-gazovye-pechki/elektroplita-belarus-1001-1-konfor-1000vt-detail 1 -
+/component/virtuemart/televidenie-i-priemniki/pristavki-tv-antenny/tv-pristavka-d-color-va1301-detail 1 -
+/manager 2 https://deltatest.ru/manager
+/component/virtuemart/instrument/shurupovjorty/drel-akkamul-shurupovert-engy-ecd-182-18v-detail 1 -
+/component/virtuemart/dlya-remonta-doma/valiki-shpateli-kisti/by,product_price 3 -
+/docs/prices/komplektuyushie-k-nasosam.xls 3 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/zamki/zamok-navesnoj-apecs-pd-detail 1 -
+/component/virtuemart/instrument/shurupovjorty/by,product_price 2 -
+/404.php 1 http://deltatest.ru
+/component/virtuemart/ruchnoj-instrument/rezhushchij/orderDesc 1 -
+/component/virtuemart/santekhnika/raskhodniki2016-03-25-19-49-14/results,3-3 1 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/komplektuyushchie-k-nasosam/bak-dlya-nasosnoj-stantsii-100l-detail 2 -
+/component/virtuemart/klimaticheskoe-oborudovanie/ventilyatory/ventilyator-nastolnyj-komfort-vs-16-detail 1 -
+/component/virtuemart/dlya-otdykha/by,mf_name 3 -
+/component/virtuemart/bytovaya-tekhnika/vesy-utyugi/vesy-napolnye-delta-d-920-4-detail 2 -
+/component/virtuemart/instrument/dreli-udarnye/by,product_price 1 -
+/component/virtuemart/poleznoe-dlya-doma/fonari/fonar-na-lob-6631-linza-detail 1 -
+/docs/prices/lampy.xls 2 -
+/component/virtuemart/instrument/perforatory/perforator-elektropribor-pr-1200-sds-plus-detail/askquestion 1 -
+/component/virtuemart/krasota-i-zdorove/feny-i-plojki/results,11-10 1 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/opryskivateli/by,product_name 2 -
+/components/com_b2jcontact/css/b2jcontact.css 6 -
+/component/virtuemart/bytovaya-tekhnika/chajniki-termosa-kofevarki/orderDesc 2 -
+/component/virtuemart/klimaticheskoe-oborudovanie/ventilyatory/by,product_price 1 -
+/component/virtuemart/televidenie-i-priemniki/pristavki-tv-antenny/by,mf_name 2 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/trimery/trimmer-benzinovyj-tajga-bg-3650-detail 2 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/poliv-i-oroshenie/by,product_name 2 -
+/component/virtuemart/poleznoe-dlya-doma/batarejki/orderDesc 1 -
+/wp-content/uploads/2017/04/zgepd_oddsd.php 1 http://deltatest.ru
+/component/virtuemart/instrument/perforatory/orderDesc 2 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/benzopily/by,product_price 2 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/trimery/leska-zvezda-3-0mm-12m-detail 2 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/opryskivateli/by,mf_name 2 -
+/component/virtuemart/dlya-remonta-doma/stroitelnyj-inventar/by,product_price 2 -
+/component/virtuemart/dlya-otdykha/gazovaya-gorelka-pezopodzhig-ks-1006-detail 2 -
+/component/virtuemart/santekhnika/raskhodniki2016-03-25-19-49-14/schetchik-vody-sgv-15-betar-g-chistopol-detail 1 -
+/component/virtuemart/vsjo-dlya-svarki/svarochnye-apparaty/svarochnyj-apparat-invertornyj-resanta-isa-140-detail 2 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/benzopily 4 -
+/component/virtuemart/dlya-remonta-doma/kraska-i-gruntovka/by,mf_name 2 -
+/component/virtuemart/dlya-remonta-doma/betonosmesiteli-miksery/by,product_name 2 -
+/wp-content/uploads/2017/06/zgepd_oddsd.php 1 http://deltatest.ru
+/component/virtuemart/poleznoe-dlya-doma/batarejki 7 -
+/component/virtuemart/poleznoe-dlya-doma/fonari/fonar-na-lob-10svetodiodov-kosmos-akkumulyator-detail 2 -
+/component/virtuemart/instrument/shurupovjorty/drel-elektropribor-da-18-2l-detail 2 -
+/component/virtuemart/dlya-otdykha/by,product_name 3 -
+/images/stories/virtuemart/product/opryskivatel-gidroagregat-6l.jpg 1 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/zamki/zamok-velosipednyj-apecs-detail 1 -
+/component/virtuemart/bytovaya-tekhnika/bojlery-nagrevateli-teny/by,mf_name 2 -
+/docs/prices/fonari.xls 2 -
+/component/virtuemart/instrument/perforatory 6 -
+/js/share42/share42.js 3 http://deltatest.ru/component/virtuemart/santekhnika/raskhodniki2016-03-25-19-49-14/by,mf_name/results,3-3
+/component/virtuemart/bytovaya-tekhnika/dlya-kukhni/by,product_name 1 -
+/component/virtuemart/vsjo-dlya-svarki/elektrody-i-maski/by,product_name 2 -
+/images/stories/virtuemart/product/elektrody-d-3-standart-ano-21.jpg 1 -
+/component/virtuemart/santekhnika/raskhodniki2016-03-25-19-49-14/kartridzh-filtr-nit-detail 2 -
+/component/virtuemart/bytovaya-tekhnika/elektricheskie-i-gazovye-pechki/elektroplita-comfort-pen-1-konforochnaya-1000vt-detail 1 -
+/component/virtuemart/dlya-remonta-doma/stroitelnyj-inventar/yashchik-pod-instrument-kalibr-detail 2 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/benzopily/pila-benzinovaya-carver-38-16k-detail 1 -
+/component/virtuemart/instrument/mshu/orderDesc 2 -
+/component/virtuemart/vsjo-dlya-svarki/svarochnye-apparaty/svarochnyj-apparat-invertornyj-veldmaster-isa-220pn-detail 1 -
+/component/virtuemart/krasota-i-zdorove/mashinki-dlya-strizhki/by,product_price 2 -
+/component/virtuemart/vsjo-dlya-svarki/svarochnye-apparaty/by,mf_name 1 -
+/wp-content/uploads/2017/10/zgepd_oddsd.php 1 http://deltatest.ru
+/component/virtuemart/elektrika/svetotekhnika/by,product_name 1 -
+/component/virtuemart/elektrika/svetotekhnika/svetilnik-svetodiodnyj-nakladnoj-kruglyj-12vt-detail 1 -
+/images/stories/virtuemart/product/shlang-rezinovyj.jpg 1 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/dlya-fermerov/zernodrobilka-zubrenok-dlya-zerna-i-kukuruzy-detail 2 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/nasosy/nasos-avtomatdlya-povysheniya-davleniya-xinwilo-x15g-10-a-detail 2 -
+/docs/prices/stab.xls 1 -
+/component/virtuemart/televidenie-i-priemniki/pristavki-tv-antenny/antenna-dvb-t2-kaskad-detail 2 -
+/component/virtuemart/bytovaya-tekhnika/dlya-kukhni/elektro-vafelnitsa-delta-dl-32-detail 2 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/sadovyj-instrument/tyapka-samozatochnaya-detail 1 -
+/component/virtuemart/silovaya-tekhnika/istochniki-besperebojnogo-pitaniya 9 -
+/component/virtuemart/bytovaya-tekhnika/bojlery-nagrevateli-teny/orderDesc 2 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/trimery/by,product_name 2 -
+/component/virtuemart/santekhnika/raskhodniki2016-03-25-19-49-14 9 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/sadovyj-instrument/sekator-park-detail 1 -
+/docs/prices/benzopily.xls 1 -
+/component/virtuemart/ruchnoj-instrument/rezhushchij 7 -
+/component/virtuemart/instrument 2 -
+/component/virtuemart/bytovaya-tekhnika/elektricheskie-i-gazovye-pechki/elektroplita-mechta-212t-2-kh-konforochnaya-detail 1 -
+/component/virtuemart/bytovaya-tekhnika/elektricheskie-i-gazovye-pechki/by,product_price 1 -
+/component/virtuemart/instrument/mshu/ushm-kalibr-125e900-detail 2 -
+/component/virtuemart/dlya-otdykha/gazovaya-gorelka-pezopodzhig-is09001-detail 1 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/sadovyj-instrument/by,mf_name 2 -
+/component/virtuemart/silovaya-tekhnika/stabilizatory/stabilizator-asn-1000-1-ts-resanta-1kvt-detail 2 -
+/component/virtuemart/bytovaya-tekhnika/vesy-utyugi/vesy-napolnye-delta-d-9207-7-detail 1 -
+/component/virtuemart/vsjo-dlya-svarki/svarochnye-apparaty/by,product_price 1 -
+/docs/prices/kraskopult.xls 2 -
+/apple-touch-icon-152x152.png 1 -
+/component/virtuemart/instrument/perforatory/by,product_name 2 -
+/component/virtuemart/elektrika/rozetki-i-vyklyuchateli/by,product_name 1 -
+/component/virtuemart/dlya-otdykha/by,product_price 2 -
+/component/virtuemart/krasota-i-zdorove/mashinki-dlya-strizhki/mashinka-dlya-strizhki-energy-en-717-detail 2 -
+/modules/mod_accordion_menu/cache/98-langru-RU/f6b9ae3bcfaf89d655559232e1875086.css 3 http://deltatest.ru/component/virtuemart/santekhnika/raskhodniki2016-03-25-19-49-14/by,mf_name/results,3-3
+/component/virtuemart/dlya-sadovodov-i-fermerov/komplektuyushchie-k-nasosam/nipel-latun-rezba-rezba-f20-detail 1 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/raznoe/by,mf_name 1 -
+/component/virtuemart/elektrika/lampy/by,product_name 2 -
+/component/virtuemart/televidenie-i-priemniki/raskhodniki-dlya-tv 8 -
+/component/virtuemart/avtoprinadlezhnosti/orderDesc 1 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/nasosy/nasos-avtomat-dlya-povysheniya-davleniya-xinwilo-x15g-15-detail/askquestion 2 -
+/component/virtuemart/klimaticheskoe-oborudovanie/obogrevateli/teploventilyator-komfort-tvg-2-detail 2 -
+/components/com_virtuemart/assets/js/jquery.validationEngine.js 5 https://deltatest.ru/component/virtuemart/instrument/perforatory/perforator-elektropribor-pr-1200-sds-plus-detail/askquestion
+/component/virtuemart/bytovaya-tekhnika/dukhovki-shashlychnitsy/elektroshashlychnitsa-eshv-1-0220-1000vt-detail 1 -
+/engine/engine.php 2 -
+/component/virtuemart/klimaticheskoe-oborudovanie/obogrevateli/teploventilyator-nsb-200s3v-detail 2 -
+/component/virtuemart/dlya-remonta-doma/betonosmesiteli-miksery/drel-mikser-fiolent-md1-11-1100vt-detail 3 -
+/component/virtuemart/poleznoe-dlya-doma/akkumulyatory/by,mf_name 1 -
+/component/virtuemart/instrument/kraskopult-i-nabory/by,product_price 2 -
+/component/virtuemart/klimaticheskoe-oborudovanie/ventilyatory/orderDesc 1 -
+//cms/wp-includes/wlwmanifest.xml 1 -
+//wp-includes/wlwmanifest.xml 1 -
+/images/stories/virtuemart/product/trimer-benzin.ural-bk-3700-3,5kvt.jpg 1 -
+/component/virtuemart/instrument/kraskopult-i-nabory/kraskopult-elektropribor-kr-400-detail 2 -
+/modules/mod_accordion_menu/cache/98-langru-RU/4e34ecfe41c649e425d82d43b8e9326a.js 3 http://deltatest.ru/component/virtuemart/santekhnika/raskhodniki2016-03-25-19-49-14/by,mf_name/results,3-3
+/component/virtuemart/dlya-otdykha/gamak-polotnyanyj-ham-3-200kh120sm-s-meshkom-detail 2 -
+/component/virtuemart/bytovaya-tekhnika 5 -
+/wp-content/plugins/simple-ads-manager/sam-ajax-admin.php 3 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/nasosy/nasos-vintovoj-4water-fgd3-2-5-50-0-75-detail 2 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/opryskivateli/opryskivatel-komfort-oemr-16-elektricheskij-detail 2 -
+/component/virtuemart/poleznoe-dlya-doma/batarejki/akkumulyator-kosmos-6v-4-5ah-627-detail 1 -
+/component/virtuemart/bytovaya-tekhnika/vesy-utyugi/vesy-napolnye-vhp-300-detail 2 -
+/wp-content/plugins/xaisyndicate/idx.php 4 -
+/component/virtuemart/klimaticheskoe-oborudovanie/obogrevateli/by,mf_name 3 -
+/components/com_virtuemart/assets/js/facebox.js 6 https://deltatest.ru/component/virtuemart/instrument/perforatory/perforator-elektropribor-pr-1200-sds-plus-detail/askquestion
+/component/virtuemart/silovaya-tekhnika/stabilizatory/by,product_name 1 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/opryskivateli/brandspojt-teleskopicheskij-k-opryskivatelyu-2-2m-alyuminievyj-detail 1 -
+/component/virtuemart/dlya-remonta-doma/kraska-i-gruntovka/belosnezhnaya-kraska-vd-ak-vgt-detail 2 -
+/component/virtuemart/bytovaya-tekhnika/bojlery-nagrevateli-teny/by,product_name 3 -
+/docs/prices/gen.xls 2 -
+/component/virtuemart/elektrika/provod-i-kabel/kabel-provod-sip-2kh16-detail 2 -
+/component/virtuemart/bytovaya-tekhnika/vesy-utyugi/vesy-napolnye-vhp-300-detail/askquestion 1 -
+/images/stories/virtuemart/product/lobzik-elektropribor-mp-80e-800vt-500-3000obmin-lazer.jpg 1 -
+/component/virtuemart/instrument/perforatory/perforator-elektropribor-pr-1200-sds-plus-detail 2 -
+/administrator/index.php 17 -
+/component/virtuemart/krasota-i-zdorove/feny-i-plojki/fen-delta-dl-0489r-700w-3-nasadki-detail 1 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/komplektuyushchie-k-nasosam/by,mf_name 2 -
+/component/virtuemart/poleznoe-dlya-doma/batarejki/by,mf_name 1 -
+/component/virtuemart/poleznoe-dlya-doma/akkumulyatory/orderDesc 1 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/dlya-fermerov/by,product_name 2 -
+/component/virtuemart/klimaticheskoe-oborudovanie/obogrevateli/by,product_price/results,3-4 1 -
+//xmlrpc.php 1 -
+/wp-content/plugins/cherry-plugin/README.md 1 http://www.deltatest.ru/wp-content/plugins/cherry-plugin/README.md
+/component/virtuemart/vsjo-dlya-svarki/elektrody-i-maski/maska-svarshchika-khameleon-resanta-ms-4-detail 1 -
+/images/stories/virtuemart/product/maska-svarshchika-khameleon-resanta-ms-4.jpg 2 -
+/component/virtuemart/silovaya-tekhnika/stabilizatory/by,product_price 1 -
+/wp-content/plugins/apikey/apikey.php 1 http://deltatest.ru
+/component/virtuemart/televidenie-i-priemniki/radiopriemniki/orderDesc 2 -
+/component/virtuemart/instrument/shurupovjorty/drel-shurupovert-elektropribor-dsh-550dm-550vt-detail 4 -
+/component/virtuemart/klimaticheskoe-oborudovanie 2 -
+/component/virtuemart/krasota-i-zdorove/feny-i-plojki/plojka-centek-2072-detail 2 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/nasosy 7 -
+/admin/login.php 2 https://deltatest.ru/admin/login.php
+/component/virtuemart/dlya-otdykha/gazovaya-gorelka-2331-001-detail 4 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/trimery/by,mf_name 2 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/nasosy/nasos-vintovoj-4water-fgd3-1-8-50-0-55-detail 2 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/tros-verevka-khomuty/tros-metallopolimernyj-f-2-5-i-f-3-0-v-namotke-detail 1 -
+/component/virtuemart/bytovaya-tekhnika/elektricheskie-i-gazovye-pechki 7 -
+/component/virtuemart/klimaticheskoe-oborudovanie/ventilyatory/by,product_name 1 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/tros-verevka-khomuty/shnur-khozyajstvennyj-d-4-20m-d-5-20m-detail 1 -
+/component/virtuemart/instrument/perforatory/perforator-elektropribor-pr-1800-sds-plus-detail 2 -
+/component/virtuemart/bytovaya-tekhnika/dukhovki-shashlychnitsy/by,mf_name 1 -
+/component/virtuemart/instrument/kraskopult-i-nabory/by,mf_name 2 -
+/adminzone 2 https://deltatest.ru/adminzone
+/component/virtuemart/ruchnoj-instrument/nabor-instrumentov/by,product_price 1 -
+/component/virtuemart/bytovaya-tekhnika/dlya-kukhni/by,mf_name 1 -
+/component/virtuemart/instrument/tochilo/by,product_price 1 -
+/component/virtuemart/instrument/lobziki/lobzik-lem-750em-kalibr-detail 2 -
+/component/virtuemart/dlya-remonta-doma/stroitelnyj-inventar 7 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/dlya-fermerov/by,product_price 2 -
+/component/virtuemart/vsjo-dlya-svarki 2 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/tros-verevka-khomuty/fal-kapronovyj-d-6-25m-d-8-25m-d-10-10m-detail 1 -
+/component/virtuemart/dlya-remonta-doma/valiki-shpateli-kisti/shpatelnaya-lopatka-tevton-detail 2 -
+/component/virtuemart/bytovaya-tekhnika/elektricheskie-i-gazovye-pechki/results,11-10 1 -
+/images/stories/virtuemart/product/nabor-otvertok-sturm-36pred.-1040-02-ss9.jpg 1 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/zamki/by,product_price 1 -
+/docs/prices/myasorubki-dlender-sokovyzhimalki.xls 1 -
+/component/virtuemart/instrument/tochilo/by,product_name 1 -
+/docs/prices/ibp.xls 4 -
+/component/virtuemart/santekhnika/truba-i-furnitura/kran-sharovyj-kalde-f20-detail 1 -
+/wp-content/uploads/2017/05/zgepd_oddsd.php 1 http://deltatest.ru
+/sites/all/themes/views/views.php 2 http://deltatest.ru
+/component/virtuemart/dlya-sadovodov-i-fermerov/nasosy/by,product_price 2 -
+/component/virtuemart/avtoprinadlezhnosti/by,product_name 1 -
+/index.php/svyazatsya-s-nami 2 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/nasosy/orderDesc 2 -
+/component/virtuemart/televidenie-i-priemniki/pristavki-tv-antenny/by,product_name 3 -
+/apple-touch-icon-120x120-precomposed.png 1 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/poliv-i-oroshenie/by,product_price 2 -
+/component/virtuemart/instrument/mshu/ushm-elektropribor-125-950e-detail 2 -
+/component/virtuemart/bytovaya-tekhnika/vesy-utyugi/vesy-napolnye-delta-d-9200-detail 1 -
+/component/virtuemart/instrument/mshu 8 -
+/component/virtuemart/krasota-i-zdorove/mashinki-dlya-strizhki/mashinka-dlya-strizhki-energy-en-718-detail 2 -
+/component/virtuemart/instrument/shurupovjorty/drel-akkamul-shurupovjort-da-14-42m-a-kalibr-detail 3 -
+/component/virtuemart/bytovaya-tekhnika/chajniki-termosa-kofevarki 11 -
+/component/virtuemart/televidenie-i-priemniki/pristavki-tv-antenny 8 -
+/component/virtuemart/bytovaya-tekhnika/elektricheskie-i-gazovye-pechki/gazovaya-plita-turist-1-komfor-gefest-detail 1 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/dlya-fermerov 9 -
+/component/virtuemart/bytovaya-tekhnika/vesy-utyugi/by,mf_name 2 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/tros-verevka-khomuty/orderDesc 1 -
+/component/virtuemart/ruchnoj-instrument/nabor-instrumentov/nabor-avtomobilnyj-stayer-27583-n16-detail 1 -
+/component/virtuemart/vsjo-dlya-svarki/elektrody-i-maski/elektrody-d-3-standart-ano-21-detail 1 -
+/component/virtuemart/vsjo-dlya-svarki/svarochnye-apparaty 9 -
+/plugins/content/apismtp/apismtp.php 1 http://deltatest.ru
+/component/virtuemart/bytovaya-tekhnika/bojlery-nagrevateli-teny/vodonagrevatel-elektricheskij-protochnyj-etalon-mk-10-kombi-detail 1 -
+/docs/prices/batareiki.xls 1 -
+/component/virtuemart/dlya-remonta-doma/betonosmesiteli-miksery/drel-mikser-kalibr-de-1100emkh-detail 3 -
+/component/virtuemart/elektrika/provod-i-kabel/orderDesc 2 -
+/component/virtuemart/televidenie-i-priemniki 4 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/sadovyj-instrument/orderDesc 2 -
+/component/virtuemart/silovaya-tekhnika/stabilizatory/stabilizator-asn-12000n-1-ts-resanta-lux-12kvt-detail 1 -
+/component/virtuemart/instrument/dreli-udarnye/drel-udarnaya-engy-gid-810-detail 1 -
+/component/virtuemart/silovaya-tekhnika/istochniki-besperebojnogo-pitaniya/by,product_price 2 -
+/components/com_virtuemart/assets/css/vmsite-ltr.css 4 https://deltatest.ru/component/virtuemart/instrument/perforatory/perforator-elektropribor-pr-1200-sds-plus-detail/askquestion
+/plugins/system/shadowbox/shadowbox/min/index.php 8 https://deltatest.ru/component/virtuemart/instrument/perforatory/perforator-elektropribor-pr-1200-sds-plus-detail/askquestion
+/component/virtuemart/televidenie-i-priemniki/pristavki-tv-antenny/tv-pristavka-electronics-vv8902hd-detail/askquestion 2 -
+/component/virtuemart/elektrika/svetotekhnika/by,product_price 1 -
+/component/virtuemart/televidenie-i-priemniki/raskhodniki-dlya-tv/by,product_name 3 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/nasosy/results,21-20 2 -
+/component/virtuemart/silovaya-tekhnika/stabilizatory/results,21-20 1 -
+/wp-content/plugins/wp2android-turn-wp-site-into-android-app/readme.txt 1 http://www.deltatest.ru/wp-content/plugins/wp2android-turn-wp-site-into-android-app/readme.txt
+/component/virtuemart/krasota-i-zdorove/mashinki-dlya-strizhki/mashinka-dlya-strizhki-dzhango-4002-detail 2 -
+/images/stories/virtuemart/product/schetchik-vody-sgv-15-antimagnit-betar-g.chistopol.jpg 1 -
+/component/virtuemart/televidenie-i-priemniki/raskhodniki-dlya-tv/shnur-hdmi-detail 2 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/komplektuyushchie-k-nasosam/bak-dlya-nasosnoj-stantsii-50l-detail 2 -
+/component/virtuemart/dlya-remonta-doma/kraska-i-gruntovka/emal-pf-115-radugamaler-detail 2 -
+/images/aipkey.php 1 http://deltatest.ru
+/component/virtuemart/bytovaya-tekhnika/myasorubki-blendera-sokovyzhimalki/myasorubka-delta-dl-41m-1000w-detail 1 -
+/component/virtuemart/dlya-remonta-doma/kraska-i-gruntovka 6 -
+/component/virtuemart/avtoprinadlezhnosti/kompressor-avtomobilnyj-tornado-detail 1 -
+/component/virtuemart/televidenie-i-priemniki/raskhodniki-dlya-tv/orderDesc/by,product_name 1 -
+/component/virtuemart/dlya-otdykha/gazovaya-gorelka-malenkaya-pod-ballonchik-detail 2 -
+/assets/modules/evogallery/js/uploadify/uploadify.css 1 http://www.deltatest.ru/assets/modules/evogallery/js/uploadify/uploadify.css
+/component/virtuemart/dlya-sadovodov-i-fermerov/tros-verevka-khomuty/tros-metallopolimernyj-f-3-f-4-f-5-detail 1 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/dlya-fermerov/inkubator-bi-2-nesushka-detail 2 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/nasosy/nasos-beshtau-turbo-detail 2 -
+/images/stories/virtuemart/product/nabor-slesarn.-montazhnyj-stels-31pred-14102.jpg 1 -
+/component/virtuemart/dlya-remonta-doma/betonosmesiteli-miksery/betonomeshalka-sturm-cm20160r-600vt-160l-chugunnyj-venets-detail 2 -
+/component/virtuemart/krasota-i-zdorove/feny-i-plojki/fen-centek-2209-detail 1 -
+/cms/ 2 https://deltatest.ru/cms/
+/contactus.htm 1 -
+/svyazatsya-s-nami 3 -
+/component/virtuemart/dlya-sadovodov-i-fermerov/benzopily/orderDesc 1 -
+/component/virtuemart/silovaya-tekhnika/stabilizatory/results,11-10 4 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 480
+35.162.70.167 26 26 1100112 20180329105336
+52.41.211.72 22 22 930864 20180330102328
+88.99.2.89 13 13 550056 20180331201430
+138.201.255.45 13 13 550056 20180325001749
+82.146.49.235 12 12 507744 20180331074823
+52.34.24.33 12 12 507744 20180331102527
+54.67.59.131 11 11 465432 20180330185359
+109.110.57.8 10 180 17657770 20180329144539
+37.143.15.220 10 10 423120 20180331184424
+46.161.9.39 9 9 380808 20180317022445
+82.145.223.13 2 36 3531554 20180312003638
+109.252.43.57 3 3 126936 20180320144854
+213.202.254.136 1 1 42312 20180328224236
+69.58.178.56 1 1 42312 20180309044057
+89.223.28.169 1 1 42312 20180323122759
+89.178.231.84 1 36 3461539 20180311021726
+85.115.224.213 0 1 410109 
+131.253.27.52 1 2 191141 20180320004933
+105.73.27.214 0 3 305454 
+109.110.69.17 2 31 2035490 20180321011347
+188.162.229.242 2 36 3531554 20180326113517
+185.57.28.127 2 36 3531554 20180324120039
+176.116.27.24 1 1 42312 20180315070400
+54.183.165.74 7 7 296184 20180329084627
+131.253.27.69 0 1 26606 
+131.253.27.46 0 1 14786 
+5.138.206.139 2 36 3531554 20180328222403
+217.118.78.122 2 36 3531554 20180307194655
+188.162.166.70 2 36 3531554 20180322093331
+95.221.63.250 1 35 3454394 20180330183925
+5.142.200.194 2 36 3531554 20180319215432
+80.248.152.238 5 39 3828190 20180322100904
+109.173.125.248 5 5 211560 20180323235605
+128.68.143.181 0 1 448 
+178.159.97.158 2 2 84624 20180329102131
+40.77.178.147 0 1 846 
+178.206.94.92 2 36 3531554 20180319192709
+128.72.209.129 1 36 3461539 20180303070757
+125.209.235.173 0 1 829 
+79.170.136.162 2 36 3531554 20180313123532
+46.249.4.163 2 2 84624 20180311191300
+94.188.55.250 2 36 3531554 20180329174743
+77.73.139.226 2 36 3531554 20180326225021
+131.253.25.218 0 2 57964 
+188.162.229.174 2 36 3531554 20180327021922
+146.120.204.218 1 1 42312 20180317165546
+188.162.41.101 2 2 84624 20180318155128
+31.173.84.194 2 36 3531554 20180317225455
+109.167.132.145 2 36 3531554 20180304225314
+89.178.232.55 0 1 448 
+95.27.44.111 1 1 165742 20180301131945
+46.188.31.248 0 1 829 
+5.142.142.248 2 36 3531554 20180302212435
+131.253.25.132 0 3 123338 
+66.249.88.150 1 13 1404326 20180317165655
+184.73.132.216 2 36 3531554 20180317185018
+95.53.85.220 2 36 3531554 20180324153252
+93.171.202.244 2 2 84624 20180317165547
+31.181.78.127 2 36 3531554 20180319165745
+131.253.27.115 0 1 14793 
+188.170.72.29 2 36 3531554 20180320062618
+95.153.129.25 2 36 3531554 20180314152949
+109.110.32.82 2 36 3531554 20180311083034
+80.79.246.26 2 36 3531554 20180321140609
+195.54.40.146 2 36 3531554 20180301114647
+131.253.27.24 0 1 364038 
+40.77.177.255 0 1 37173 
+105.73.27.203 0 1 278186 
+185.3.35.108 2 36 3531554 20180319193327
+125.71.216.114 1 1 42312 20180326094135
+188.255.1.139 0 1 6634 
+40.77.177.227 0 30 3350106 
+85.140.2.146 2 36 3531554 20180322090432
+131.253.27.12 0 1 2807 
+46.173.4.231 2 36 3531554 20180325181432
+93.185.28.153 2 36 3531554 20180328172552
+131.253.27.106 1 35 3577630 20180308043033
+5.167.123.126 0 1 448 
+95.27.241.89 0 1 22552 
+178.65.229.138 0 1 256460 
+105.73.27.212 1 5 219756 20180331234355
+178.255.168.5 2 36 3531554 20180330124629
+188.162.41.1 2 36 3531554 20180329173620
+178.140.232.152 0 1 829 
+77.37.131.81 0 1 22552 
+188.162.229.161 2 36 3531554 20180327063757
+92.101.41.178 2 36 3552418 20180320160218
+93.80.147.101 0 1 7145 
+146.120.204.225 1 1 0 20180317165547
+66.102.7.197 4 29 2414099 20180317165702
+131.253.25.198 0 1 189376 
+40.77.179.113 0 1 48020 
+94.254.47.128 2 2 84624 20180312095836
+40.77.177.251 0 1 25424 
+105.73.27.215 0 3 313877 
+217.118.81.218 2 36 3531554 20180327175548
+85.26.241.185 0 1 334320 
+31.23.150.186 2 36 3531554 20180322154013
+105.73.27.119 0 2 338848 
+95.84.145.103 0 1 7145 
+46.173.4.88 2 36 3531554 20180329175438
+31.181.214.216 2 36 3531554 20180325194420
+125.209.235.172 0 1 2489 
+188.32.131.93 0 1 30301 
+199.30.24.72 1 35 3577630 20180313064442
+138.68.15.231 0 1 65228 
+131.253.27.49 0 1 284070 
+176.59.78.61 2 36 3531554 20180331144035
+86.110.169.86 2 36 3531554 20180323160021
+105.73.27.64 0 4 396055 
+104.156.230.231 1 1 42312 20180315072113
+131.253.27.10 0 1 364038 
+125.209.235.178 0 2 995 
+82.146.34.187 1 1 42312 20180308190117
+188.163.69.213 2 36 3531554 20180303184803
+46.188.22.181 1 35 3454394 20180326072145
+109.162.3.98 3 13 599042 20180327041351
+46.61.43.76 2 36 3531554 20180325095805
+142.4.218.236 3 3 126936 20180323201010
+37.204.135.126 0 1 22552 
+95.153.132.43 1 1 42312 20180331120516
+89.178.238.76 0 1 19221 
+49.195.195.197 2 36 3531554 20180324050107
+40.77.178.6 1 35 3577630 20180318150753
+91.76.190.222 2 2 84624 20180324062952
+217.118.64.41 2 36 3531554 20180327005943
+65.55.213.29 0 5 874475 
+82.149.138.247 2 36 3531554 20180306204219
+199.30.24.56 1 35 3577630 20180306142002
+185.130.212.72 6 6 253872 20180319192323
+94.233.225.113 2 36 3531554 20180315100847
+131.253.27.145 0 1 37204 
+95.31.32.45 1 1 42312 20180312200754
+5.228.200.172 0 1 1027 
+40.77.177.56 0 1 25593 
+83.149.21.205 2 36 3531554 20180329125357
+131.253.25.217 0 1 29773 
+95.181.182.188 1 1 42312 20180313152939
+94.25.231.38 3 37 3573866 20180321221716
+5.142.187.34 1 1 42312 20180306200200
+158.69.228.14 2 39 3700645 20180320205014
+46.42.166.162 0 1 19221 
+188.170.73.24 2 36 3531554 20180316115259
+77.35.136.69 2 36 3531554 20180316052530
+46.101.80.192 1 1 42312 20180310044654
+40.77.178.179 0 6 1295022 
+131.253.25.204 0 1 14754 
+109.191.13.57 1 1 42312 20180325001207
+5.142.199.63 2 36 3531554 20180320210253
+131.253.25.145 0 1 24238 
+178.171.31.199 1 1 42312 20180310073237
+46.229.170.197 1 1 42312 20180316123023
+131.253.27.53 0 1 305242 
+131.253.27.56 0 1 38706 
+5.227.135.102 2 36 3531554 20180330142151
+131.253.27.114 0 3 87855 
+176.213.24.8 2 36 3531554 20180323071344
+40.77.177.51 0 2 88371 
+40.77.177.93 1 1 165548 20180327182910
+131.253.27.144 0 1 48020 
+83.149.19.165 2 36 3531554 20180316165039
+95.153.133.116 3 37 3573866 20180331095001
+40.77.177.234 0 5 390370 
+178.64.104.216 2 36 3531554 20180331104350
+66.249.84.75 2 11 871510 20180317165700
+95.45.252.6 5 5 211560 20180327205252
+31.132.180.245 2 36 3531554 20180326174436
+178.76.240.57 2 36 3531554 20180327164954
+91.207.24.186 2 36 3531554 20180330135336
+31.135.83.9 0 1 547 
+163.172.13.38 1 1 42312 20180318025136
+178.34.161.218 3 37 3573866 20180320191742
+85.143.217.209 1 1 42312 20180312034703
+188.166.86.10 2 36 3531554 20180319101802
+95.141.236.92 1 1 42312 20180313080135
+188.32.46.249 0 1 30301 
+89.223.47.200 4 72 7063108 20180327214707
+40.77.177.28 0 1 26606 
+65.55.210.189 0 32 3338638 
+91.105.237.35 1 1 42312 20180318234741
+178.16.90.45 2 36 3620136 20180317065509
+66.249.93.43 0 22 2978070 
+109.62.146.119 2 2 84624 20180304141029
+178.62.4.246 1 1 42312 20180323012324
+217.66.156.173 0 4 1340741 
+105.73.27.67 0 4 466732 
+93.159.230.89 2 17 259688 20180317194725
+91.210.158.14 2 36 3531554 20180324144943
+131.253.27.127 0 1 53293 
+66.102.7.199 1 23 2078683 20180317165657
+82.208.124.220 4 38 3616178 20180317143822
+128.74.242.21 0 1 448 
+128.69.150.180 1 1 165742 20180325203736
+94.25.224.14 2 36 3531554 20180330075444
+93.100.134.154 2 36 3552418 20180331223747
+128.69.209.184 2 36 3531554 20180322144133
+176.193.176.93 0 1 30301 
+188.255.91.198 0 1 6634 
+217.118.81.194 2 36 3531554 20180327135057
+188.64.133.146 2 36 3531554 20180327092111
+128.73.217.184 2 36 3531554 20180322104823
+95.54.173.203 3 37 3573866 20180319205531
+128.72.212.204 0 1 1027 
+188.170.80.233 3 37 3573866 20180331091303
+37.146.156.60 5 80 7447491 20180320134230
+145.255.21.26 1 1 42312 20180318202839
+176.59.65.20 2 36 3531554 20180325140651
+194.28.174.161 1 1 42312 20180310202944
+131.253.25.253 0 1 37204 
+5.139.119.202 0 1 334320 
+185.150.154.210 0 1 6634 
+105.73.27.112 0 1 102660 
+128.68.21.68 0 1 6634 
+192.81.222.95 1 1 42312 20180301173913
+93.188.87.141 0 1 278186 
+85.26.164.57 2 36 3531554 20180326183924
+176.100.106.38 2 36 3531554 20180319163246
+131.253.25.207 0 2 590428 
+181.214.116.140 1 1 42312 20180302235412
+213.87.141.43 2 36 3531554 20180321181101
+78.30.212.177 2 36 3531554 20180301172827
+94.100.229.77 3 37 3573866 20180312182400
+95.28.8.172 0 1 2489 
+89.190.231.246 2 36 3531554 20180313210038
+40.77.179.134 0 1 38706 
+176.59.65.60 2 36 3531554 20180330160004
+125.209.235.181 0 1 19221 
+131.253.27.83 0 1 334320 
+131.253.25.241 0 2 59303 
+188.32.9.83 0 2 3036 
+185.97.164.26 0 1 257983 
+93.80.145.248 1 1 42312 20180311012653
+66.249.89.23 0 2 9634 
+91.210.147.142 1 1 42312 20180310065048
+146.120.204.224 1 1 42312 20180317165547
+213.242.36.24 2 36 3531554 20180308144833
+77.37.168.184 0 1 6634 
+66.102.6.13 1 12 884235 20180315175830
+176.100.114.98 2 36 3531554 20180306155858
+66.249.93.47 2 19 1756870 20180317165547
+5.142.212.149 2 36 119472 20180331195655
+217.118.64.44 2 36 3531554 20180303174731
+41.33.170.105 1 1 42312 20180328235741
+109.68.173.24 6 74 7147732 20180327202151
+46.158.139.105 2 36 3531554 20180331193110
+188.170.83.207 2 36 3531554 20180325013640
+136.243.41.32 1 1 42312 20180318204250
+5.11.65.236 2 36 3531554 20180322001101
+151.80.203.177 3 3 126936 20180313043604
+131.253.25.154 0 2 89734 
+131.253.27.80 0 1 846 
+146.185.223.239 1 1 42312 20180320134631
+176.116.26.72 1 1 42312 20180322192256
+217.66.157.124 1 1 42312 20180328185628
+46.175.122.82 2 2 42312 20180317174814
+40.77.177.124 0 1 189376 
+125.209.235.180 0 1 30301 
+81.162.57.138 2 36 3531554 20180328135347
+131.253.25.209 0 1 305242 
+178.68.98.128 2 36 3531554 20180324223111
+37.147.96.253 0 1 547 
+176.99.72.118 2 36 3531554 20180306181333
+66.249.89.21 3 30 3514449 20180317170826
+82.145.220.119 2 36 3531554 20180329120324
+62.176.6.144 2 32 1154670 20180327092457
+109.124.49.102 2 36 3531554 20180325020255
+89.163.131.229 2 2 84624 20180307075813
+95.54.213.42 2 36 3531554 20180314141627
+217.66.157.159 2 36 3531554 20180320090401
+131.253.25.130 0 1 29677 
+131.253.27.5 0 3 288765 
+95.79.21.122 0 1 257983 
+95.54.70.158 2 36 3531554 20180326144730
+89.188.237.206 3 37 3273803 20180323024853
+131.253.27.129 0 1 256460 
+85.140.1.21 2 36 3531554 20180331105649
+217.15.132.150 2 36 3531554 20180326115107
+40.77.177.55 0 4 465073 
+95.153.130.124 2 36 3531554 20180314204744
+91.205.3.65 2 36 3531554 20180328112706
+196.52.43.79 1 1 42312 20180324143438
+85.26.235.121 2 36 3531554 20180326191628
+176.59.66.230 1 1 42312 20180327125713
+94.25.236.124 2 36 3552418 20180326171433
+131.253.27.148 0 3 93679 
+77.35.186.129 2 36 3531554 20180319061311
+188.168.57.79 2 36 3531554 20180327171833
+185.220.101.34 1 1 42312 20180328205819
+40.77.177.48 0 2 315359 
+145.255.0.132 2 36 3531554 20180326132109
+195.91.224.113 1 1 42312 20180325203729
+95.30.186.174 2 2 84624 20180331010247
+78.30.252.115 0 1 305242 
+188.114.50.36 2 36 3531554 20180315102139
+95.158.53.154 1 1 42312 20180328035812
+125.209.235.184 0 2 23579 
+37.204.43.179 0 1 19221 
+125.209.235.168 0 1 6634 
+138.246.253.19 9 9 0 20180330213307
+95.84.128.167 0 1 30301 
+188.187.20.115 3 37 3573866 20180320213214
+54.214.214.161 1 1 42312 20180304023553
+5.228.95.161 1 35 3454394 20180310171719
+83.68.37.233 2 36 3531554 20180329003144
+85.91.192.229 1 1 42312 20180305141557
+131.253.27.124 0 1 25227 
+109.110.57.76 0 3 848763 
+46.101.132.26 4 4 169248 20180323201208
+40.77.177.253 0 6 276389 
+85.142.41.130 0 1 410109 
+37.139.104.14 2 36 3531554 20180331210609
+40.77.177.127 0 1 2807 
+131.253.27.29 0 3 306822 
+178.76.230.83 2 36 3531554 20180329115636
+131.253.27.19 0 2 70064 
+94.140.245.106 2 36 3531554 20180308121347
+95.53.97.185 2 36 3531554 20180321125449
+217.66.156.163 2 36 3531554 20180312095843
+203.88.67.34 0 1 410109 
+213.59.142.46 2 36 3531554 20180318120519
+81.230.137.192 2 2 84624 20180326101851
+77.35.23.147 2 36 3531554 20180305154807
+79.175.51.89 2 36 3531554 20180328161840
+217.118.64.45 2 36 3531554 20180309182709
+105.73.27.66 0 4 346949 
+95.154.92.52 3 37 3573866 20180320105338
+80.77.168.134 2 2 42312 20180321172241
+78.111.189.48 0 1 334320 
+193.0.162.41 2 36 3531554 20180323192543
+131.253.25.245 0 2 38617 
+176.59.22.252 2 36 3531554 20180326195707
+92.100.103.3 2 36 3552418 20180327002538
+62.192.250.23 2 36 3531554 20180315164029
+125.209.235.176 0 1 7145 
+37.139.97.111 2 36 3531554 20180302130519
+178.76.218.133 2 36 3531554 20180305090039
+78.37.190.135 2 36 3531554 20180318235836
+5.100.113.163 4 72 7063108 20180315052559
+62.192.250.121 2 36 3531554 20180329071906
+109.173.58.56 0 1 1027 
+95.24.31.185 0 1 30301 
+185.57.31.76 0 2 744429 
+86.102.16.203 4 72 7240272 20180318150453
+87.117.56.8 1 1 42312 20180315140918
+188.170.74.42 2 36 3531554 20180324180554
+131.253.25.186 0 1 2532 
+217.66.157.201 3 48 4553872 20180319140027
+66.249.89.22 0 5 49783 
+40.77.177.13 0 5 698316 
+37.78.242.225 2 36 3531554 20180329211231
+95.153.132.229 0 1 284070 
+188.32.6.27 0 1 547 
+95.154.93.116 2 36 3531554 20180331052426
+54.208.65.53 2 36 3531554 20180317185018
+95.139.16.149 2 36 3531554 20180322202035
+217.66.159.6 2 36 3531554 20180324203833
+46.42.131.150 0 1 547 
+91.200.12.98 1 1 42312 20180321073610
+188.162.197.88 2 36 3531554 20180318152851
+79.165.145.84 2 36 3531554 20180329203602
+66.102.6.15 1 13 1562961 20180315175833
+176.193.187.98 0 1 7145 
+109.173.54.119 0 1 2489 
+94.25.224.159 2 36 3531554 20180317222210
+5.164.140.131 2 36 3531554 20180318224418
+176.59.20.131 2 36 3531554 20180328103607
+176.59.80.253 2 36 3620136 20180326192641
+188.170.74.128 2 36 3531554 20180327130833
+178.155.4.251 2 36 3531554 20180330200048
+217.118.93.122 2 36 3531554 20180315091858
+128.68.29.17 0 1 2489 
+88.198.140.4 1 1 42312 20180317152856
+212.96.92.32 2 36 3531554 20180326220343
+213.21.33.32 2 36 3531554 20180325132014
+188.32.251.206 1 1 165742 20180305141603
+91.109.157.129 2 36 3531554 20180312195942
+5.139.122.5 2 36 3531554 20180321192542
+95.52.18.94 2 36 3531554 20180323073631
+85.175.114.155 2 36 3531554 20180322064705
+94.188.65.51 2 36 3531554 20180328124722
+62.192.252.53 2 36 3531554 20180327212005
+217.66.154.65 2 36 3531554 20180318023516
+178.64.113.186 2 36 3531554 20180329164626
+93.178.93.63 4 72 7063108 20180327152954
+131.253.27.110 0 1 14793 
+131.253.27.28 0 1 86927 
+66.249.88.151 0 10 1174552 
+91.122.31.209 2 36 3531554 20180326230306
+193.106.185.114 0 4 1179186 
+178.140.15.136 0 1 19221 
+95.153.135.34 2 36 3531554 20180303135618
+91.219.58.14 2 36 3531554 20180320015114
+5.142.111.190 2 36 3531554 20180321205539
+95.54.249.82 2 36 3531554 20180328000701
+131.253.25.208 0 1 257983 
+77.82.161.79 2 36 119472 20180312073045
+46.188.32.27 1 1 42312 20180301131937
+109.165.34.220 2 36 3531554 20180321203036
+131.253.25.144 1 36 3607256 20180330134013
+95.54.89.124 2 36 3531554 20180319185259
+178.69.136.252 2 36 3531554 20180305123530
+88.200.215.58 2 36 3531554 20180316144308
+95.55.130.187 2 36 3531554 20180325154910
+188.162.229.137 2 36 3531554 20180327155355
+5.143.19.74 5 73 7105420 20180323111250
+131.253.25.155 1 6 927372 20180302145619
+93.171.203.15 2 36 3552418 20180317165547
+188.162.197.154 4 70 6464084 20180309213301
+188.227.45.115 2 36 3531554 20180329220950
+46.251.71.250 1 1 165742 20180311012700
+178.169.70.254 3 37 3573866 20180326164622
+217.66.159.208 2 39 3679781 20180319201009
+93.100.146.210 1 1 42312 20180307133101
+37.193.8.242 2 36 3531554 20180304184750
+188.162.229.67 2 36 3531554 20180330041825
+131.253.27.61 0 1 189376 
+40.77.179.96 0 1 31358 
+131.253.25.197 0 1 257983 
+79.110.19.58 1 1 42312 20180321064133
+5.228.154.132 0 1 1027 
+192.162.242.28 2 36 3531554 20180324102113
+89.163.216.214 3 3 126936 20180316040241
+37.147.233.113 0 1 829 
+105.73.27.211 1 5 482742 20180331234353
+131.253.25.243 0 1 14754 
+131.253.25.233 0 1 1444 
+95.27.43.94 2 36 3531554 20180331220846
+95.27.77.192 0 1 829 
+94.19.179.112 0 7 2160426 
+109.173.54.216 0 1 1027 
+37.203.18.157 2 36 3531554 20180305230834
+46.188.24.252 0 1 19221 
+134.249.144.34 1 1 42312 20180314154435
+131.253.27.57 0 1 29677 
+93.185.27.91 0 1 334320 
+176.59.69.79 2 36 3531554 20180331131011
+131.253.27.11 0 4 171587 
+178.155.5.112 2 36 3531554 20180325171318
+40.77.177.69 1 7 488254 20180324074403
+199.30.24.214 1 35 3577630 20180326141810
+66.249.84.79 1 15 1517374 20180317165657
+83.143.204.83 2 36 3531554 20180331173551
+109.252.43.46 1 1 42312 20180311013714
+5.16.87.152 1 1 42312 20180324193813
+72.52.75.27 1 1 42312 20180328205834
+66.102.7.195 0 19 2589257 
+95.24.28.44 0 1 829 
+40.77.178.155 0 1 2532 
+46.173.3.147 0 6 1903966 
+188.255.19.190 0 1 22552 
+66.249.84.77 1 12 1227294 20180317165706
+66.102.6.11 0 11 1084358 
+37.144.57.28 2 36 3531554 20180316224933
+66.249.93.45 2 31 2328168 20180317165547
+131.253.25.182 0 1 67742 
+77.105.200.174 2 2 84624 20180302104805
+178.122.92.238 2 36 3531554 20180304164753
+131.253.25.201 0 3 651212 
+80.83.234.89 2 36 3552418 20180323060630
+87.236.20.91 1 1 42312 20180327201721
+40.77.177.156 0 1 444379 
+105.73.27.202 0 1 14786 
+183.62.9.42 1 1 42312 20180325004418
+46.42.131.51 0 1 22552 
+37.190.36.246 2 2 84624 20180328201926
+5.228.58.98 0 1 2489 
+86.102.44.19 2 36 3620136 20180311142529
+66.249.88.149 2 13 941695 20180317165700
+40.77.178.107 0 1 29677 
+40.77.178.81 0 1 67742 
+131.253.25.237 0 1 86927 
+194.28.91.149 2 36 3531554 20180327161112
+105.73.27.65 0 3 354091 
+95.220.107.168 1 35 3454394 20180327135943
+165.227.167.166 1 1 42312 20180301034221
+131.253.27.71 0 1 25424 
+37.145.30.72 1 1 165742 20180324193827
+217.118.81.17 2 38 4246905 20180320111233
+188.165.4.128 1 1 42312 20180311111844
+93.159.230.88 2 17 259688 20180302173614
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20180301 13 91 7616227 10
+20180302 16 133 11590075 11
+20180303 14 150 14345240 9
+20180304 13 116 11169032 9
+20180305 14 165 16498229 9
+20180306 13 154 15670578 9
+20180307 10 44 3870050 8
+20180308 12 114 10894610 9
+20180309 14 122 12786568 9
+20180310 9 73 7142996 8
+20180311 16 129 11334988 13
+20180312 17 205 16386430 9
+20180313 14 152 15059256 11
+20180314 14 163 15014744 8
+20180315 20 224 21527820 14
+20180316 18 188 17996266 12
+20180317 51 539 50538144 27
+20180318 23 262 25311121 15
+20180319 31 421 40646583 16
+20180320 37 489 47347201 20
+20180321 30 337 32510840 15
+20180322 25 298 29048678 15
+20180323 33 306 28950520 16
+20180324 25 341 32734334 16
+20180325 29 346 32512890 19
+20180326 42 693 69024952 21
+20180327 54 735 70213244 27
+20180328 33 405 39204234 21
+20180329 32 475 46448144 17
+20180330 21 329 32263007 13
+20180331 45 533 47047315 25
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+5mn-15mn 3
+2mn-5mn 6
+15mn-30mn 3
+0s-30s 420
+30s-2mn 7
+30mn-1h 2
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 6
+/ 506 20902128 421 227
+/vendor/font-awesome/fonts/fontawesome-webfont.woff2 199 15354840 4 182
+/vendor/font-awesome/fonts/fontawesome-webfont.eot 13 2154646 6 12
+/vendor/font-awesome/fonts/fontawesome-webfont.ttf 10 1655480 10 10
+/vendor/font-awesome/fonts/fontawesome-webfont.woff 9 882216 0 9
+/mail/contact_me.php 1 0 0 1
+END_SIDER
